@@ -364,23 +364,23 @@ No line of weights, inference code or training without this spec. No spec withou
 
 **UMC-001 — Telos of reach.** The system is judged by **reach**, not by scale. Parameter count, token volume and position on a loss benchmark do **not** constitute success. *Verification:* no "done" report cites scale as a sufficient criterion. If the only success number is size or loss, UMC-001 fails. *Status:* reviewed.
 
-**UMC-002 — Languages as origin.** English, Portuguese, Spanish and Chinese are born together. Post-translation from the centre does not count as origin. *Verification:* for each version of the artefact, the outputs (or specs, or interface *strings*) exist in the same commit, with the same meaning. Diff in only one language = failure. *Status:* reviewed.
+**UMC-002 — Languages as origin.** English, Portuguese, Spanish and Chinese are born together. Post-translation from the centre does not count as origin. *Verification:* for each version of the artefact, the outputs (or specs, or interface *strings*) exist in the same commit, with the same meaning. Diff in only one language = failure. *Status:* verified — evidence: `verificacao/umc002_origem.py` (27 Aug 2026): every commit touching content touches all four languages; 0 monolingual diffs.
 
-**UMC-003 — The margin is the test.** The person on the periphery of any nation is a first-class user, not an edge case. "It works at the centre" is not done. *Verification:* there is at least one complete task path **without** quota, login or central plant. If the task demands the industrial quota, UMC-003 fails. *Status:* reviewed.
+**UMC-003 — The margin is the test.** The person on the periphery of any nation is a first-class user, not an edge case. "It works at the centre" is not done. *Verification:* there is at least one complete task path **without** quota, login or central plant. If the task demands the industrial quota, UMC-003 fails. *Status:* verified — evidence: `verificacao/umc003_margem.py` (27 Aug 2026): `map → contract` path complete, 0 calls to the centre.
 
 **UMC-004 — Visible energy account.** Every inference and every training run publishes joules (or a measured, dated proxy). A feature that costs more energy than it returns is justified in writing, with an ID. *Verification:* log or measurement per task, with unit and date. Absence of an account = failure. Justification without a number = failure. *Status:* verified — evidence: umc-artefact/logs/energia.jsonl (27 Aug 2026, unit J, ISO 8601 date, per task, declared proxy).
 
 **UMC-005 — Domain of the symbolic.** The domain is the set of symbolic representations. Natural language is a subset. A system that only converses in prose is not a UMC. *Verification:* the artefact accepts and emits at least three types outside continuous *chat* — e.g. spec, circuit/schematic, map, contract, score, code. Only prose = failure. *Status:* verified — evidence: three non-chat types (spec, map, score) with encoding+operation+equality; 16 tests; CLI (27 Aug 2026).
 
-**UMC-006 — The world is not text.** Joule, hunger, body and referent are **not** language. The model does not declare that life fits inside it. *Verification:* no official output claims that the non-symbolic is a token. If the system "solves" hunger or energy with text alone, UMC-006 fails. *Status:* reviewed.
+**UMC-006 — The world is not text.** Joule, hunger, body and referent are **not** language. The model does not declare that life fits inside it. *Verification:* no official output claims that the non-symbolic is a token. If the system "solves" hunger or energy with text alone, UMC-006 fails. *Status:* verified — evidence: `verificacao/umc006_mundo.py` (27 Aug 2026): corpus of forbidden phrases in 4 languages against official outputs; 0 occurrences unclassified as refusal.
 
 **UMC-007 — Spec before weights.** There is no training, fine-tune or checkpoint without this spec governing it. Behaviour changed, the spec changes first. *Verification:* every weight artefact points to a UMC ID and a spec commit earlier-or-equal to the weight's commit. Orphan weight = failure. *Status:* reviewed.
 
-**UMC-008 — Local-first.** The minimum usage path runs without the centre's network. The mesh and the pocket are the target, not the data centre. *Verification:* a UMC-003 task completes *offline* once the artefact is on the device. If the first inference demands the centre's cloud, UMC-008 fails. *Status:* reviewed.
+**UMC-008 — Local-first.** The minimum usage path runs without the centre's network. The mesh and the pocket are the target, not the data centre. *Verification:* a UMC-003 task completes *offline* once the artefact is on the device. If the first inference demands the centre's cloud, UMC-008 fails. *Status:* verified — evidence: `verificacao/umc008_airgap.py` (27 Aug 2026): 5 CLI paths complete with sockets blocked; no network imports in the code.
 
 **UMC-009 — Name and refusal.** The artefact is called UMC. The acronym LLM appears only to name the refused concept. ULM only for ULMFiT and the first vacated name. UM only for the second vacated name (generic Universal Model). *Verification:* search of the artefact's repository. LLM outside historical citation or refusal = failure. ULM outside ULMFiT, historical citation or vacated name = failure. UM outside historical citation or vacated name = failure. *Status:* verified — evidence: grep of the artefact (27 Aug 2026): no LLM/ULM/UM outside citation/refusal.
 
-**UMC-010 — Open authorship.** Code AGPL-3.0-or-later; content CC BY-SA 4.0; authorship in the Git history. No anonymous line of weights. *Verification:* LICENSE present; `git log` with a name; no binary without provenance. Absence = failure. *Status:* reviewed.
+**UMC-010 — Open authorship.** Code AGPL-3.0-or-later; content CC BY-SA 4.0; authorship in the Git history. No anonymous line of weights. *Verification:* LICENSE present; `git log` with a name; no binary without provenance. Absence = failure. *Status:* verified — evidence: `verificacao/umc010_autoria.py` (27 Aug 2026): LICENSE (CC BY-SA 4.0) at the root and AGPL-3.0-or-later in the artefact; single, named authorship in the git log; no tracked binaries.
 
 **UMC-011 — Computationally modelable symbol.** Every symbol the model processes admits a **computational model**: finite encoding, operation, operational criterion of equality. What is not computationally modelable **does not enter**. This does **not** claim that the world is computation. *Verification:* each UMC-005 type has an encoding and at least one operation in the artefact. Accepting a "symbol" without operational representation = failure. Declaring that hunger, joule or body *are* computation = failure (pair with UMC-006). *Status:* verified — evidence: each type with encoding+operation+equality; tests + encoding spec (27 Aug 2026).
 
@@ -388,20 +388,20 @@ No line of weights, inference code or training without this spec. No spec withou
 
 The UMC is **verified** only when UMC-001 to UMC-011 are `verified` with dated evidence. Failing one is failing the name.
 
-**Status review (27 Aug 2026).** Evidence from the minimal artefact (Phase 3) and the four-language birth:
+**Status review (27 Aug 2026).** Evidence from the minimal artefact (Phase 3), the four-language birth and the automated Phase 2 instruments (`verificacao/`, record: `verificacao/evidencia-2026-08-27.json`):
 
 | ID | Status | Evidence |
 |---|---|---|
 | UMC-001 | reviewed | instrument defined (Phase 2); no "done" report cites scale |
-| UMC-002 | reviewed | four languages born together; real commit pending (git read-only in the working sandbox) |
-| UMC-003 | reviewed | artefact paths run without quota/login/central plant; margin-user test pending |
+| UMC-002 | verified | `verificacao/umc002_origem.py` (27 Aug 2026): every content commit touches all four languages |
+| UMC-003 | verified | `verificacao/umc003_margem.py` (27 Aug 2026): `map → contract` path complete; 0 calls to the centre |
 | UMC-004 | verified | `umc-artefact/logs/energia.jsonl` (unit J, ISO 8601 date, per task, declared proxy) |
 | UMC-005 | verified | three non-chat types with encoding+operation+equality; 16 tests; CLI |
-| UMC-006 | reviewed | no official output violates; automated negative test pending |
+| UMC-006 | verified | `verificacao/umc006_mundo.py` (27 Aug 2026): forbidden-phrase corpus in 4 languages; 0 claims |
 | UMC-007 | reviewed | no weights exist; spec governs; provenance manifest defined |
-| UMC-008 | reviewed | stdlib, no network calls; automated air-gap test pending |
+| UMC-008 | verified | `verificacao/umc008_airgap.py` (27 Aug 2026): 5 paths with blocked sockets; no network imports |
 | UMC-009 | verified | grep of the artefact: no LLM/ULM/UM outside citation/refusal |
-| UMC-010 | reviewed | LICENSE present + SPDX; `git log` with name pending a real commit |
+| UMC-010 | verified | `verificacao/umc010_autoria.py` (27 Aug 2026): root LICENSE + AGPL in artefact; named authorship; 0 binaries |
 | UMC-011 | verified | each type with encoding+operation+equality; tests + encoding spec |
 
 A minimal artefact exists (27 Aug 2026); the complete UMC does not. This spec remains the next step of the 27/08/2026 continuation — not the training.
@@ -418,6 +418,7 @@ Mother rule of the repository: no line of weights without a spec; no spec withou
 - [x] The concept, Part I: sieve against UMC-001–011.
 - [x] Prior-art map: row and section UMC-011 (Chomsky, Turing, Gödel, Cybenko, Solomonoff); mentions 001–010 → 001–011.
 - [x] Dates: canonical date of the dialogue decided — 27 August 2026 (day of the print and of the paper); messages on 26 August 2026, 12:21–12:38 UTC (09:21–09:38, UTC−3). Alignment recorded in the provenance of each paper.
+- [x] Root LICENSE restored (27 Aug 2026): CC BY-SA 4.0 returned to the repository root (it had been removed in the consolidation); found and fixed by the UMC-010 instrument.
 
 ### Phase 1 — Formal foundations (in progress)
 
@@ -546,6 +547,7 @@ Each UMC needs an operational instrument. What to measure, how, with what unit a
   - *Minimum evidence:* encoding spec per type.
 
 - [x] Detailed operational protocol per item (UMC-001–011): what to measure, how, unit, date, where it appears, criterion and minimum evidence.
+- [x] Automated instruments executed with dated evidence (27 Aug 2026): UMC-002, 003, 006, 008, 010 — `verificacao/roda_verificacao.py`, record in `verificacao/evidencia-2026-08-27.json` (5/5 PASS).
 
 ### Phase 3 — First minimal artefact (not training)
 
@@ -597,7 +599,7 @@ Expected product: a protocol or institution for negotiating $U(R|human)$ — and
 
 - A phase is done when each item has dated evidence and the status rises from `draft` → `reviewed` → `verified` by the spec.
 - Failing one UMC is failing the name: the agenda does not "finish" with UMC-001–011 in `draft`.
-- [x] Status review with dated evidence (27 Aug 2026): 4 verified, 7 reviewed — recorded in Part IV (Done).
+- [x] Status review with dated evidence (27 Aug 2026): 9 verified, 2 reviewed — recorded in Part IV (Done). Remaining: UMC-001 (no "done" report exists yet) and UMC-007 (no weights exist; the instrument applies to the first weight).
 
 ## References
 

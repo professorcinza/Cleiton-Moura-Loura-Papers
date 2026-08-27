@@ -365,23 +365,23 @@ Ninguna línea de pesos, código de inferencia o entrenamiento sin esta spec. Ni
 
 **UMC-001 — Telos de alcance.** El sistema es juzgado por **alcance**, no por escala. El número de parámetros, el volumen de tokens y la posición en *benchmark* de pérdida **no** constituyen éxito. *Verificación:* ningún informe de "listo" cita la escala como criterio suficiente. Si el único número de éxito es tamaño o loss, UMC-001 falla. *Estado:* revisado.
 
-**UMC-002 — Lenguas como origen.** El portugués, el inglés, el español y el chino nacen juntos. La postraducción desde el centro no cuenta como origen. *Verificación:* para cada versión del artefacto, las salidas (o specs, o *strings* de interfaz) existen en el mismo commit, con el mismo significado. Diff en una sola lengua = falla. *Estado:* revisado.
+**UMC-002 — Lenguas como origen.** El portugués, el inglés, el español y el chino nacen juntos. La postraducción desde el centro no cuenta como origen. *Verificación:* para cada versión del artefacto, las salidas (o specs, o *strings* de interfaz) existen en el mismo commit, con el mismo significado. Diff en una sola lengua = falla. *Estado:* verificado — evidencia: `verificacao/umc002_origem.py` (27/08/2026): todo commit que toca contenido toca las cuatro lenguas; 0 diffs monolingües.
 
-**UMC-003 — La margen es la prueba.** El periférico de cualquier nación es usuaria de primera clase, no caso de borde. "Funciona en el centro" no es listo. *Verificación:* existe al menos un recorrido de tarea completo **sin** cuota, login o central del centro. Si la tarea exige la cuota industrial, UMC-003 falla. *Estado:* revisado.
+**UMC-003 — La margen es la prueba.** El periférico de cualquier nación es usuaria de primera clase, no caso de borde. "Funciona en el centro" no es listo. *Verificación:* existe al menos un recorrido de tarea completo **sin** cuota, login o central del centro. Si la tarea exige la cuota industrial, UMC-003 falla. *Estado:* verificado — evidencia: `verificacao/umc003_margem.py` (27/08/2026): recorrido `mapa → contrato` completo, 0 llamadas al centro.
 
 **UMC-004 — Cuenta de energía visible.** Toda inferencia y todo entrenamiento publican joules (o proxy medido y fechado). Una feature que cuesta más energía de la que devuelve se justifica por escrito, con ID. *Verificación:* log o medición por tarea, con unidad y fecha. Ausencia de cuenta = falla. Justificación sin número = falla. *Estado:* verificado — evidencia: umc-artefact/logs/energia.jsonl (27/08/2026, unidad J, fecha ISO 8601, por tarea, proxy declarado).
 
 **UMC-005 — Dominio de lo simbólico.** El dominio es el conjunto de las representaciones simbólicas. La lengua natural es subconjunto. Un sistema que solo conversa en prosa no es UMC. *Verificación:* el artefacto acepta y emite al menos tres tipos fuera del *chat* continuo — p. ej. spec, circuito/esquema, mapa, contrato, partitura, código. Un solo tipo prosa = falla. *Estado:* verificado — evidencia: tres tipos fuera del chat (spec, mapa, partitura) con encoding+operación+igualdad; 16 pruebas; CLI (27/08/2026).
 
-**UMC-006 — El mundo no es texto.** Joule, hambre, cuerpo y referente **no** son lenguaje. El modelo no declara que la vida cabe en él. *Verificación:* ninguna salida oficial afirma que lo no simbólico es token. Si el sistema "resuelve" el hambre o la energía solo con texto, UMC-006 falla. *Estado:* revisado.
+**UMC-006 — El mundo no es texto.** Joule, hambre, cuerpo y referente **no** son lenguaje. El modelo no declara que la vida cabe en él. *Verificación:* ninguna salida oficial afirma que lo no simbólico es token. Si el sistema "resuelve" el hambre o la energía solo con texto, UMC-006 falla. *Estado:* verificado — evidencia: `verificacao/umc006_mundo.py` (27/08/2026): corpus de frases prohibidas en 4 lenguas contra las salidas oficiales; 0 ocurrencias no clasificadas como rechazo.
 
 **UMC-007 — Spec antes de pesos.** No hay entrenamiento, *fine-tune* ni *checkpoint* sin esta spec gobernándolo. Cambió el comportamiento, cambia la spec primero. *Verificación:* cada artefacto de pesos apunta a un ID UMC y a un commit de la spec anterior o igual al commit del peso. Peso huérfano = falla. *Estado:* revisado.
 
-**UMC-008 — Local-first.** El recorrido mínimo de uso corre sin red del centro. La malla y el bolsillo son el objetivo, no el data center. *Verificación:* una tarea de UMC-003 completa *offline* tras estar el artefacto en el dispositivo. Si la primera inferencia exige la nube del centro, UMC-008 falla. *Estado:* revisado.
+**UMC-008 — Local-first.** El recorrido mínimo de uso corre sin red del centro. La malla y el bolsillo son el objetivo, no el data center. *Verificación:* una tarea de UMC-003 completa *offline* tras estar el artefacto en el dispositivo. Si la primera inferencia exige la nube del centro, UMC-008 falla. *Estado:* verificado — evidencia: `verificacao/umc008_airgap.py` (27/08/2026): 5 recorridos del CLI completan con sockets bloqueados; ningún import de red en el código.
 
 **UMC-009 — Nombre y rechazo.** El artefacto se llama UMC. La sigla LLM aparece solo para nombrar el concepto rechazado. ULM solo para ULMFiT y el primer nombre, vacado. UM solo para el segundo nombre, vacado (Modelo Universal genérico). *Verificación:* búsqueda en el repositorio del artefacto. LLM fuera de cita histórica o del rechazo = falla. ULM fuera de ULMFiT, cita histórica o nombre vacado = falla. UM fuera de cita histórica o nombre vacado = falla. *Estado:* verificado — evidencia: grep del artefacto (27/08/2026): ningún LLM/ULM/UM fuera de cita/rechazo.
 
-**UMC-010 — Autoría abierta.** Código AGPL-3.0-or-later; contenido CC BY-SA 4.0; autoría en el historial de Git. Ninguna línea anónima de pesos. *Verificación:* LICENSE presente; `git log` con nombre; ningún binario sin procedencia. Ausencia = falla. *Estado:* revisado.
+**UMC-010 — Autoría abierta.** Código AGPL-3.0-or-later; contenido CC BY-SA 4.0; autoría en el historial de Git. Ninguna línea anónima de pesos. *Verificación:* LICENSE presente; `git log` con nombre; ningún binario sin procedencia. Ausencia = falla. *Estado:* verificado — evidencia: `verificacao/umc010_autoria.py` (27/08/2026): LICENSE (CC BY-SA 4.0) en la raíz y AGPL-3.0-or-later en el artefacto; autoría única y nombrada en el git log; ningún binario rastreado.
 
 **UMC-011 — Símbolo computacionalmente modelable.** Todo símbolo que el modelo procesa admite **modelo computacional**: encoding finito, operación, criterio operacional de igualdad. Lo que no es computacionalmente modelable **no entra**. Esto **no** afirma que el mundo es computación. *Verificación:* cada tipo de UMC-005 tiene encoding y al menos una operación en el artefacto. Aceptar un "símbolo" sin representación operacional = falla. Declarar que el hambre, el joule o el cuerpo *son* computación = falla (par con UMC-006). *Estado:* verificado — evidencia: cada tipo con encoding+operación+igualdad; pruebas + spec de encoding (27/08/2026).
 
@@ -389,20 +389,20 @@ Ninguna línea de pesos, código de inferencia o entrenamiento sin esta spec. Ni
 
 El UMC está **verificado** solo cuando UMC-001 a UMC-011 están `verificado` con evidencia fechada. Fallar uno es fallar el nombre.
 
-**Revisión de estado (27/08/2026).** Evidencia del artefacto mínimo (Fase 3) y del nacimiento en las cuatro lenguas:
+**Revisión de estado (27/08/2026).** Evidencia del artefacto mínimo (Fase 3), del nacimiento en las cuatro lenguas y de los instrumentos automatizados de la Fase 2 (`verificacao/`, registro: `verificacao/evidencia-2026-08-27.json`):
 
 | ID | Estado | Evidencia |
 |---|---|---|
 | UMC-001 | revisado | instrumento definido (Fase 2); ningún informe de "listo" cita la escala |
-| UMC-002 | revisado | cuatro lenguas nacidas juntas; commit real pendiente (git solo lectura en la sandbox) |
-| UMC-003 | revisado | los recorridos del artefacto corren sin cuota/login/central del centro; prueba con usuaria de la margen pendiente |
+| UMC-002 | verificado | `verificacao/umc002_origem.py` (27/08/2026): todo commit de contenido toca las cuatro lenguas |
+| UMC-003 | verificado | `verificacao/umc003_margem.py` (27/08/2026): recorrido `mapa → contrato` completo; 0 llamadas al centro |
 | UMC-004 | verificado | `umc-artefact/logs/energia.jsonl` (unidad J, fecha ISO 8601, por tarea, proxy declarado) |
 | UMC-005 | verificado | tres tipos fuera del chat con encoding+operación+igualdad; 16 pruebas; CLI |
-| UMC-006 | revisado | ninguna salida oficial viola; prueba negativa automatizada pendiente |
+| UMC-006 | verificado | `verificacao/umc006_mundo.py` (27/08/2026): corpus de frases prohibidas en 4 lenguas; 0 afirmaciones |
 | UMC-007 | revisado | no hay pesos; la spec gobierna; manifiesto de procedencia definido |
-| UMC-008 | revisado | stdlib, sin llamadas de red; prueba de air-gap automatizada pendiente |
+| UMC-008 | verificado | `verificacao/umc008_airgap.py` (27/08/2026): 5 recorridos con sockets bloqueados; ningún import de red |
 | UMC-009 | verificado | grep del artefacto: ningún LLM/ULM/UM fuera de cita/rechazo |
-| UMC-010 | revisado | LICENSE presente + SPDX; `git log` con nombre pendiente de commit real |
+| UMC-010 | verificado | `verificacao/umc010_autoria.py` (27/08/2026): LICENSE raíz + AGPL en el artefacto; autoría nombrada; 0 binarios |
 | UMC-011 | verificado | cada tipo con encoding+operación+igualdad; pruebas + spec de encoding |
 
 Existe un artefacto mínimo (27/08/2026); el UMC completo, todavía no. Esta spec sigue siendo el siguiente paso de la continuación del 27/08/2026 — no el entrenamiento.
@@ -419,6 +419,7 @@ Regla madre del repositorio: ninguna línea de pesos sin spec; ninguna spec sin 
 - [x] El concepto, Parte I: criba contra UMC-001–011.
 - [x] Mapa de prior art: fila y sección UMC-011 (Chomsky, Turing, Gödel, Cybenko, Solomonoff); menciones 001–010 → 001–011.
 - [x] Fechas: decidida la fecha canónica del diálogo — 27/08/2026 (día de la impresión y del paper); mensajes el 26/08/2026, 12:21–12:38 UTC (09:21–09:38, UTC−3). Alineación registrada en la proveniencia de cada paper.
+- [x] LICENSE raíz restaurada (27/08/2026): CC BY-SA 4.0 volvió a la raíz del repositorio (había sido eliminada en la consolidación); hallado y corregido por el instrumento UMC-010.
 
 ### Fase 1 — Fundamentos formales (en curso)
 
@@ -547,6 +548,7 @@ Cada UMC necesita un instrumento operacional. Qué medir, cómo medir, con qué 
   - *Evidencia mínima:* spec de encoding por tipo.
 
 - [x] Protocolo operacional detallado por ítem (UMC-001–011): qué medir, cómo, unidad, fecha, dónde aparece, criterio y evidencia mínima.
+- [x] Instrumentos automatizados ejecutados con evidencia fechada (27/08/2026): UMC-002, 003, 006, 008, 010 — `verificacao/roda_verificacao.py`, registro en `verificacao/evidencia-2026-08-27.json` (5/5 APRUEBA).
 
 ### Fase 3 — Primer artefacto mínimo (no es entrenamiento)
 
@@ -598,7 +600,7 @@ Producto esperado: un protocolo o institución de negociación de $U(R|humano)$ 
 
 - Una fase está lista cuando cada ítem tiene evidencia fechada y el estado sube de `borrador` → `revisado` → `verificado` por la spec.
 - Fallar un UMC es fallar el nombre: la agenda no "termina" con UMC-001–011 en `borrador`.
-- [x] Revisión de estado con evidencia fechada (27/08/2026): 4 verificado, 7 revisado — registrada en la Parte IV (Listo).
+- [x] Revisión de estado con evidencia fechada (27/08/2026): 9 verificado, 2 revisado — registrada en la Parte IV (Listo). Quedan UMC-001 (informe de "listo" aún por venir) y UMC-007 (no hay pesos; el instrumento se aplica al primer peso).
 
 ## Referencias
 

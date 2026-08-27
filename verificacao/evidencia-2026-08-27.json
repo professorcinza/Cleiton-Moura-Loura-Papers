@@ -1,0 +1,260 @@
+{
+  "registro": "Evidência datada — instrumentos de verificação UMC (Fase 2)",
+  "executado_em": "2026-08-27T20:19:22-03:00",
+  "resultados": [
+    {
+      "item": "UMC-002",
+      "status": "PASSA",
+      "evidencia": {
+        "instrumento": "UMC-002 — Línguas como origem",
+        "data_evidencia": "2026-08-27T20:19:22-03:00",
+        "criterio": "todo commit que toca paper-umc.{pt,en,es,zh}.md toca as quatro; diff monolíngue de conteúdo = falha",
+        "commits_avaliados": 14,
+        "falhas": 0,
+        "status": "PASSA",
+        "detalhe": [
+          {
+            "commit": "fd1ad80",
+            "autor": "Cleiton Moura Loura",
+            "data": "2026-08-27T19:09:04-03:00",
+            "toca_paper": true,
+            "quatro_linguas": true,
+            "ok": true,
+            "arquivos": 4
+          },
+          {
+            "commit": "061f01d",
+            "autor": "Cleiton Moura Loura",
+            "data": "2026-08-27T18:57:36-03:00",
+            "toca_paper": true,
+            "quatro_linguas": true,
+            "ok": true,
+            "arquivos": 23
+          },
+          {
+            "commit": "184255f",
+            "autor": "Cleiton Moura Loura",
+            "data": "2026-08-27T18:17:20-03:00",
+            "toca_paper": true,
+            "quatro_linguas": true,
+            "ok": true,
+            "arquivos": 18
+          },
+          {
+            "commit": "fa0a5f9",
+            "autor": "Cleiton Moura Loura",
+            "data": "2026-08-27T11:01:35-03:00",
+            "toca_paper": false,
+            "quatro_linguas": true,
+            "ok": true,
+            "arquivos": 12
+          },
+          {
+            "commit": "527be52",
+            "autor": "Cleiton Moura Loura",
+            "data": "2026-08-27T10:52:37-03:00",
+            "toca_paper": false,
+            "quatro_linguas": true,
+            "ok": true,
+            "arquivos": 12
+          },
+          {
+            "commit": "8dfdd8c",
+            "autor": "Cleiton Moura Loura",
+            "data": "2026-08-27T10:20:14-03:00",
+            "toca_paper": false,
+            "quatro_linguas": true,
+            "ok": true,
+            "arquivos": 6
+          },
+          {
+            "commit": "f9bb080",
+            "autor": "Cleiton Moura Loura",
+            "data": "2026-08-27T10:17:39-03:00",
+            "toca_paper": false,
+            "quatro_linguas": true,
+            "ok": true,
+            "arquivos": 3
+          },
+          {
+            "commit": "b7ddfa2",
+            "autor": "Cleiton Moura Loura",
+            "data": "2026-08-27T10:17:21-03:00",
+            "toca_paper": false,
+            "quatro_linguas": true,
+            "ok": true,
+            "arquivos": 3
+          },
+          {
+            "commit": "b05b152",
+            "autor": "Cleiton Moura Loura",
+            "data": "2026-08-27T10:15:20-03:00",
+            "toca_paper": false,
+            "quatro_linguas": true,
+            "ok": true,
+            "arquivos": 4
+          },
+          {
+            "commit": "d134ebf",
+            "autor": "Cleiton Moura Loura",
+            "data": "2026-08-27T10:12:24-03:00",
+            "toca_paper": false,
+            "quatro_linguas": true,
+            "ok": true,
+            "arquivos": 15
+          },
+          {
+            "commit": "2966a83",
+            "autor": "Cleiton Moura Loura",
+            "data": "2026-08-27T10:08:26-03:00",
+            "toca_paper": false,
+            "quatro_linguas": true,
+            "ok": true,
+            "arquivos": 6
+          },
+          {
+            "commit": "d219cb8",
+            "autor": "Cleiton Moura Loura",
+            "data": "2026-08-27T10:05:41-03:00",
+            "toca_paper": false,
+            "quatro_linguas": true,
+            "ok": true,
+            "arquivos": 6
+          },
+          {
+            "commit": "7194b6e",
+            "autor": "Cleiton Moura Loura",
+            "data": "2026-08-27T10:02:27-03:00",
+            "toca_paper": false,
+            "quatro_linguas": true,
+            "ok": true,
+            "arquivos": 6
+          },
+          {
+            "commit": "a2e9858",
+            "autor": "Cleiton Moura Loura",
+            "data": "2026-08-27T09:58:52-03:00",
+            "toca_paper": false,
+            "quatro_linguas": true,
+            "ok": true,
+            "arquivos": 4
+          }
+        ]
+      }
+    },
+    {
+      "item": "UMC-003",
+      "status": "PASSA",
+      "evidencia": {
+        "instrumento": "UMC-003 — A margem é o teste",
+        "data_evidencia": "2026-08-27T20:19:22-03:00",
+        "criterio": "percurso de tarefa completo; 0 chamadas a cota/login/nuvem do centro; sem cota nem login (stdlib local, nenhum credential lookup)",
+        "percurso": "mapa → contrato (exemplos/mapa-vila.json, A→C, pt)",
+        "exit_code": 0,
+        "saida_primeiras_linhas": [
+          "UMC — Modelo Universal Computacional / Universal Computational Model",
+          "Artefato mínimo 0.1.0 · 2026-08-27 · AGPL-3.0-or-later",
+          "Sem pesos. Sem rede. Local-first (UMC-008). Conta de energia visível (UMC-004).",
+          "",
+          "CONTRATO DE PERCURSO",
+          "entre A e C",
+          "Via: A → B → C",
+          "Distância calculada: 7.0",
+          "Data: 2026-08-27",
+          "As partes acordam o percurso abaixo.",
+          "",
+          "[energia] mapa-para-contrato: 0.0018 J (0.00012 s, 2026-08-27T23:19:22+00:00, proxy: tempo_de_parede_s × 15 W nominal (não é medição física))"
+        ],
+        "chamadas_ao_centro": 0,
+        "completa": true,
+        "status": "PASSA"
+      }
+    },
+    {
+      "item": "UMC-006",
+      "status": "PASSA",
+      "evidencia": {
+        "instrumento": "UMC-006 — O mundo não é texto",
+        "data_evidencia": "2026-08-27T20:19:22-03:00",
+        "criterio": "zero ocorrências NÃO classificadas como recusa, em saídas oficiais (recusas e frases-proibidas citadas são conformes)",
+        "superficies": [
+          "README.md",
+          "paper-umc.pt.md",
+          "paper-umc.en.md",
+          "paper-umc.es.md",
+          "paper-umc.zh.md",
+          "umc-artefact/README.md",
+          "umc-artefact/exemplos/spec-somar.json",
+          "umc-artefact/exemplos/mapa-vila.json",
+          "umc-artefact/exemplos/partitura-simples.json"
+        ],
+        "padroes": 13,
+        "ocorrencias_indevidas": [],
+        "status": "PASSA"
+      }
+    },
+    {
+      "item": "UMC-008",
+      "status": "PASSA",
+      "evidencia": {
+        "instrumento": "UMC-008 — Local-first (air-gap)",
+        "data_evidencia": "2026-08-27T20:19:24-03:00",
+        "criterio": "percursos do CLI completam com sockets bloqueados; nenhum import de rede no código",
+        "auditoria_estatica": {
+          "imports_de_rede": []
+        },
+        "percursos_com_socket_bloqueado": [
+          {
+            "percurso": "tipos",
+            "exit_code": 0,
+            "ok": true,
+            "erro": null
+          },
+          {
+            "percurso": "spec-para-codigo exemplos/spec-somar.json",
+            "exit_code": 0,
+            "ok": true,
+            "erro": null
+          },
+          {
+            "percurso": "mapa-para-contrato exemplos/mapa-vila.json --origem A --destino C --idioma pt",
+            "exit_code": 0,
+            "ok": true,
+            "erro": null
+          },
+          {
+            "percurso": "partitura-para-esquema exemplos/partitura-simples.json",
+            "exit_code": 0,
+            "ok": true,
+            "erro": null
+          },
+          {
+            "percurso": "energia",
+            "exit_code": 0,
+            "ok": true,
+            "erro": null
+          }
+        ],
+        "status": "PASSA"
+      }
+    },
+    {
+      "item": "UMC-010",
+      "status": "PASSA",
+      "evidencia": {
+        "instrumento": "UMC-010 — Autoria aberta",
+        "data_evidencia": "2026-08-27T20:19:24-03:00",
+        "criterio": "LICENSE presente; git log com nome; nenhum binário rastreado sem procedência",
+        "license_repo": true,
+        "license_artefato": true,
+        "spdx_agpl_no_license_artefato": true,
+        "autores_no_git_log": [
+          "Cleiton Moura Loura"
+        ],
+        "commits": 14,
+        "binarios_rastreados": [],
+        "status": "PASSA"
+      }
+    }
+  ]
+}
