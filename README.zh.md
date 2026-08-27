@@ -14,6 +14,7 @@ Cleiton Moura Loura 的公开文稿、随笔与笔记。一处存放形诸文字
 |---|---|---|---|---|
 | 0001 | 致边缘之人 | [pt](papers/0001-aos-perifericos/pt.md) | [en](papers/0001-aos-perifericos/en.md) | [zh](papers/0001-aos-perifericos/zh.md) |
 | 0002 | 通用语言模型 | [pt](papers/0002-modelo-universal-de-linguagem/pt.md) | [en](papers/0002-modelo-universal-de-linguagem/en.md) | [zh](papers/0002-modelo-universal-de-linguagem/zh.md) |
+| 0003 | 一切符号表征皆为语言 | [pt](papers/0003-representacao-simbolica/pt.md) | [en](papers/0003-representacao-simbolica/en.md) | [zh](papers/0003-representacao-simbolica/zh.md) |
 
 ## 许可
 
