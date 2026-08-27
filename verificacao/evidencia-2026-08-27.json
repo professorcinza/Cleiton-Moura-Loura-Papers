@@ -1,18 +1,27 @@
 {
   "registro": "Evidência datada — instrumentos de verificação UMC (Fase 2)",
-  "executado_em": "2026-08-27T20:19:22-03:00",
+  "executado_em": "2026-08-27T20:33:29-03:00",
   "resultados": [
     {
       "item": "UMC-002",
       "status": "PASSA",
       "evidencia": {
         "instrumento": "UMC-002 — Línguas como origem",
-        "data_evidencia": "2026-08-27T20:19:22-03:00",
+        "data_evidencia": "2026-08-27T20:33:29-03:00",
         "criterio": "todo commit que toca paper-umc.{pt,en,es,zh}.md toca as quatro; diff monolíngue de conteúdo = falha",
-        "commits_avaliados": 14,
+        "commits_avaliados": 15,
         "falhas": 0,
         "status": "PASSA",
         "detalhe": [
+          {
+            "commit": "f48822d",
+            "autor": "Cleiton Moura Loura",
+            "data": "2026-08-27T20:33:21-03:00",
+            "toca_paper": true,
+            "quatro_linguas": true,
+            "ok": true,
+            "arquivos": 15
+          },
           {
             "commit": "fd1ad80",
             "autor": "Cleiton Moura Loura",
@@ -147,7 +156,7 @@
       "status": "PASSA",
       "evidencia": {
         "instrumento": "UMC-003 — A margem é o teste",
-        "data_evidencia": "2026-08-27T20:19:22-03:00",
+        "data_evidencia": "2026-08-27T20:33:30-03:00",
         "criterio": "percurso de tarefa completo; 0 chamadas a cota/login/nuvem do centro; sem cota nem login (stdlib local, nenhum credential lookup)",
         "percurso": "mapa → contrato (exemplos/mapa-vila.json, A→C, pt)",
         "exit_code": 0,
@@ -163,7 +172,7 @@
           "Data: 2026-08-27",
           "As partes acordam o percurso abaixo.",
           "",
-          "[energia] mapa-para-contrato: 0.0018 J (0.00012 s, 2026-08-27T23:19:22+00:00, proxy: tempo_de_parede_s × 15 W nominal (não é medição física))"
+          "[energia] mapa-para-contrato: 0.0018 J (0.00012 s, 2026-08-27T23:33:29+00:00, proxy: tempo_de_parede_s × 15 W nominal (não é medição física))"
         ],
         "chamadas_ao_centro": 0,
         "completa": true,
@@ -175,7 +184,7 @@
       "status": "PASSA",
       "evidencia": {
         "instrumento": "UMC-006 — O mundo não é texto",
-        "data_evidencia": "2026-08-27T20:19:22-03:00",
+        "data_evidencia": "2026-08-27T20:33:30-03:00",
         "criterio": "zero ocorrências NÃO classificadas como recusa, em saídas oficiais (recusas e frases-proibidas citadas são conformes)",
         "superficies": [
           "README.md",
@@ -198,7 +207,7 @@
       "status": "PASSA",
       "evidencia": {
         "instrumento": "UMC-008 — Local-first (air-gap)",
-        "data_evidencia": "2026-08-27T20:19:24-03:00",
+        "data_evidencia": "2026-08-27T20:33:31-03:00",
         "criterio": "percursos do CLI completam com sockets bloqueados; nenhum import de rede no código",
         "auditoria_estatica": {
           "imports_de_rede": []
@@ -243,7 +252,7 @@
       "status": "PASSA",
       "evidencia": {
         "instrumento": "UMC-010 — Autoria aberta",
-        "data_evidencia": "2026-08-27T20:19:24-03:00",
+        "data_evidencia": "2026-08-27T20:33:31-03:00",
         "criterio": "LICENSE presente; git log com nome; nenhum binário rastreado sem procedência",
         "license_repo": true,
         "license_artefato": true,
@@ -251,7 +260,7 @@
         "autores_no_git_log": [
           "Cleiton Moura Loura"
         ],
-        "commits": 14,
+        "commits": 15,
         "binarios_rastreados": [],
         "status": "PASSA"
       }
