@@ -1,7 +1,7 @@
-# Spec ULM — Modelo Universal de Linguagem
+# Spec UM — Modelo Universal
 
-**Cleiton-Moura-Loura-Papers · spec/ulm · v1 · status: rascunho**  
-**Governa:** o paper [O Modelo Universal de Linguagem](../../papers/modelo-universal-de-linguagem/pt.md)  
+**Cleiton-Moura-Loura-Papers · spec/um · v1 · status: rascunho**  
+**Governa:** o paper [O Modelo Universal](../../papers/modelo-universal/pt.md)  
 **Data:** 27 de agosto de 2026  
 **Idiomas:** [Português](pt.md) · [English](en.md) · [中文](zh.md)
 
@@ -11,15 +11,15 @@ Ciclo: `rascunho` → `revisado` → `verificado`.
 
 ---
 
-## ULM-001 — Telos de alcance
+## UM-001 — Telos de alcance
 
 O sistema é julgado por **alcance**, não por escala. Número de parâmetros, volume de tokens e posição em *benchmark* de perda **não** constituem sucesso.
 
-**Verificação:** nenhum relatório de “pronto” cita escala como critério suficiente. Se o único número de sucesso for tamanho ou loss, ULM-001 falha.
+**Verificação:** nenhum relatório de “pronto” cita escala como critério suficiente. Se o único número de sucesso for tamanho ou loss, UM-001 falha.
 
 **Status:** rascunho.
 
-## ULM-002 — Línguas como origem
+## UM-002 — Línguas como origem
 
 Português, inglês e chinês nascem juntos. Pós-tradução a partir do centro não conta como origem.
 
@@ -27,15 +27,15 @@ Português, inglês e chinês nascem juntos. Pós-tradução a partir do centro 
 
 **Status:** rascunho.
 
-## ULM-003 — A margem é o teste
+## UM-003 — A margem é o teste
 
 O periférico de qualquer nação é usuário de primeira classe, não caso de borda. “Funciona no centro” não é pronto.
 
-**Verificação:** existe pelo menos um percurso de tarefa completo **sem** cota, login ou usina do centro. Se a tarefa exige a quota industrial, ULM-003 falha.
+**Verificação:** existe pelo menos um percurso de tarefa completo **sem** cota, login ou usina do centro. Se a tarefa exige a quota industrial, UM-003 falha.
 
 **Status:** rascunho.
 
-## ULM-004 — Conta de energia visível
+## UM-004 — Conta de energia visível
 
 Toda inferência e todo treino publicam joules (ou proxy medido e datado). Feature que custa mais energia do que devolve justifica-se por escrito, com ID.
 
@@ -43,47 +43,47 @@ Toda inferência e todo treino publicam joules (ou proxy medido e datado). Featu
 
 **Status:** rascunho.
 
-## ULM-005 — Domínio do simbólico
+## UM-005 — Domínio do simbólico
 
-O domínio é o conjunto das representações simbólicas. Língua natural é subconjunto. Um sistema que só conversa em prosa não é ULM.
+O domínio é o conjunto das representações simbólicas. Língua natural é subconjunto. Um sistema que só conversa em prosa não é UM.
 
 **Verificação:** o artefato aceita e emite pelo menos três tipos fora do *chat* contínuo — p.ex. spec, circuito/esquema, mapa, contrato, partitura, código. Um só tipo prosa = falha.
 
 **Status:** rascunho.
 
-## ULM-006 — O mundo não é texto
+## UM-006 — O mundo não é texto
 
 Joule, fome, corpo e referente **não** são linguagem. O modelo não declara que a vida cabe nele.
 
-**Verificação:** nenhuma saída oficial afirma que o não-simbólico é token. Se o sistema “resolve” fome ou energia só com texto, ULM-006 falha.
+**Verificação:** nenhuma saída oficial afirma que o não-simbólico é token. Se o sistema “resolve” fome ou energia só com texto, UM-006 falha.
 
 **Status:** rascunho.
 
-## ULM-007 — Spec antes de pesos
+## UM-007 — Spec antes de pesos
 
 Não há treino, *fine-tune* nem *checkpoint* sem esta spec a governá-lo. Mudou o comportamento, muda a spec primeiro.
 
-**Verificação:** cada artefato de peso aponta para um ID ULM e um commit da spec anterior ou igual ao commit do peso. Peso órfão = falha.
+**Verificação:** cada artefato de peso aponta para um ID UM e um commit da spec anterior ou igual ao commit do peso. Peso órfão = falha.
 
 **Status:** rascunho.
 
-## ULM-008 — Local-first
+## UM-008 — Local-first
 
 O percurso mínimo de uso roda sem rede do centro. A malha e o bolso são o alvo, não o data center.
 
-**Verificação:** uma tarefa de ULM-003 completa *offline* após o artefato estar no dispositivo. Se a primeira inferência exige a nuvem do centro, ULM-008 falha.
+**Verificação:** uma tarefa de UM-003 completa *offline* após o artefato estar no dispositivo. Se a primeira inferência exige a nuvem do centro, UM-008 falha.
 
 **Status:** rascunho.
 
-## ULM-009 — Nome e recusa
+## UM-009 — Nome e recusa
 
-O artefato chama-se ULM. A sigla LLM aparece só para nomear o conceito recusado.
+O artefato chama-se UM. A sigla LLM aparece só para nomear o conceito recusado. A sigla ULM aparece só para ULMFiT e para o primeiro nome, vacado.
 
-**Verificação:** busca no repositório do artefato. LLM fora de citação histórica ou da recusa = falha.
+**Verificação:** busca no repositório do artefato. LLM fora de citação histórica ou da recusa = falha. ULM fora de ULMFiT, citação histórica ou nome vacado = falha.
 
 **Status:** rascunho.
 
-## ULM-010 — Autoria aberta
+## UM-010 — Autoria aberta
 
 Código AGPL-3.0-or-later; conteúdo CC BY-SA 4.0; autoria no histórico de Git. Nenhuma linha anônima de peso.
 
@@ -95,11 +95,11 @@ Código AGPL-3.0-or-later; conteúdo CC BY-SA 4.0; autoria no histórico de Git.
 
 ## Pronto
 
-O ULM está **verificado** somente quando ULM-001 a ULM-010 estão `verificado` com evidência datada. Falhar um é falhar o nome.
+O UM está **verificado** somente quando UM-001 a UM-010 estão `verificado` com evidência datada. Falhar um é falhar o nome.
 
 Não há artefato. Esta spec é o próximo passo da continuação de 27/08/2026 — não o treino.
 
-Prior art contra ULM-001–010: [mapa](../../papers/ulm-prior-art/pt.md). O mapa não sobe o status desta spec.
+Prior art contra UM-001–010: [mapa](../../papers/um-prior-art/pt.md). O mapa não sobe o status desta spec.
 
 ---
 

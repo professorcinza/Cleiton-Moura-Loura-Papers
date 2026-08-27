@@ -10,7 +10,7 @@ Public writings by Cleiton Moura Loura. Apart from the code, the prototypes and 
 
 | Spec | Português | English | 中文 | Status |
 |---|---|---|---|---|
-| ULM v1 (ULM-001–010) | [pt](spec/ulm/pt.md) | [en](spec/ulm/en.md) | [zh](spec/ulm/zh.md) | draft |
+| UM v1 (UM-001–010) | [pt](spec/um/pt.md) | [en](spec/um/en.md) | [zh](spec/um/zh.md) | draft |
 
 No line of weights without this spec. No spec without a path of verification.
 
@@ -18,12 +18,12 @@ No line of weights without this spec. No spec without a path of verification.
 
 | Title | Português | English | 中文 |
 |---|---|---|---|
-| The Universal Language Model: from the telos of scale to the domain of the symbolic | [pt](papers/modelo-universal-de-linguagem/pt.md) | [en](papers/modelo-universal-de-linguagem/en.md) | [zh](papers/modelo-universal-de-linguagem/zh.md) |
-| ULM: a prior-art map — what already exists, the gap, novelty fraud | [pt](papers/ulm-prior-art/pt.md) | [en](papers/ulm-prior-art/en.md) | [zh](papers/ulm-prior-art/zh.md) |
+| The Universal Model: from the telos of scale to the domain of the symbolic | [pt](papers/modelo-universal/pt.md) | [en](papers/modelo-universal/en.md) | [zh](papers/modelo-universal/zh.md) |
+| UM: a prior-art map — what already exists, the gap, novelty fraud | [pt](papers/um-prior-art/pt.md) | [en](papers/um-prior-art/en.md) | [zh](papers/um-prior-art/zh.md) |
 
-A public continuation of a research dialogue of 27 August 2026: the question was which LLM front was being worked on; the answer is the ULM paper. The prior-art map is the novelty sieve against ULM-001–010 — not a leaderboard.
+A public continuation of a research dialogue of 27 August 2026: the question was which LLM front was being worked on; the answer is the UM paper. The prior-art map is the novelty sieve against UM-001–010 — not a leaderboard.
 
-How to cite: Loura, C. M. (2026). *The Universal Language Model: from the telos of scale to the domain of the symbolic*. Cleiton-Moura-Loura-Papers.
+How to cite: Loura, C. M. (2026). *The Universal Model: from the telos of scale to the domain of the symbolic*. Cleiton-Moura-Loura-Papers.
 
 ## License
 

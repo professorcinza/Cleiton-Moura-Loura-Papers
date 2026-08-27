@@ -1,4 +1,4 @@
-# O Modelo Universal de Linguagem: do telos da escala ao domínio do simbólico
+# O Modelo Universal: do telos da escala ao domínio do simbólico
 
 **Cleiton Moura Loura**  
 Iniciativa pessoal, sem afiliação institucional. Cidadão brasileiro.  
@@ -6,19 +6,19 @@ Brasil, 27 de agosto de 2026.
 
 *Idiomas:* [Português](pt.md) · [English](en.md) · [中文](zh.md)
 
-**Como citar:** Loura, C. M. (2026). *O Modelo Universal de Linguagem: do telos da escala ao domínio do simbólico*. Cleiton-Moura-Loura-Papers. https://github.com/professorcinza/Cleiton-Moura-Loura-Papers
+**Como citar:** Loura, C. M. (2026). *O Modelo Universal: do telos da escala ao domínio do simbólico*. Cleiton-Moura-Loura-Papers. https://github.com/professorcinza/Cleiton-Moura-Loura-Papers
 
 **Licença:** CC BY-SA 4.0.
 
-**Proveniência.** Este artigo é a continuação, em público e com nome, de um diálogo de pesquisa de 27 de agosto de 2026. A interlocução industrial perguntou em que frente de LLM se trabalhava. A resposta — substituir *Large Language Model* por *Universal Language Model* — é o objeto daqui. O print dessa interlocução não se arquiva neste repositório (produto de terceiro). O trabalho, sim.
+**Proveniência.** Este artigo é a continuação, em público e com nome, de um diálogo de pesquisa de 27 de agosto de 2026. A interlocução industrial perguntou em que frente de LLM se trabalhava. A primeira resposta foi substituir *Large Language Model* por *Universal Language Model*. Esse *string* já estava ocupado (Howard & Ruder, 2018, ULMFiT). O nome do dever é **Modelo Universal** (UM). Linguagem permanece o domínio (axioma), não o tipo industrial. O print dessa interlocução não se arquiva neste repositório (produto de terceiro). O trabalho, sim.
 
 ---
 
 ## Resumo
 
-Este paper substitui o conceito de *Large Language Model* (LLM) pelo de **Modelo Universal de Linguagem** (ULM). A substituição não é nominal: troca o telos. *Large* nomeia escala — parâmetros, capital, joules — e entrega primeiro a quem já era grande. *Universal* nomeia obrigação de alcance: toda língua como origem, toda margem como usuária de primeira classe, toda inferência com conta de energia visível. Funda-se um axioma: **toda representação simbólica está no conjunto da linguagem** (representação simbólica ⊆ linguagem). A língua natural é subconjunto, não o domínio. O ULM, portanto, não é um modelo de conversa: é um modelo do simbólico. O mundo, porém, não é um texto; o joule não é um símbolo; expandir o domínio não licencia expandir a usina. Um ULM que não serve o periférico de qualquer nação ainda não é universal — é só grande.
+Este paper substitui o conceito de *Large Language Model* (LLM) pelo de **Modelo Universal** (UM). A substituição não é nominal: troca o telos. *Large* nomeia escala — parâmetros, capital, joules — e entrega primeiro a quem já era grande. *Universal* nomeia obrigação de alcance: toda língua como origem, toda margem como usuária de primeira classe, toda inferência com conta de energia visível. Funda-se um axioma: **toda representação simbólica está no conjunto da linguagem** (representação simbólica ⊆ linguagem). A língua natural é subconjunto, não o domínio. O UM, portanto, não é um modelo de conversa: é um modelo do simbólico. O mundo, porém, não é um texto; o joule não é um símbolo; expandir o domínio não licencia expandir a usina. Um UM que não serve o periférico de qualquer nação ainda não é universal — é só grande.
 
-**Palavras-chave:** modelo universal de linguagem; representação simbólica; periferia; energia; telos.
+**Palavras-chave:** modelo universal; representação simbólica; periferia; energia; telos.
 
 ---
 
@@ -38,7 +38,7 @@ O problema não é que existam modelos grandes. É que a grandeza foi elevada a 
 
 A tese é dupla.
 
-1. O que se quer construir chama-se **Modelo Universal de Linguagem** (ULM). Escreve-se LLM apenas para nomear o conceito recusado.
+1. O que se quer construir chama-se **Modelo Universal** (UM). Escreve-se LLM apenas para nomear o conceito recusado. Escreve-se ULM apenas para nomear a etiqueta ocupada (ULMFiT) e o primeiro nome, vacado.
 2. O domínio desse modelo é o conjunto das **representações simbólicas**, não o subconjunto das línguas naturais.
 
 As duas teses se exigem. Sem a segunda, “universal” volta a significar “mais texto do centro”. Sem a primeira, a inclusão do simbólico vira desculpa para uma usina ainda maior.
@@ -51,7 +51,7 @@ A arquitetura Transformer (Vaswani et al., 2017) tornou tratável o treino de mo
 
 Há crítica. Bender et al. (2021) recusam o papagaio estocástico como oráculo e apontam custo, extração e dano a quem não treina. Strubell et al. (2019) puseram a conta de energia na mesa da PNL. Nenhuma dessas críticas, porém, substitui o conceito. Elas corrigem o LLM; não o destituem.
 
-A lacuna é esta: a literatura trata *large* como o eixo. Não há, no vocabulário padrão, um telos que julgue o modelo pela obrigação de alcance — língua como origem, margem como teste, joule como crivo — sobre o conjunto das representações simbólicas. Este paper nomeia essa lacuna **ULM**. Não se afirma prioridade sobre o artefato. Afirma-se prioridade sobre o *nome do dever*. A cadeia de caracteres *Universal Language Model* e a sigla ULM já estavam ocupadas (Howard & Ruder, 2018, ULMFiT). Prioridade sobre o *string* seria fraude. O crivo ponto a ponto contra ULM-001–010 está no [mapa de prior art](../ulm-prior-art/pt.md).
+A lacuna é esta: a literatura trata *large* como o eixo. Não há, no vocabulário padrão, um telos que julgue o modelo pela obrigação de alcance — língua como origem, margem como teste, joule como crivo — sobre o conjunto das representações simbólicas. Este paper nomeia essa lacuna **UM**. Não se afirma prioridade sobre o artefato. Afirma-se prioridade sobre o *nome do dever*. A cadeia *Universal Language Model* e a sigla ULM já estavam ocupadas (Howard & Ruder, 2018, ULMFiT): este repositório não as usa como nome do dever. *Universal Model* / Modelo Universal é frase genérica — prioridade sobre esse *string* tampouco se afirma. O crivo ponto a ponto contra UM-001–010 está no [mapa de prior art](../um-prior-art/pt.md).
 
 ## 4. O conceito recusado: *Large Language Model*
 
@@ -61,7 +61,7 @@ Um modelo definido pelo tamanho promete o mesmo a todos e entrega primeiro a que
 
 Não se nega o mérito técnico de modelos de grande escala. Nega-se que a escala seja o conceito. Conceito é telos: o para-quê que julga o pronto e o falho. Sob o telos de *large*, um sistema inacessível à beira, monolíngue de facto, e energeticamente voraz ainda pode ser “um LLM de sucesso”. Isso basta para recusá-lo como conceito-guia.
 
-## 5. O conceito proposto: Modelo Universal de Linguagem
+## 5. O conceito proposto: Modelo Universal
 
 **Universal** mede alcance, não volume.
 
@@ -71,9 +71,9 @@ Alcance de pessoa: a margem é usuária de primeira classe. O periférico de qua
 
 Alcance de energia: toda inferência traz conta visível. Feature que custa mais energia do que devolve precisa justificar-se; o que só existe queimando a margem não se chama universal.
 
-O ULM não precisa ser o maior. Precisa caber: no bolso, na malha, no idioma de quem o acorda. Grande é uma quantidade. Universal é uma obrigação.
+O UM não precisa ser o maior. Precisa caber: no bolso, na malha, no idioma de quem o acorda. Grande é uma quantidade. Universal é uma obrigação.
 
-O critério de pronto segue da obrigação. Um ULM que não serve o periférico ainda não é universal. É só grande. Continua sendo um modelo de linguagem, continua podendo rodar local, continua sendo software com licença, autoria e histórico. O que muda é o juízo.
+O critério de pronto segue da obrigação. Um UM que não serve o periférico ainda não é universal. É só grande. Continua sendo um modelo, continua podendo rodar local, continua sendo software com licença, autoria e histórico. O que muda é o juízo.
 
 ## 6. Axioma: toda representação simbólica é linguagem
 
@@ -91,7 +91,7 @@ A fala e a escrita ditas língua natural são um subconjunto. Importante, não e
 \text{língua natural} \subset \text{linguagem} = \{ \text{representações simbólicas} \}
 \]
 
-Se o domínio da linguagem é esse conjunto, o ULM não é um modelo de *chat*. É um modelo do simbólico. A universalidade deixa de ser “mais tokens de inglês”. Passa a ser: cabe no domínio o símbolo de quem está na beira — o desenho, o código, a conta de luz, a oração, a peça, o esquema. Quem só completa frases do centro ainda não tocou o conjunto.
+Se o domínio da linguagem é esse conjunto, o UM não é um modelo de *chat*. É um modelo do simbólico. A universalidade deixa de ser “mais tokens de inglês”. Passa a ser: cabe no domínio o símbolo de quem está na beira — o desenho, o código, a conta de luz, a oração, a peça, o esquema. Quem só completa frases do centro ainda não tocou o conjunto.
 
 ## 7. Limites do axioma
 
@@ -99,15 +99,15 @@ O axioma é de inclusão, não de absorção do real.
 
 O mundo não é um texto. Um joule não é um símbolo. A fome não é uma sentença. A inclusão é da *representação*, não do referente. Quem declara que tudo é linguagem costuma querer que tudo caiba numa usina. Recusa-se isso.
 
-Expandir o domínio não licencia expandir a conta de energia. O crivo permanece. O ULM que só existe queimando a margem não é universal — é voraz. O que não é símbolo fica fora do modelo e dentro da vida. A vida manda no modelo, não o contrário.
+Expandir o domínio não licencia expandir a conta de energia. O crivo permanece. O UM que só existe queimando a margem não é universal — é voraz. O que não é símbolo fica fora do modelo e dentro da vida. A vida manda no modelo, não o contrário.
 
-Este limite é parte da tese, não um apêndice ético. Sem ele, o ULM colapsa de volta em LLM com vocabulário maior.
+Este limite é parte da tese, não um apêndice ético. Sem ele, o UM colapsa de volta em LLM com vocabulário maior.
 
 ## 8. Conclusão
 
-Substituiu-se um conceito por outro. LLM nomeia o recusado: a escala como telos. ULM nomeia o proposto: a obrigação de alcance sobre o conjunto das representações simbólicas, com a língua natural como subconjunto, a margem como teste, e a energia como crivo.
+Substituiu-se um conceito por outro. LLM nomeia o recusado: a escala como telos. UM nomeia o proposto: a obrigação de alcance sobre o conjunto das representações simbólicas, com a língua natural como subconjunto, a margem como teste, e a energia como crivo.
 
-Não se afirma que o ULM já existe como artefato. Afirma-se que o artefato, quando existir, não poderá chamar-se universal se falhar o periférico, se falhar a língua como origem, ou se falhar a conta de joules. O nome é a dívida. O trabalho, a partir daqui, é pagá-la.
+Não se afirma que o UM já existe como artefato. Afirma-se que o artefato, quando existir, não poderá chamar-se universal se falhar o periférico, se falhar a língua como origem, ou se falhar a conta de joules. O nome é a dívida. O trabalho, a partir daqui, é pagá-la.
 
 ## 9. Agenda: a continuação
 
@@ -117,7 +117,7 @@ A interlocução de origem oferecia o menu da pesquisa industrial: revisão de l
 
 **Recusa-se.** Fingir SOTA. Treinar uma usina para “provar” universalidade. Tomar o *hype* do dia como estado da arte. Briefing de tendências no lugar de obrigação.
 
-| Eixo | LLM (vigente) | ULM (proposto) | Estado |
+| Eixo | LLM (vigente) | UM (proposto) | Estado |
 |---|---|---|---|
 | Telos | escala | alcance | proposto neste paper |
 | Sucesso | menor perda, maior *benchmark* | margem servida; línguas como origem; joule visível | não medido: não há artefato |
@@ -131,7 +131,7 @@ A interlocução de origem oferecia o menu da pesquisa industrial: revisão de l
 3. *Energia.* Os joules da tarefa são visíveis e justificados?
 4. *Simbólico.* Aceita spec, circuito, mapa, contrato — ou só conversa?
 
-Falhar um item é falhar o nome. O próximo passo desta continuação não é um treino. É a especificação verificável do ULM: requisitos, crivo, caminho de prova. Nenhuma linha de peso sem spec que a governe.
+Falhar um item é falhar o nome. O próximo passo desta continuação não é um treino. É a especificação verificável do UM: requisitos, crivo, caminho de prova. Nenhuma linha de peso sem spec que a governe.
 
 ## Referências
 

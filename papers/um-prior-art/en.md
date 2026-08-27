@@ -1,4 +1,4 @@
-# ULM: a prior-art map — what already exists, the gap, novelty fraud
+# UM: a prior-art map — what already exists, the gap, novelty fraud
 
 **Cleiton Moura Loura**  
 Personal initiative, no institutional affiliation. Brazilian citizen.  
@@ -6,11 +6,11 @@ Brazil, 27 August 2026.
 
 *Languages:* [Português](pt.md) · [English](en.md) · [中文](zh.md)
 
-**How to cite:** Loura, C. M. (2026). *ULM: a prior-art map — what already exists, the gap, novelty fraud*. Cleiton-Moura-Loura-Papers. https://github.com/professorcinza/Cleiton-Moura-Loura-Papers
+**How to cite:** Loura, C. M. (2026). *UM: a prior-art map — what already exists, the gap, novelty fraud*. Cleiton-Moura-Loura-Papers. https://github.com/professorcinza/Cleiton-Moura-Loura-Papers
 
 **Licence:** CC BY-SA 4.0.
 
-**Governs / is governed.** Thickens §3 of the paper [The Universal Language Model](../modelo-universal-de-linguagem/en.md). It does not replace [ULM spec v1](../../spec/ulm/en.md). It does not raise the status of ULM-001–010.
+**Governs / is governed.** Thickens §3 of the paper [The Universal Model](../modelo-universal/en.md). It does not replace [UM spec v1](../../spec/um/en.md). It does not raise the status of UM-001–010.
 
 **Provenance.** Continuation of the same day: the question was what researchers are for if the next step is not literature. The answer is this map — a sieve of novelty, not a leaderboard, not a training run.
 
@@ -18,11 +18,11 @@ Brazil, 27 August 2026.
 
 ## Abstract
 
-Piece by piece, almost everything the spec requires **already exists** in some literature or practice. What does not exist in the standard vocabulary is the **bundle**: reach as telos, languages as origin in the same commit, the margin as test without a quota of the centre, joules visible per task, the domain of the symbolic *and* the refusal to absorb the real, spec before weights, local-first as obligation, the name as refusal, open authorship as fail-the-name. Against each ULM-00X this text marks what occupies, what remains, and what would be **novelty fraud** if this repository claimed “the first X”.
+Piece by piece, almost everything the spec requires **already exists** in some literature or practice. What does not exist in the standard vocabulary is the **bundle**: reach as telos, languages as origin in the same commit, the margin as test without a quota of the centre, joules visible per task, the domain of the symbolic *and* the refusal to absorb the real, spec before weights, local-first as obligation, the name as refusal, open authorship as fail-the-name. Against each UM-00X this text marks what occupies, what remains, and what would be **novelty fraud** if this repository claimed “the first X”.
 
-The character string *Universal Language Model* and the acronym ULM **were already occupied** (Howard & Ruder, 2018). Priority over the *string* would be fraud. The paper claims priority over the *name of the duty*, not over the artefact and not over the label.
+The string *Universal Language Model* and the acronym ULM **were already occupied** (Howard & Ruder, 2018). This repository **vacated** that name. The duty is called **Universal Model** (UM). *Universal Model* is a generic phrase: priority over that *string* is not claimed either. What is claimed is the *name of the duty*, not the artefact and not the label.
 
-**Keywords:** prior art; ULMFiT; novelty; ULM-001–010; telos.
+**Keywords:** prior art; ULMFiT; novelty; UM-001–010; telos.
 
 ---
 
@@ -34,7 +34,7 @@ It is not a SOTA comparison. There is no artefact. There is no benchmark to win.
 
 It is not a trend briefing. The hype of the day does not enter as the state of the art.
 
-It does not verify the spec. The status of ULM-001–010 remains `draft`.
+It does not verify the spec. The status of UM-001–010 remains `draft`.
 
 What the paper already accepted is accepted: the literature that installed *large* as axis, and the critique that corrected it without deposing it. Refused: fake SOTA, training a plant to “prove” universality, and taking a citation as proof of reach.
 
@@ -42,7 +42,7 @@ What the paper already accepted is accepted: the literature that installed *larg
 
 ## 2. The name was already dirty
 
-Before ULM-001: the *string*.
+Before UM-001: the *string*.
 
 | Label | What it is | What it is not |
 |---|---|---|
@@ -50,8 +50,9 @@ Before ULM-001: the *string*.
 | **Universal Sentence Encoder** (Cer et al., 2018) | Sentence embeddings that are “universal” in the sense of transfer. | Universal as a duty to those at the edge. |
 | **USM** (Zhang et al., 2023) | Google *Universal Speech Model*: speech in many languages, still on an axis of coverage/scale. | Telos of reach with an energy account and trilingual origin in the commit. |
 | **Foundation model** (Bommasani et al., 2021) | Another renaming of the large artefact. It changes the adjective; it does not depose scale. | The name of the duty this paper proposes. |
+| **Universal Model** (generic phrase) | Statistics; papers titled “a universal model of X”; the acronym UM already circulates without this telos. | The duty of this repository. |
 
-**Novelty fraud:** claiming that the acronym ULM, or the phrase *Universal Language Model*, is born in this repository. It is not. What is claimed is the duty: universal = reach, not volume — and the bundle ULM-001–010. The *string* belongs to others. It is used with the dirt in view.
+**Novelty fraud:** claiming that ULM, *Universal Language Model*, UM or *Universal Model* are born in this repository. They are not. What is claimed is the duty: universal = reach, not volume — and the bundle UM-001–010. The *strings* belong to others. ULM was vacated in view. UM is used with the dirt in view.
 
 ---
 
@@ -67,7 +68,7 @@ Before ULM-001: the *string*.
 | **006** | Bender & Koller (2020); grounding; the map is not the territory | The pair with 005: expand the domain **and** refuse to absorb the real | “We invented that the world is not text” |
 | **007** | Model cards; datasheets; Constitutional AI; requirements engineering | Orphan weights = fail; spec at an earlier or equal commit; behaviour changes only after the spec | “We invented documenting models” |
 | **008** | Local-first (Kleppmann et al.); TinyML; on-device; llama.cpp | First inference without the centre’s cloud, as an obligation of the name, bound to 003 | “We invented inference in the pocket” |
-| **009** | ULMFiT; USE; USM; foundation model | LLM only to name the refused; ULM as the name of the duty, with the string confessed dirty | “The label is ours” |
+| **009** | ULMFiT; USE; USM; foundation model; generic phrase *Universal Model* | LLM only for the refused; UM for the duty; ULM only ULMFiT/vacated name | “The label is ours” |
 | **010** | OSI; GPL/AGPL; CC BY-SA; BLOOM/OLMo/Pythia; critique of open washing | Bundle AGPL + CC BY-SA + named `git log` + no anonymous weights, as fail-the-name | “We invented open source” |
 
 The residual is not a cell. It is the conjunction. Almost every piece has an owner. The bundle, with the axiom and the sieve, and with the dirt of the name in view, is the remaining claim — and still a claim of duty, not of artefact.
@@ -76,7 +77,7 @@ The residual is not a cell. It is the conjunction. Almost every piece has an own
 
 ## 4. Point by point
 
-### ULM-001 — Telos of reach
+### UM-001 — Telos of reach
 
 **Occupies.** Kaplan et al. (2020) and Hoffmann et al. (2022) install scale as an independent variable. Bender et al. (2021) refuse the oracle and name harm. Schwartz et al. (2020) ask for Green AI — more result per joule, still on the axis of efficiency. “Small” models invert the quantity; they do not change the concept. Distillation, sparsity, MoE: engineering under *large*.
 
@@ -84,15 +85,15 @@ The residual is not a cell. It is the conjunction. Almost every piece has an own
 
 **Fraud.** “Nobody criticised scale.” They did. They did not depose it.
 
-### ULM-002 — Languages as origin
+### UM-002 — Languages as origin
 
 **Occupies.** Conneau et al. (2020) XLM-R; Xue et al. (2021) mT5; Scao et al. (2022) BLOOM; NLLB Team (2022); Joshi et al. (2020) on the fate of linguistic diversity in NLP. The locale industry translates afterwards.
 
-**Does not occupy.** Training coverage ≠ origin of the artefact. ULM-002 verifies the commit: three outputs, same meaning, same instant. Post-translation from the centre fails even if the model “knows” the three languages.
+**Does not occupy.** Training coverage ≠ origin of the artefact. UM-002 verifies the commit: three outputs, same meaning, same instant. Post-translation from the centre fails even if the model “knows” the three languages.
 
 **Fraud.** “First multilingual system.” Historical lie.
 
-### ULM-003 — The margin is the test
+### UM-003 — The margin is the test
 
 **Occupies.** Masakhane and African NLP practice by those who speak the languages; ICT for development; accessibility as a field; the rhetoric of AI for Good.
 
@@ -100,7 +101,7 @@ The residual is not a cell. It is the conjunction. Almost every piece has an own
 
 **Fraud.** “We discovered the periphery.” The periphery did not need discovering. It needed to stop being an edge case.
 
-### ULM-004 — Visible energy account
+### UM-004 — Visible energy account
 
 **Occupies.** Strubell et al. (2019); Lacoste et al. (2019); Schwartz et al. (2020); Luccioni et al. on emissions of large models; training carbon trackers; energy sections in model cards.
 
@@ -108,51 +109,51 @@ The residual is not a cell. It is the conjunction. Almost every piece has an own
 
 **Fraud.** “The first to put the joule on the NLP table.” Strubell already did.
 
-### ULM-005 — Domain of the symbolic
+### UM-005 — Domain of the symbolic
 
-**Occupies.** Neurosymbolic AI (Garcez et al.); code models; multimodal (text+image+audio); “language” models of proteins; assistants over Lean/Coq. The metaphor “everything is language” already circulates — and is a dangerous cousin of ULM-006.
+**Occupies.** Neurosymbolic AI (Garcez et al.); code models; multimodal (text+image+audio); “language” models of proteins; assistants over Lean/Coq. The metaphor “everything is language” already circulates — and is a dangerous cousin of UM-006.
 
-**Does not occupy.** The axiom *symbolic representation ⊆ language* as domain, natural language as a proper subset, and the minimum proof: accept and emit at least three types outside continuous chat (spec, circuit, map, contract, score, code). A chatbot with plugins is not a ULM.
+**Does not occupy.** The axiom *symbolic representation ⊆ language* as domain, natural language as a proper subset, and the minimum proof: accept and emit at least three types outside continuous chat (spec, circuit, map, contract, score, code). A chatbot with plugins is not a UM.
 
-**Fraud.** “We invented multimodal.” No. Multimodal adds channels. ULM-005 redefines the domain of language. They are distinct theses. Confusing them is fraud in both directions.
+**Fraud.** “We invented multimodal.” No. Multimodal adds channels. UM-005 redefines the domain of language. They are distinct theses. Confusing them is fraud in both directions.
 
-### ULM-006 — The world is not text
+### UM-006 — The world is not text
 
 **Occupies.** Bender & Koller (2020): meaning is not in the form. Grounding and embodiment critiques. “The map is not the territory” predates any model.
 
-**Does not occupy.** The necessary pair with ULM-005. Expanding the symbolic **without** this limit collapses into “everything fits in the plant”. ULM-006 is part of the thesis, not an ethical appendix.
+**Does not occupy.** The necessary pair with UM-005. Expanding the symbolic **without** this limit collapses into “everything fits in the plant”. UM-006 is part of the thesis, not an ethical appendix.
 
 **Fraud.** “We invented that hunger is not a sentence.” Philosophical fraud, as well as technical.
 
-### ULM-007 — Spec before weights
+### UM-007 — Spec before weights
 
 **Occupies.** Mitchell et al. (2019) model cards; Gebru et al. datasheets for datasets; Constitutional AI (principles, not a spec bound to a commit); requirements engineering; reproducibility checklists.
 
-**Does not occupy.** A hard gate: no weights, fine-tune or checkpoint without a ULM ID and a spec commit earlier than or equal to the weights. Orphan weights = fail. Behaviour changed, the spec changes **first**. A card written after training is an epitaph, not government.
+**Does not occupy.** A hard gate: no weights, fine-tune or checkpoint without a UM ID and a spec commit earlier than or equal to the weights. Orphan weights = fail. Behaviour changed, the spec changes **first**. A card written after training is an epitaph, not government.
 
 **Fraud.** “We invented the model card.”
 
-### ULM-008 — Local-first
+### UM-008 — Local-first
 
 **Occupies.** Kleppmann et al. (2019) local-first software; TinyML; on-device inference; the practice of weights on the device (llama.cpp and kin). Federated learning still usually coordinates at the centre.
 
-**Does not occupy.** Local-first as an **obligation of universality**, not a deploy option. Bound to ULM-003: the first inference that requires the centre’s cloud fails the name. Pocket and mesh are the target, not the appendix.
+**Does not occupy.** Local-first as an **obligation of universality**, not a deploy option. Bound to UM-003: the first inference that requires the centre’s cloud fails the name. Pocket and mesh are the target, not the appendix.
 
 **Fraud.** “We invented the model on the phone.”
 
-### ULM-009 — Name and refusal
+### UM-009 — Name and refusal
 
 **Occupies.** All of §2. Industry renames without deposing (*foundation*, *frontier*, *small*).
 
-**Does not occupy.** The discipline of writing: LLM only to name the refused; ULM for the duty; and the public confession that the *string* already had an owner.
+**Does not occupy.** The discipline of writing: LLM only to name the refused; UM for the duty; ULM only for ULMFiT and the vacated name.
 
 **Fraud.** Treating the label as this paper’s invention. The paper already refused priority over the artefact; this map refuses priority over the character string.
 
-### ULM-010 — Open authorship
+### UM-010 — Open authorship
 
 **Occupies.** OSI; GPL and AGPL; CC BY-SA; weights with provenance (BLOOM, OLMo, Pythia); the critique of open washing (a licence that does not open, “open” without weights, weights without history).
 
-**Does not occupy.** The bundle as fail-the-name: AGPL-3.0-or-later on code, CC BY-SA 4.0 on content, a name in `git log`, no weight binary without provenance — *together* with ULM-001–009. A permissive licence with an opaque plant does not pay this debt.
+**Does not occupy.** The bundle as fail-the-name: AGPL-3.0-or-later on code, CC BY-SA 4.0 on content, a name in `git log`, no weight binary without provenance — *together* with UM-001–009. A permissive licence with an opaque plant does not pay this debt.
 
 **Fraud.** “We invented the open.”
 
@@ -160,7 +161,7 @@ The residual is not a cell. It is the conjunction. Almost every piece has an own
 
 ## 5. What this map does not authorise
 
-It does not authorise training. ULM-007 still holds: spec before weights. This text is not a new spec; it does not create ID ULM-011.
+It does not authorise training. UM-007 still holds: spec before weights. This text is not a new spec; it does not create ID UM-011.
 
 It does not authorise a leaderboard. There is no artefact; there is no “SOTA of reach”.
 
@@ -168,7 +169,7 @@ It does not authorise the sentence “total gap”. The gap is the bundle and th
 
 It does not authorise priority over ULMFiT, over Universal Sentence Encoder, over NLLB, over local-first, over model cards, over Strubell.
 
-It authorises a correction to the paper: the *name of the duty* is not the *string*. The *string* was occupied. The duty — reach over the symbolic, the margin as test, the joule as sieve, spec before weights — remains the claim. A claim is proved with evidence. There is none yet.
+It authorises a correction to the paper: the *name of the duty* is not the *string*. ULM was occupied and has been vacated. *Universal Model* is also generic. The duty — reach over the symbolic, the margin as test, the joule as sieve, spec before weights — remains the claim. A claim is proved with evidence. There is none yet.
 
 ---
 
@@ -176,10 +177,10 @@ It authorises a correction to the paper: the *name of the duty* is not the *stri
 
 Not another concept paper. Not CUDA.
 
-1. A measured protocol for ULM-004 (unit, date, where the number appears to the user).
-2. A task path for ULM-003 and ULM-008 that can be failed (offline, no quota).
-3. Three symbolic types for ULM-005, with an example in the repo, without weights.
-4. A CI gate for ULM-002 (diff in only one language = fail) and ULM-007 (orphan weights = fail) when an artefact exists.
+1. A measured protocol for UM-004 (unit, date, where the number appears to the user).
+2. A task path for UM-003 and UM-008 that can be failed (offline, no quota).
+3. Three symbolic types for UM-005, with an example in the repo, without weights.
+4. A CI gate for UM-002 (diff in only one language = fail) and UM-007 (orphan weights = fail) when an artefact exists.
 
 Without that, the map is honest and the spec remains draft. With a leaderboard in its place, one returns to the menu the paper refused.
 

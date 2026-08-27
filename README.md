@@ -10,7 +10,7 @@ Escritos públicos de Cleiton Moura Loura. Separados do código, dos protótipos
 
 | Spec | Português | English | 中文 | Estado |
 |---|---|---|---|---|
-| ULM v1 (ULM-001–010) | [pt](spec/ulm/pt.md) | [en](spec/ulm/en.md) | [zh](spec/ulm/zh.md) | rascunho |
+| UM v1 (UM-001–010) | [pt](spec/um/pt.md) | [en](spec/um/en.md) | [zh](spec/um/zh.md) | rascunho |
 
 Nenhuma linha de peso sem esta spec. Nenhuma spec sem caminho de verificação.
 
@@ -18,12 +18,12 @@ Nenhuma linha de peso sem esta spec. Nenhuma spec sem caminho de verificação.
 
 | Título | Português | English | 中文 |
 |---|---|---|---|
-| O Modelo Universal de Linguagem: do telos da escala ao domínio do simbólico | [pt](papers/modelo-universal-de-linguagem/pt.md) | [en](papers/modelo-universal-de-linguagem/en.md) | [zh](papers/modelo-universal-de-linguagem/zh.md) |
-| ULM: mapa de prior art — o que já existe, a lacuna, a fraude de novidade | [pt](papers/ulm-prior-art/pt.md) | [en](papers/ulm-prior-art/en.md) | [zh](papers/ulm-prior-art/zh.md) |
+| O Modelo Universal: do telos da escala ao domínio do simbólico | [pt](papers/modelo-universal/pt.md) | [en](papers/modelo-universal/en.md) | [zh](papers/modelo-universal/zh.md) |
+| UM: mapa de prior art — o que já existe, a lacuna, a fraude de novidade | [pt](papers/um-prior-art/pt.md) | [en](papers/um-prior-art/en.md) | [zh](papers/um-prior-art/zh.md) |
 
-Continuação, em público, de um diálogo de pesquisa de 27 de agosto de 2026: a pergunta era em que frente de LLM se trabalhava; a resposta é o paper do ULM. O mapa de prior art é o crivo de novidade contra ULM-001–010 — não é *leaderboard*.
+Continuação, em público, de um diálogo de pesquisa de 27 de agosto de 2026: a pergunta era em que frente de LLM se trabalhava; a resposta é o paper do UM. O mapa de prior art é o crivo de novidade contra UM-001–010 — não é *leaderboard*.
 
-Como citar: Loura, C. M. (2026). *O Modelo Universal de Linguagem: do telos da escala ao domínio do simbólico*. Cleiton-Moura-Loura-Papers.
+Como citar: Loura, C. M. (2026). *O Modelo Universal: do telos da escala ao domínio do simbólico*. Cleiton-Moura-Loura-Papers.
 
 ## Licença
 
