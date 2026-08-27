@@ -12,6 +12,8 @@ Public writings by Cleiton Moura Loura. Apart from the code, the prototypes and 
 |---|---|---|---|
 | The Universal Language Model: from the telos of scale to the domain of the symbolic | [pt](papers/modelo-universal-de-linguagem/pt.md) | [en](papers/modelo-universal-de-linguagem/en.md) | [zh](papers/modelo-universal-de-linguagem/zh.md) |
 
+A public continuation of a research dialogue of 27 August 2026: the question was which LLM front was being worked on; the answer is this paper.
+
 How to cite: Loura, C. M. (2026). *The Universal Language Model: from the telos of scale to the domain of the symbolic*. Cleiton-Moura-Loura-Papers.
 
 ## License

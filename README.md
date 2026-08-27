@@ -12,6 +12,8 @@ Escritos públicos de Cleiton Moura Loura. Separados do código, dos protótipos
 |---|---|---|---|
 | O Modelo Universal de Linguagem: do telos da escala ao domínio do simbólico | [pt](papers/modelo-universal-de-linguagem/pt.md) | [en](papers/modelo-universal-de-linguagem/en.md) | [zh](papers/modelo-universal-de-linguagem/zh.md) |
 
+Continuação, em público, de um diálogo de pesquisa de 27 de agosto de 2026: a pergunta era em que frente de LLM se trabalhava; a resposta é este paper.
+
 Como citar: Loura, C. M. (2026). *O Modelo Universal de Linguagem: do telos da escala ao domínio do simbólico*. Cleiton-Moura-Loura-Papers.
 
 ## Licença

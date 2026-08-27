@@ -12,6 +12,8 @@ Cleiton Moura Loura 的公开文稿。与代码、原型及 [ponte-brasil-china]
 |---|---|---|---|
 | 通用语言模型：从规模目的到符号之域 | [pt](papers/modelo-universal-de-linguagem/pt.md) | [en](papers/modelo-universal-de-linguagem/en.md) | [zh](papers/modelo-universal-de-linguagem/zh.md) |
 
+2026 年 8 月 27 日一次研究对话的公开延续：当时的问题是在哪一条 LLM 战线；回答即本篇论文。
+
 引用：Loura, C. M. (2026). *通用语言模型：从规模目的到符号之域*. Cleiton-Moura-Loura-Papers.
 
 ## 许可
