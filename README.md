@@ -13,6 +13,7 @@ Cada paper nasce nas três línguas no mesmo commit, ou não nasce.
 | # | Título | Português | English | 中文 |
 |---|---|---|---|---|
 | 0001 | Aos periféricos | [pt](papers/0001-aos-perifericos/pt.md) | [en](papers/0001-aos-perifericos/en.md) | [zh](papers/0001-aos-perifericos/zh.md) |
+| 0002 | Modelo Universal de Linguagem | [pt](papers/0002-modelo-universal-de-linguagem/pt.md) | [en](papers/0002-modelo-universal-de-linguagem/en.md) | [zh](papers/0002-modelo-universal-de-linguagem/zh.md) |
 
 ## Licença
 
