@@ -51,7 +51,7 @@ The Transformer architecture (Vaswani et al., 2017) made large-scale language-mo
 
 There is critique. Bender et al. (2021) refuse the stochastic parrot as an oracle and name cost, extraction and harm to those who do not train. Strubell et al. (2019) put the energy bill on the NLP table. None of these critiques, however, replaces the concept. They correct the LLM; they do not depose it.
 
-The gap is this: the literature treats *large* as the axis. In the standard vocabulary there is no telos that judges the model by an obligation of reach — language as origin, the margin as test, the joule as sieve — over the set of symbolic representations. This paper names that gap **ULM**. Priority over the artefact is not claimed. Priority over the *name of the duty* is.
+The gap is this: the literature treats *large* as the axis. In the standard vocabulary there is no telos that judges the model by an obligation of reach — language as origin, the margin as test, the joule as sieve — over the set of symbolic representations. This paper names that gap **ULM**. Priority over the artefact is not claimed. Priority over the *name of the duty* is. The character string *Universal Language Model* and the acronym ULM were already occupied (Howard & Ruder, 2018, ULMFiT). Priority over the *string* would be fraud. The point-by-point sieve against ULM-001–010 is in the [prior-art map](../ulm-prior-art/en.md).
 
 ## 4. The refused concept: *Large Language Model*
 
@@ -136,6 +136,8 @@ To fail one item is to fail the name. The next step of this continuation is not 
 ## References
 
 Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). On the dangers of stochastic parrots: Can language models be too big? *Proceedings of FAccT 2021*.
+
+Howard, J., & Ruder, S. (2018). Universal Language Model Fine-tuning for text classification. *Proceedings of ACL 2018*.
 
 Kaplan, J., McCandlish, S., Henighan, T., Brown, T. B., Chess, B., Child, R., Gray, S., Radford, A., Wu, J., & Amodei, D. (2020). Scaling laws for neural language models. *arXiv:2001.08361*.
 

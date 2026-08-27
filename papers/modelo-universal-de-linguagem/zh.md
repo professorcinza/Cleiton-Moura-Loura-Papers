@@ -51,7 +51,7 @@ Transformer 架构（Vaswani et al., 2017）使大规模语言模型训练成为
 
 存在批评。Bender et al.（2021）拒绝把随机鹦鹉当作神谕，并指出成本、抽取以及对不参与训练者的伤害。Strubell et al.（2019）把能耗账放到自然语言处理的桌上。然而这些批评都不取代概念。它们修正 LLM；并不废黜它。
 
-空白在此：文献以 *large* 为轴。标准词汇中，没有一种目的按抵达义务来裁决模型——语言为源头、边缘为测试、焦耳为筛——覆盖符号表征的集合。本文将该空白命名为 **ULM**。并不主张对制品的优先权。主张对*义务之名*的优先权。
+空白在此：文献以 *large* 为轴。标准词汇中，没有一种目的按抵达义务来裁决模型——语言为源头、边缘为测试、焦耳为筛——覆盖符号表征的集合。本文将该空白命名为 **ULM**。并不主张对制品的优先权。主张对*义务之名*的优先权。字符串 *Universal Language Model* 与缩写 ULM 已被占据（Howard & Ruder, 2018, ULMFiT）。对*字符串*主张优先权即欺诈。针对 ULM-001–010 的逐条之筛见 [先有工作地图](../ulm-prior-art/zh.md)。
 
 ## 4. 被拒绝的概念：*Large Language Model*
 
@@ -136,6 +136,8 @@ ULM 不必最大。它需要装得下：装进口袋、装进网状网、装进�
 ## 参考文献
 
 Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). On the dangers of stochastic parrots: Can language models be too big? *Proceedings of FAccT 2021*.
+
+Howard, J., & Ruder, S. (2018). Universal Language Model Fine-tuning for text classification. *Proceedings of ACL 2018*.
 
 Kaplan, J., McCandlish, S., Henighan, T., Brown, T. B., Chess, B., Child, R., Gray, S., Radford, A., Wu, J., & Amodei, D. (2020). Scaling laws for neural language models. *arXiv:2001.08361*.
 

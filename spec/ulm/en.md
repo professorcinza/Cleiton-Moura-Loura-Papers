@@ -99,6 +99,8 @@ The ULM is **verified** only when ULM-001 through ULM-010 are `verified` with da
 
 There is no artefact. This spec is the next step of the 27/08/2026 continuation — not the training run.
 
+Prior art against ULM-001–010: [map](../../papers/ulm-prior-art/en.md). The map does not raise the status of this spec.
+
 ---
 
 *Cleiton Moura Loura*  

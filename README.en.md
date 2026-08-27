@@ -19,8 +19,9 @@ No line of weights without this spec. No spec without a path of verification.
 | Title | Português | English | 中文 |
 |---|---|---|---|
 | The Universal Language Model: from the telos of scale to the domain of the symbolic | [pt](papers/modelo-universal-de-linguagem/pt.md) | [en](papers/modelo-universal-de-linguagem/en.md) | [zh](papers/modelo-universal-de-linguagem/zh.md) |
+| ULM: a prior-art map — what already exists, the gap, novelty fraud | [pt](papers/ulm-prior-art/pt.md) | [en](papers/ulm-prior-art/en.md) | [zh](papers/ulm-prior-art/zh.md) |
 
-A public continuation of a research dialogue of 27 August 2026: the question was which LLM front was being worked on; the answer is this paper.
+A public continuation of a research dialogue of 27 August 2026: the question was which LLM front was being worked on; the answer is the ULM paper. The prior-art map is the novelty sieve against ULM-001–010 — not a leaderboard.
 
 How to cite: Loura, C. M. (2026). *The Universal Language Model: from the telos of scale to the domain of the symbolic*. Cleiton-Moura-Loura-Papers.
 

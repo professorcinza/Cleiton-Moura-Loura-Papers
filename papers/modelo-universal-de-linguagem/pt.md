@@ -51,7 +51,7 @@ A arquitetura Transformer (Vaswani et al., 2017) tornou tratável o treino de mo
 
 Há crítica. Bender et al. (2021) recusam o papagaio estocástico como oráculo e apontam custo, extração e dano a quem não treina. Strubell et al. (2019) puseram a conta de energia na mesa da PNL. Nenhuma dessas críticas, porém, substitui o conceito. Elas corrigem o LLM; não o destituem.
 
-A lacuna é esta: a literatura trata *large* como o eixo. Não há, no vocabulário padrão, um telos que julgue o modelo pela obrigação de alcance — língua como origem, margem como teste, joule como crivo — sobre o conjunto das representações simbólicas. Este paper nomeia essa lacuna **ULM**. Não se afirma prioridade sobre o artefato. Afirma-se prioridade sobre o *nome do dever*.
+A lacuna é esta: a literatura trata *large* como o eixo. Não há, no vocabulário padrão, um telos que julgue o modelo pela obrigação de alcance — língua como origem, margem como teste, joule como crivo — sobre o conjunto das representações simbólicas. Este paper nomeia essa lacuna **ULM**. Não se afirma prioridade sobre o artefato. Afirma-se prioridade sobre o *nome do dever*. A cadeia de caracteres *Universal Language Model* e a sigla ULM já estavam ocupadas (Howard & Ruder, 2018, ULMFiT). Prioridade sobre o *string* seria fraude. O crivo ponto a ponto contra ULM-001–010 está no [mapa de prior art](../ulm-prior-art/pt.md).
 
 ## 4. O conceito recusado: *Large Language Model*
 
@@ -136,6 +136,8 @@ Falhar um item é falhar o nome. O próximo passo desta continuação não é um
 ## Referências
 
 Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). On the dangers of stochastic parrots: Can language models be too big? *Proceedings of FAccT 2021*.
+
+Howard, J., & Ruder, S. (2018). Universal Language Model Fine-tuning for text classification. *Proceedings of ACL 2018*.
 
 Kaplan, J., McCandlish, S., Henighan, T., Brown, T. B., Chess, B., Child, R., Gray, S., Radford, A., Wu, J., & Amodei, D. (2020). Scaling laws for neural language models. *arXiv:2001.08361*.
 
