@@ -6,6 +6,14 @@ Cleiton Moura Loura 的公开文稿。与代码、原型及 [ponte-brasil-china]
 
 > 我将此仓库中的工作，献给世界各国边缘上的人们——他们纵有艰难，仍使不可能成为可能。
 
+## 规格
+
+| 规格 | Português | English | 中文 | 状态 |
+|---|---|---|---|---|
+| ULM v1（ULM-001–010） | [pt](spec/ulm/pt.md) | [en](spec/ulm/en.md) | [zh](spec/ulm/zh.md) | 草稿 |
+
+无此规格则无一行权重。无验证之路则无规格。
+
 ## 论文
 
 | 标题 | Português | English | 中文 |
