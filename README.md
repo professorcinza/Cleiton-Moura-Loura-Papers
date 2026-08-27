@@ -2,19 +2,17 @@
 
 **Idiomas:** [Português](README.md) · [English](README.en.md) · [中文](README.zh.md)
 
-Escritos, ensaios e notas públicas de Cleiton Moura Loura. Uma pasta para o que se pensa por escrito — separado do código, dos protótipos e do hub [ponte-brasil-china](https://github.com/professorcinza/ponte-brasil-china).
-
-Cada paper nasce nas três línguas no mesmo commit, ou não nasce.
+Escritos públicos de Cleiton Moura Loura. Separados do código, dos protótipos e do hub [ponte-brasil-china](https://github.com/professorcinza/ponte-brasil-china). Cada texto nasce nas três línguas no mesmo commit, ou não nasce.
 
 > Inicio meu trabalho neste repositório a todos os periféricos de todas as nações que, mesmo com dificuldades, fazem do impossível, possível.
 
-## Papers
+## Paper
 
-| # | Título | Português | English | 中文 |
-|---|---|---|---|---|
-| 0001 | Aos periféricos | [pt](papers/0001-aos-perifericos/pt.md) | [en](papers/0001-aos-perifericos/en.md) | [zh](papers/0001-aos-perifericos/zh.md) |
-| 0002 | Modelo Universal de Linguagem | [pt](papers/0002-modelo-universal-de-linguagem/pt.md) | [en](papers/0002-modelo-universal-de-linguagem/en.md) | [zh](papers/0002-modelo-universal-de-linguagem/zh.md) |
-| 0003 | Toda representação simbólica é linguagem | [pt](papers/0003-representacao-simbolica/pt.md) | [en](papers/0003-representacao-simbolica/en.md) | [zh](papers/0003-representacao-simbolica/zh.md) |
+| Título | Português | English | 中文 |
+|---|---|---|---|
+| O Modelo Universal de Linguagem: do telos da escala ao domínio do simbólico | [pt](papers/modelo-universal-de-linguagem/pt.md) | [en](papers/modelo-universal-de-linguagem/en.md) | [zh](papers/modelo-universal-de-linguagem/zh.md) |
+
+Como citar: Loura, C. M. (2026). *O Modelo Universal de Linguagem: do telos da escala ao domínio do simbólico*. Cleiton-Moura-Loura-Papers.
 
 ## Licença
 
