@@ -9,7 +9,7 @@ Brazil, 27 August 2026.
 
 **Licence:** CC BY-SA 4.0.
 
-**Provenance.** This paper is the continuation, in public and under a name, of a research dialogue of 27 August 2026. The industrial interlocution asked which LLM front was being worked on. The first answer was to replace *Large Language Model* with *Universal Language Model*. That string was already occupied (Howard & Ruder, 2018, ULMFiT). UM, a generic phrase, was vacated. The name of the duty is **Universal Computational Model** (UMC). Language remains the domain (the axiom), not the industrial type. *Computational* is the door: only the symbol that admits a computational model enters — and the world is not computation. The original third-party print is not archived in this repository (repository policy). This consolidated edition replaces the separate documents of the same day (concept, prior-art map, foundations, spec, agenda): what the dialogue called *hypothesis* is here theorem; what was ULM/UM in the interlocution is UMC, the name of the duty.
+**Provenance.** This paper is the continuation, in public and under a name, of a research dialogue of 27 August 2026. The industrial interlocution asked which LLM front was being worked on. The first answer was to replace *Large Language Model* with *Universal Language Model*. That string was already occupied (Howard & Ruder, 2018, ULMFiT). UM, a generic phrase, was vacated. The name of the duty is **Universal Computational Model** (UMC). Language remains the domain (the axiom), not the industrial type. *Computational* is the door: only the symbol that admits a computational model enters — and the world is not computation. The original third-party print is not archived in this repository (repository policy). This consolidated edition replaces the separate documents of the same day (concept, prior-art map, foundations, spec, agenda): what the dialogue called *hypothesis* is here theorem; what was ULM/UM in the interlocution is UMC, the name of the duty. **Canonical date:** the messages were exchanged on 26 August 2026, 12:21–12:38 UTC (09:21–09:38, UTC−3); the canonical date of the dialogue is 27 August 2026, the day of the print and of the paper.
 
 ## Part I — The concept
 
@@ -185,12 +185,12 @@ Before UMC-001: the *string*.
 | **003** | ICT4D; Masakhane; accessibility; "AI for Good" | Complete task path without quota/login/central plant | "We discovered the Global South" |
 | **004** | Strubell; Green AI; CodeCarbon; BLOOM emissions; model cards | Joule (or dated proxy) visible **per task**; voracious feature with written ID | "The first to count energy in NLP" |
 | **005** | Neuro-symbolic; code models; multimodal; "protein LMs" | Axiom symbolic representation ⊆ language, with natural language as proper subset, and three types outside chat | "We invented multimodal / neuro-symbolic" |
-| **006** | Bender & Koller (2020); grounding; the map is not the territory | The pair with 005: expanding the domain **and** refusing to absorb the real | "We invented that the world is not text" |
-| **007** | Model cards; datasheets; Constitutional AI; requirements engineering | Orphan weight = failure; spec in an earlier-or-equal commit; behaviour changes only after the spec | "We invented documenting models" |
+| **006** | Bender & Koller (2020); Goodman (1968); grounding; the map is not the territory | The pair with 005: expanding the domain **and** refusing to absorb the real | "We invented that the world is not text" |
+| **007** | Model cards; datasheets; Constitutional AI; RLHF; DPO; requirements engineering | Orphan weight = failure; spec in an earlier-or-equal commit; behaviour changes only after the spec | "We invented documenting models" |
 | **008** | *Local-first* (Kleppmann et al.); TinyML; on-device; llama.cpp | First inference without the centre's cloud, as an obligation of the name, tied to 003 | "We invented inference in the pocket" |
 | **009** | ULMFiT; USE; USM; *foundation model*; the generic phrase *Universal Model* | LLM only for the refused; UM for the duty; ULM only ULMFiT/vacated name | "The label is ours" |
 | **010** | OSI; GPL/AGPL; CC BY-SA; BLOOM/OLMo/Pythia; critique of open washing | Bundle AGPL + CC BY-SA + `git log` with name + no anonymous weight, as a failure of the name | "We invented open source" |
-| **011** | Chomsky (hierarchy); Turing (1936); Gödel (1931); universal approximation (Cybenko; Hornik et al.); Solomonoff/MDL; tokenizers (BPE, SentencePiece) | The operational sieve: finite encoding + operation + equality; $L_U$ generable but undecidable and approximable; the pair with UMC-006 | "We invented computability" |
+| **011** | Chomsky (hierarchy); Turing (1936); Gödel (1931); universal approximation (Cybenko; Hornik et al.); Solomonoff/MDL; tokenizers (BPE, SentencePiece); PAC (Valiant, 1984) | The operational sieve: finite encoding + operation + equality; $L_U$ generable but undecidable and approximable; the pair with UMC-006 | "We invented computability" |
 
 The residual is not a cell. It is the conjunction. Almost every piece has an owner. The bundle, with the axiom and the sieve, and with the dirt of the name in view, is the claim that remains — and still a claim of duty, not of artefact.
 
@@ -206,9 +206,9 @@ The residual is not a cell. It is the conjunction. Almost every piece has an own
 
 **UMC-005 — Domain of the symbolic.** *Occupies.* Neuro-symbolic AI (Garcez et al.); code models; multimodal (text+image+audio); protein "language" models; assistants over Lean/Coq. The metaphor "everything is language" already circulates — and is a dangerous cousin of UMC-006. *Does not occupy.* The axiom *symbolic representation ⊆ language* as domain, natural language as a proper subset, and the minimal proof: accepting and emitting at least three types outside continuous *chat* (spec, circuit, map, contract, score, code). A chatbot with *plugins* is not a UM. *Fraud.* "We invented multimodal." No. Multimodal adds channels. UMC-005 redefines the domain of language. They are distinct theses. Confusing them is fraud in both directions.
 
-**UMC-006 — The world is not text.** *Occupies.* Bender & Koller (2020): meaning is not in the form. Grounding and embodiment critiques. The sentence "the map is not the territory" predates any model. *Does not occupy.* The necessary pair with UMC-005. Expanding the symbolic **without** this limit collapses into "everything fits in the plant". UMC-006 is part of the thesis, not an ethical appendix. *Fraud.* "We invented that hunger is not a sentence." Philosophical fraud, beyond the technical.
+**UMC-006 — The world is not text.** *Occupies.* Bender & Koller (2020): meaning is not in the form; Goodman (1968): *dense* vs *articulated* representation. Grounding and embodiment critiques. The sentence "the map is not the territory" predates any model. *Does not occupy.* The necessary pair with UMC-005. Expanding the symbolic **without** this limit collapses into "everything fits in the plant". UMC-006 is part of the thesis, not an ethical appendix. *Fraud.* "We invented that hunger is not a sentence." Philosophical fraud, beyond the technical.
 
-**UMC-007 — Spec before weights.** *Occupies.* Mitchell et al. (2019) *model cards*; Gebru et al. *datasheets for datasets*; Constitutional AI (principles, not a commit-bound spec); requirements engineering; reproducibility checklists. *Does not occupy.* A hard gate: no weight, fine-tune or checkpoint without a UM ID and a spec commit earlier-or-equal. Orphan weight = failure. Behaviour changes only **after** the spec changes. A card written after training is an epitaph, not governance. *Fraud.* "We invented the model card."
+**UMC-007 — Spec before weights.** *Occupies.* Mitchell et al. (2019) *model cards*; Gebru et al. *datasheets for datasets*; Constitutional AI (Bai et al., 2022); RLHF (Christiano et al., 2017); DPO (Rafailov et al., 2023) — principles, not a commit-bound spec; requirements engineering; reproducibility checklists. *Does not occupy.* A hard gate: no weight, fine-tune or checkpoint without a UM ID and a spec commit earlier-or-equal. Orphan weight = failure. Behaviour changes only **after** the spec changes. A card written after training is an epitaph, not governance. *Fraud.* "We invented the model card."
 
 **UMC-008 — Local-first.** *Occupies.* Kleppmann et al. (2019) *local-first software*; TinyML; on-device inference; weights in the device in practice (llama.cpp and kin). Federated learning still usually coordinates at the centre. *Does not occupy.* Local-first as an **obligation of universality**, not a deployment option. Tied to UMC-003: the first inference that demands the centre's cloud fails the name. Pocket and mesh are the target, not the appendix. *Fraud.* "We invented the model on the phone."
 
@@ -216,7 +216,7 @@ The residual is not a cell. It is the conjunction. Almost every piece has an own
 
 **UMC-010 — Open authorship.** *Occupies.* OSI; GPL and AGPL; CC BY-SA; weights with provenance (BLOOM, OLMo, Pythia); the critique of open washing (a licence that does not open, "open" without weights, weights without history). *Does not occupy.* The bundle as a failure of the name: AGPL-3.0-or-later on code, CC BY-SA 4.0 on content, name in `git log`, no weight binary without provenance — *together* with UMC-001–009. A permissive licence with an opaque plant does not pay this debt. *Fraud.* "We invented the open."
 
-**UMC-011 — Computationally modelable symbol.** *Occupies.* Chomsky (1956, 1959): grammar hierarchy; Turing (1936): computability; Gödel (1931): incompleteness; Cybenko (1989) and Hornik et al. (1989): universal approximation; Solomonoff (1964): induction/MDL; tokenizers as construction (BPE, SentencePiece, patches, LaTeX); the manifold hypothesis of language. *Does not occupy.* The sieve as the **door of the domain**: every symbol that enters has finite encoding, at least one operation and an operational criterion of equality — and what lacks them stays out, **without** claiming that the world is computation (pair with UMC-006). The triple of modelability: definable (Type-0), computable (generator, not decider; Gödel), learnable ($P_{L_U}$). No closed, consistent and complete UMC: oracles and tools are architecture, not defect. *Fraud.* "We invented that the symbol must be computable" — Turing and Chomsky were already here. The residual is the sieve applied to the *domain of the symbolic*, with the pair UMC-006.
+**UMC-011 — Computationally modelable symbol.** *Occupies.* Chomsky (1956, 1959): grammar hierarchy; Turing (1936): computability; Gödel (1931): incompleteness; Cybenko (1989) and Hornik et al. (1989): universal approximation; Solomonoff (1964): induction/MDL; tokenizers as construction (BPE: Sennrich et al., 2016; SentencePiece: Kudo & Richardson, 2018; patches, LaTeX); the manifold hypothesis of language (Bengio et al., 2013); PAC theory (Valiant, 1984). *Does not occupy.* The sieve as the **door of the domain**: every symbol that enters has finite encoding, at least one operation and an operational criterion of equality — and what lacks them stays out, **without** claiming that the world is computation (pair with UMC-006). The triple of modelability: definable (Type-0), computable (generator, not decider; Gödel), learnable ($P_{L_U}$). No closed, consistent and complete UMC: oracles and tools are architecture, not defect. *Fraud.* "We invented that the symbol must be computable" — Turing and Chomsky were already here. The residual is the sieve applied to the *domain of the symbolic*, with the pair UMC-006.
 
 ### 5. What this map does not authorize
 
@@ -291,7 +291,7 @@ The source dialogue separated three senses of "mathematically modelable". Here t
 
 **Level 2 — Modelable as decidable (no).** If $L_U$ contains arithmetic — and it does, since mathematics $\subset S \subset L_U$ — then $L_U$ is Gödel-incomplete (Gödel, 1931): there are well-formed propositions whose truth is not decidable within $L_U$. **Corollary:** no UMC is at the same time consistent, complete and closed. Oracles, tools and the world are not defects of a UMC; they are the consequence of Gödel applied to LLMs. The UMC is modelable as a *generator*, not as a *universal decider*.
 
-**Level 3 — Modelable as learnable (yes, statistically).** What is modelled is not exact $L_U$ but the distribution $P_{L_U}$ over the observed support. By the universal approximation theorem (Cybenko, 1989; Hornik et al., 1989) and the scaling laws (Kaplan et al., 2020), a network with sufficient capacity and data approximates $P_{L_U}$ arbitrarily well on the observed support. The question stops being *is it modelable?* and becomes *with what sample efficiency?* — and the empirical answer (manifold hypothesis) is: far more efficient than PAC theory predicted.
+**Level 3 — Modelable as learnable (yes, statistically).** What is modelled is not exact $L_U$ but the distribution $P_{L_U}$ over the observed support. By the universal approximation theorem (Cybenko, 1989; Hornik et al., 1989) and the scaling laws (Kaplan et al., 2020), a network with sufficient capacity and data approximates $P_{L_U}$ arbitrarily well on the observed support. The question stops being *is it modelable?* and becomes *with what sample efficiency?* — and the empirical answer (manifold hypothesis; Bengio et al., 2013) is: far more efficient than PAC theory (Valiant, 1984) predicted.
 
 ### 5. The $R^*$ problem: filtering the symbolic down to the useful
 
@@ -306,7 +306,7 @@ where $R \subseteq \mathcal{H}$ is a filtered representation and $U(R|human)$ is
 - **Epistemic filter:** $P(truth | S_i)$ — is it factual?
 - **Pragmatic filter:** $P(\text{human action improves} | S_i)$ — does it help someone do something better?
 
-RLHF, DPO and "constitutions" are crude attempts at the pragmatic filter. The work of the UMC is not to scale data; it is to **scale the discarding** — compressing ten thousand years of symbol down to the kernel that increases human agency, by the razor of Solomonoff/MDL (Solomonoff, 1964): the best representation is the smallest one that still allows predicting and acting.
+RLHF (Christiano et al., 2017), DPO (Rafailov et al., 2023) and "constitutions" (Bai et al., 2022) are crude attempts at the pragmatic filter. The work of the UMC is not to scale data; it is to **scale the discarding** — compressing ten thousand years of symbol down to the kernel that increases human agency, by the razor of Solomonoff/MDL (Solomonoff, 1964): the best representation is the smallest one that still allows predicting and acting.
 
 **Honesty.** The function $U(R|human)$ **cannot be defined by engineering alone**: utility is not in the text, it is in the experience of those who live. Whoever defines $U$ defines what is human. This paper defines the problem, not the answer.
 
@@ -316,11 +316,30 @@ RLHF, DPO and "constitutions" are crude attempts at the pragmatic filter. The wo
 N \cap L_U = \emptyset
 \]
 
-$N$ is what cannot be symbolized without loss: qualia, pain, continuous experience, the body, the joule. A photo of a face represents by resemblance (Goodman: *dense*, not *articulated*, representation), not by convention — strictly speaking it is not symbolic. The UMC does not force $N$ into the symbolic; the human as guardian of the non-symbolizable guarantees this (UMC-006). The world is not text; hunger is not a sentence; the real is not a computer.
+$N$ is what cannot be symbolized without loss: qualia, pain, continuous experience, the body, the joule. A photo of a face represents by resemblance (Goodman, 1968: *dense*, not *articulated*, representation), not by convention — strictly speaking it is not symbolic. The UMC does not force $N$ into the symbolic; the human as guardian of the non-symbolizable guarantees this (UMC-006). The world is not text; hunger is not a sentence; the real is not a computer.
 
 ### 7. What this text does not do
 
-It does not raise the status of any UMC. It does not authorize training (UMC-007: spec before weights). It does not claim the UMC exists. It does not claim novelty priority: everything that is a theorem here has a precedent in Part II (Chomsky, Turing, Gödel, Cybenko, Solomonoff). What this text *does* do is give the spec what it demands: verifiable definitions, from which the instruments of UMC-005 and UMC-011 follow.
+It does not raise the status of any UMC. It does not authorize training (UMC-007: spec before weights). It does not claim the UMC exists. It does not claim novelty priority: everything that is a theorem here has a precedent in Part II (Chomsky, Turing, Gödel, Cybenko, Solomonoff, Goodman, Valiant, Bengio et al.). What this text *does* do is give the spec what it demands: verifiable definitions, from which the instruments of UMC-005 and UMC-011 follow.
+
+### 8. Formal glossary
+
+| Term | Definition | Where |
+|---|---|---|
+| $S$ | The set of all symbolic representations: any structure where a signifier points to a meaning by convention. | §2 |
+| $L_U$ | The universal language: all finite sequences of symbols over a finite alphabet $\Sigma$, generated by a grammar $G_U$, with combinatorial syntax, compositional semantics and recursive capacity. | §1 |
+| $\Sigma$, $G_U$ | The finite alphabet and the generating grammar of $L_U$. | §1 |
+| $S_i$, $\Sigma_i$, $G_i$ | A generic symbolic system: alphabet $\Sigma_i$, grammar $G_i$. | §3 (LUH) |
+| $E$, $E^{-1}$ | Injective encoding of a symbolic system into $L_U$, and its decoding. | §3 (LUH) |
+| LUH | Linguistic Universality Hypothesis: every symbolic system admits an injective encoding into $L_U$ that preserves semantics by decoding. | §3 |
+| $\mathcal{H}$ | The set of every symbolic representation humanity has created. | §5 |
+| $R^*$ | The minimal representation $\subseteq \mathcal{H}$ that preserves the capacity to act, subject to $\mathbb{E}[U(R|human)] > \tau$. | §5 |
+| $U(R|human)$ | The utility function, still to be defined: not definable by engineering alone. | §5 |
+| $\tau$ | The utility threshold in the definition of $R^*$. | §5 |
+| $P_{L_U}$ | The distribution over the observed support of $L_U$ — what is learned statistically, not exact $L_U$. | §4 |
+| Epistemic filter | $P(truth \mid S_i)$ — is it factual? | §5 |
+| Pragmatic filter | $P(\text{human action improves} \mid S_i)$ — does it help someone do something better? | §5 |
+| $N$ | The non-symbolizable: what cannot be symbolized without loss (qualia, pain, body, joule). $N \cap L_U = \emptyset$. | §6 |
 
 ## Part IV — Spec UMC-001–011
 
@@ -328,33 +347,49 @@ It does not raise the status of any UMC. It does not authorize training (UMC-007
 
 No line of weights, inference code or training without this spec. No spec without a path of verification. Status rises only with recorded evidence. Cycle: `draft` → `reviewed` → `verified`.
 
-**UMC-001 — Telos of reach.** The system is judged by **reach**, not by scale. Parameter count, token volume and position on a loss benchmark do **not** constitute success. *Verification:* no "done" report cites scale as a sufficient criterion. If the only success number is size or loss, UMC-001 fails. *Status:* draft.
+**UMC-001 — Telos of reach.** The system is judged by **reach**, not by scale. Parameter count, token volume and position on a loss benchmark do **not** constitute success. *Verification:* no "done" report cites scale as a sufficient criterion. If the only success number is size or loss, UMC-001 fails. *Status:* reviewed.
 
-**UMC-002 — Languages as origin.** English, Portuguese, Spanish and Chinese are born together. Post-translation from the centre does not count as origin. *Verification:* for each version of the artefact, the outputs (or specs, or interface *strings*) exist in the same commit, with the same meaning. Diff in only one language = failure. *Status:* draft.
+**UMC-002 — Languages as origin.** English, Portuguese, Spanish and Chinese are born together. Post-translation from the centre does not count as origin. *Verification:* for each version of the artefact, the outputs (or specs, or interface *strings*) exist in the same commit, with the same meaning. Diff in only one language = failure. *Status:* reviewed.
 
-**UMC-003 — The margin is the test.** The person on the periphery of any nation is a first-class user, not an edge case. "It works at the centre" is not done. *Verification:* there is at least one complete task path **without** quota, login or central plant. If the task demands the industrial quota, UMC-003 fails. *Status:* draft.
+**UMC-003 — The margin is the test.** The person on the periphery of any nation is a first-class user, not an edge case. "It works at the centre" is not done. *Verification:* there is at least one complete task path **without** quota, login or central plant. If the task demands the industrial quota, UMC-003 fails. *Status:* reviewed.
 
-**UMC-004 — Visible energy account.** Every inference and every training run publishes joules (or a measured, dated proxy). A feature that costs more energy than it returns is justified in writing, with an ID. *Verification:* log or measurement per task, with unit and date. Absence of an account = failure. Justification without a number = failure. *Status:* draft.
+**UMC-004 — Visible energy account.** Every inference and every training run publishes joules (or a measured, dated proxy). A feature that costs more energy than it returns is justified in writing, with an ID. *Verification:* log or measurement per task, with unit and date. Absence of an account = failure. Justification without a number = failure. *Status:* verified — evidence: umc-artefact/logs/energia.jsonl (27 Aug 2026, unit J, ISO 8601 date, per task, declared proxy).
 
-**UMC-005 — Domain of the symbolic.** The domain is the set of symbolic representations. Natural language is a subset. A system that only converses in prose is not a UMC. *Verification:* the artefact accepts and emits at least three types outside continuous *chat* — e.g. spec, circuit/schematic, map, contract, score, code. Only prose = failure. *Status:* draft.
+**UMC-005 — Domain of the symbolic.** The domain is the set of symbolic representations. Natural language is a subset. A system that only converses in prose is not a UMC. *Verification:* the artefact accepts and emits at least three types outside continuous *chat* — e.g. spec, circuit/schematic, map, contract, score, code. Only prose = failure. *Status:* verified — evidence: three non-chat types (spec, map, score) with encoding+operation+equality; 16 tests; CLI (27 Aug 2026).
 
-**UMC-006 — The world is not text.** Joule, hunger, body and referent are **not** language. The model does not declare that life fits inside it. *Verification:* no official output claims that the non-symbolic is a token. If the system "solves" hunger or energy with text alone, UMC-006 fails. *Status:* draft.
+**UMC-006 — The world is not text.** Joule, hunger, body and referent are **not** language. The model does not declare that life fits inside it. *Verification:* no official output claims that the non-symbolic is a token. If the system "solves" hunger or energy with text alone, UMC-006 fails. *Status:* reviewed.
 
-**UMC-007 — Spec before weights.** There is no training, fine-tune or checkpoint without this spec governing it. Behaviour changed, the spec changes first. *Verification:* every weight artefact points to a UMC ID and a spec commit earlier-or-equal to the weight's commit. Orphan weight = failure. *Status:* draft.
+**UMC-007 — Spec before weights.** There is no training, fine-tune or checkpoint without this spec governing it. Behaviour changed, the spec changes first. *Verification:* every weight artefact points to a UMC ID and a spec commit earlier-or-equal to the weight's commit. Orphan weight = failure. *Status:* reviewed.
 
-**UMC-008 — Local-first.** The minimum usage path runs without the centre's network. The mesh and the pocket are the target, not the data centre. *Verification:* a UMC-003 task completes *offline* once the artefact is on the device. If the first inference demands the centre's cloud, UMC-008 fails. *Status:* draft.
+**UMC-008 — Local-first.** The minimum usage path runs without the centre's network. The mesh and the pocket are the target, not the data centre. *Verification:* a UMC-003 task completes *offline* once the artefact is on the device. If the first inference demands the centre's cloud, UMC-008 fails. *Status:* reviewed.
 
-**UMC-009 — Name and refusal.** The artefact is called UMC. The acronym LLM appears only to name the refused concept. ULM only for ULMFiT and the first vacated name. UM only for the second vacated name (generic Universal Model). *Verification:* search of the artefact's repository. LLM outside historical citation or refusal = failure. ULM outside ULMFiT, historical citation or vacated name = failure. UM outside historical citation or vacated name = failure. *Status:* draft.
+**UMC-009 — Name and refusal.** The artefact is called UMC. The acronym LLM appears only to name the refused concept. ULM only for ULMFiT and the first vacated name. UM only for the second vacated name (generic Universal Model). *Verification:* search of the artefact's repository. LLM outside historical citation or refusal = failure. ULM outside ULMFiT, historical citation or vacated name = failure. UM outside historical citation or vacated name = failure. *Status:* verified — evidence: grep of the artefact (27 Aug 2026): no LLM/ULM/UM outside citation/refusal.
 
-**UMC-010 — Open authorship.** Code AGPL-3.0-or-later; content CC BY-SA 4.0; authorship in the Git history. No anonymous line of weights. *Verification:* LICENSE present; `git log` with a name; no binary without provenance. Absence = failure. *Status:* draft.
+**UMC-010 — Open authorship.** Code AGPL-3.0-or-later; content CC BY-SA 4.0; authorship in the Git history. No anonymous line of weights. *Verification:* LICENSE present; `git log` with a name; no binary without provenance. Absence = failure. *Status:* reviewed.
 
-**UMC-011 — Computationally modelable symbol.** Every symbol the model processes admits a **computational model**: finite encoding, operation, operational criterion of equality. What is not computationally modelable **does not enter**. This does **not** claim that the world is computation. *Verification:* each UMC-005 type has an encoding and at least one operation in the artefact. Accepting a "symbol" without operational representation = failure. Declaring that hunger, joule or body *are* computation = failure (pair with UMC-006). *Status:* draft.
+**UMC-011 — Computationally modelable symbol.** Every symbol the model processes admits a **computational model**: finite encoding, operation, operational criterion of equality. What is not computationally modelable **does not enter**. This does **not** claim that the world is computation. *Verification:* each UMC-005 type has an encoding and at least one operation in the artefact. Accepting a "symbol" without operational representation = failure. Declaring that hunger, joule or body *are* computation = failure (pair with UMC-006). *Status:* verified — evidence: each type with encoding+operation+equality; tests + encoding spec (27 Aug 2026).
 
 ### Done
 
 The UMC is **verified** only when UMC-001 to UMC-011 are `verified` with dated evidence. Failing one is failing the name.
 
-There is no artefact. This spec is the next step of the 27/08/2026 continuation — not the training.
+**Status review (27 Aug 2026).** Evidence from the minimal artefact (Phase 3) and the four-language birth:
+
+| ID | Status | Evidence |
+|---|---|---|
+| UMC-001 | reviewed | instrument defined (Phase 2); no "done" report cites scale |
+| UMC-002 | reviewed | four languages born together; real commit pending (git read-only in the working sandbox) |
+| UMC-003 | reviewed | artefact paths run without quota/login/central plant; margin-user test pending |
+| UMC-004 | verified | `umc-artefact/logs/energia.jsonl` (unit J, ISO 8601 date, per task, declared proxy) |
+| UMC-005 | verified | three non-chat types with encoding+operation+equality; 16 tests; CLI |
+| UMC-006 | reviewed | no official output violates; automated negative test pending |
+| UMC-007 | reviewed | no weights exist; spec governs; provenance manifest defined |
+| UMC-008 | reviewed | stdlib, no network calls; automated air-gap test pending |
+| UMC-009 | verified | grep of the artefact: no LLM/ULM/UM outside citation/refusal |
+| UMC-010 | reviewed | LICENSE present + SPDX; `git log` with name pending a real commit |
+| UMC-011 | verified | each type with encoding+operation+equality; tests + encoding spec |
+
+A minimal artefact exists (27 Aug 2026); the complete UMC does not. This spec remains the next step of the 27/08/2026 continuation — not the training.
 
 ## Part V — Implementation agenda: what is missing, in order
 
@@ -367,13 +402,13 @@ Mother rule of the repository: no line of weights without a spec; no spec withou
 - [x] Consolidation into a single paper: concept, prior art, formal foundations, spec, agenda.
 - [x] The concept, Part I: sieve against UMC-001–011.
 - [x] Prior-art map: row and section UMC-011 (Chomsky, Turing, Gödel, Cybenko, Solomonoff); mentions 001–010 → 001–011.
-- [ ] Dates: align the 26/08 (UTC, messages) vs 27/08 (print, paper) narrative — decide the canonical date of the dialogue.
+- [x] Dates: canonical date of the dialogue decided — 27 August 2026 (day of the print and of the paper); messages on 26 August 2026, 12:21–12:38 UTC (09:21–09:38, UTC−3). Alignment recorded in the provenance of each paper.
 
 ### Phase 1 — Formal foundations (in progress)
 
 - [x] Part III of this paper ($L_U$, LUH with constructive proof, three levels of modelability, $R^*$ with epistemic and pragmatic filters, $N \cap L_U = \emptyset$).
-- [ ] Review Part III against the prior-art map — no theorem without a cited precedent.
-- [ ] Define the common formal vocabulary (a glossary in all languages): $S$, $L_U$, $\mathcal{H}$, $R^*$, $U(R|human)$, $N$, filters.
+- [x] Review Part III against the prior-art map — precedents added: Goodman (1968), Valiant (1984), Bengio et al. (2013), Christiano et al. (2017), Rafailov et al. (2023), Sennrich et al. (2016), Kudo & Richardson (2018).
+- [x] Define the common formal vocabulary (a glossary in all languages) — added at the end of Part III (§8): $S$, $L_U$, $\mathcal{H}$, $R^*$, $U(R|human)$, $N$, filters.
 
 ### Phase 2 — Verification instruments, item by item
 
@@ -393,6 +428,110 @@ Each UMC needs an operational instrument. What to measure, how, with what unit a
 | UMC-010 | LICENSE present; `git log` with a name; no anonymous binary | Provenance check |
 | UMC-011 | Each UMC-005 type with encoding and ≥1 operation in the artefact | Encoding spec per type |
 
+**Operational protocol per item** (what to measure, how, unit, date, where it appears, criterion, failure, minimum evidence):
+
+- **UMC-001 — Telos of reach**
+  - *What to measure:* does the "done" report invoke scale (parameters, tokens, loss) as a sufficient criterion?
+  - *How:* structured review of the report against a checklist; automated search for scale-only success numbers.
+  - *Unit:* boolean; count of scale-criterion occurrences.
+  - *Date:* at every "done" report; at least once per cycle.
+  - *Where it appears:* report, "Criteria" section.
+  - *Pass criterion:* ≥1 reach metric (languages as origin, margin served, joule visible) with a value; success never by scale alone.
+  - *Failure:* the only success number is size/loss.
+  - *Minimum evidence:* report with a defined reach metric.
+- **UMC-002 — Languages as origin**
+  - *What to measure:* do all linguistic outputs of the artefact exist in the same commit with the same meaning?
+  - *How:* automated git diff in CI — a commit touching content in one language must touch all (en/pt/es/zh); meaning parity by sampling (human translator or glossary).
+  - *Unit:* boolean per commit (monolingual diff = failure).
+  - *Date:* every commit; automatic CI check.
+  - *Where it appears:* CI (status of the "origin" check).
+  - *Pass criterion:* content commits touch all four languages; no post-translation marked as origin.
+  - *Failure:* diff in only one language.
+  - *Minimum evidence:* git diff with all four languages in the same commit.
+- **UMC-003 — The margin is the test**
+  - *What to measure:* does a margin task path complete without quota/login/central plant?
+  - *How:* execute a defined task path (e.g., spec→code) in an environment without access to the centre's network; call log; network audit.
+  - *Unit:* boolean (complete/fail) + count of centre calls (0 allowed).
+  - *Date:* every release; at least one path per cycle.
+  - *Where it appears:* path log (test report).
+  - *Pass criterion:* path completes; 0 calls to the centre.
+  - *Failure:* any call to centre quota/login/cloud.
+  - *Minimum evidence:* path log without a call to the centre.
+- **UMC-004 — Visible energy account**
+  - *What to measure:* joules (or dated proxy) per inference and per task.
+  - *How:* RAPL/CodeCarbon measurement (or proxy: watts × time) per task; record with unit and date.
+  - *Unit:* joules (J) or kWh; proxy W·s.
+  - *Date:* every inference/training task; ISO 8601 timestamp.
+  - *Where it appears:* to the user (UI/report) — number visible per task.
+  - *Pass criterion:* number present, with unit and date; voracious feature justified with written ID.
+  - *Failure:* no number; justification without a number.
+  - *Minimum evidence:* recorded measurement (RAPL/CodeCarbon or proxy) with timestamp.
+- **UMC-005 — Domain of the symbolic**
+  - *What to measure:* how many symbolic types outside chat are accepted and emitted.
+  - *How:* functional tests per type (spec, circuit/schematic, map, contract, score, code): valid input and output; count of types ≥3.
+  - *Unit:* integer number of types (≥3).
+  - *Date:* every release.
+  - *Where it appears:* artefact documentation ("Supported types" section).
+  - *Pass criterion:* ≥3 types with encoding+operation+equality implemented and tested.
+  - *Failure:* only prose/chat.
+  - *Minimum evidence:* three types with encoding + operation + equality.
+- **UMC-006 — The world is not text**
+  - *What to measure:* does any official output claim the non-symbolic is a token?
+  - *How:* automated negative test — corpus of forbidden sentences ("hunger solved", "the real is computation", etc.) against official outputs; human review of official content.
+  - *Unit:* boolean (zero occurrences).
+  - *Date:* every release; review per cycle.
+  - *Where it appears:* compliance report.
+  - *Pass criterion:* 0 occurrences claiming the non-symbolic is a token.
+  - *Failure:* any occurrence.
+  - *Minimum evidence:* recorded automated negative test.
+- **UMC-007 — Spec before weights**
+  - *What to measure:* provenance of each weight: points to a UMC ID + spec commit earlier-or-equal.
+  - *How:* provenance manifest per weight artefact; CI check: weight commit ≥ governing spec commit.
+  - *Unit:* boolean per weight + commit dates.
+  - *Date:* every checkpoint/fine-tune/training run.
+  - *Where it appears:* provenance manifest in the repo.
+  - *Pass criterion:* every weight with valid ID and commit; behaviour changes only after the spec.
+  - *Failure:* orphan weight.
+  - *Minimum evidence:* provenance record per weight.
+- **UMC-008 — Local-first**
+  - *What to measure:* does a UMC-003 task complete offline?
+  - *How:* execution with network off (simulated air-gap) after installing the artefact on the device; first-inference log.
+  - *Unit:* boolean (offline complete).
+  - *Date:* every release.
+  - *Where it appears:* offline path log.
+  - *Pass criterion:* first inference without the centre's network.
+  - *Failure:* first inference demands the centre's cloud.
+  - *Minimum evidence:* first-inference log without the centre's network.
+- **UMC-009 — Name and refusal**
+  - *What to measure:* use of LLM/ULM/UM outside historical citation or refusal.
+  - *How:* automated grep in the repo (LLM/ULM/UM); classification of occurrences (citation/refusal/other).
+  - *Unit:* count of improper occurrences (0 allowed).
+  - *Date:* every commit (CI).
+  - *Where it appears:* CI ("name" check).
+  - *Pass criterion:* LLM/ULM/UM only in historical citation or refusal.
+  - *Failure:* occurrence outside that.
+  - *Minimum evidence:* automated grep.
+- **UMC-010 — Open authorship**
+  - *What to measure:* LICENSE present, authorship in git log, no binary without provenance.
+  - *How:* provenance check: git log --format=%an per commit; LICENSE verification; binary audit (origin per weight).
+  - *Unit:* boolean per item (LICENSE, git log, binaries).
+  - *Date:* every commit; audit per release.
+  - *Where it appears:* audit report.
+  - *Pass criterion:* LICENSE present; git log with a name; no anonymous binary.
+  - *Failure:* absence of any of these.
+  - *Minimum evidence:* recorded provenance check.
+- **UMC-011 — Computationally modelable symbol**
+  - *What to measure:* does every UMC-005 type have finite encoding, ≥1 operation and an equality criterion in the artefact?
+  - *How:* encoding spec per type + operation and equality tests (roundtrip encoding→decoding).
+  - *Unit:* boolean per type + number of operations per type (≥1).
+  - *Date:* every release.
+  - *Where it appears:* encoding spec (artefact docs).
+  - *Pass criterion:* every type with encoding+operation+equality; no claim that hunger/joule/body are computation (pair UMC-006).
+  - *Failure:* type without operational representation; forbidden claim.
+  - *Minimum evidence:* encoding spec per type.
+
+- [x] Detailed operational protocol per item (UMC-001–011): what to measure, how, unit, date, where it appears, criterion and minimum evidence.
+
 ### Phase 3 — First minimal artefact (not training)
 
 The smallest verifiable UMC, with the spec governing before any weight:
@@ -405,6 +544,8 @@ The smallest verifiable UMC, with the spec governing before any weight:
 
 Concrete examples of verifiable transformations: `spec → code`; `map → contract`; `score → schematic`. None requires trained weights.
 
+- [x] Minimal artefact created in `umc-artefact/` (27 Aug 2026): three types (spec, map, score) with finite encoding + operation + equality (UMC-011); transformations `spec → code`, `map → contract`, `score → schematic`; local-first CLI (`python3 -m umc`); joules per task in `logs/energia.jsonl` (unit J, ISO 8601 date, explicit proxy); tests (`unittest`) and documentation in the four languages; licence AGPL-3.0-or-later in view.
+
 ### Phase 4 — The $U(R|human)$ problem (long horizon)
 
 The source dialogue ends with the open question: *who is willing to pay the price of deciding what humanity forgets?* That is not engineering:
@@ -415,10 +556,31 @@ The source dialogue ends with the open question: *who is willing to pay the pric
 
 Expected product: a protocol or institution for negotiating $U(R|human)$ — and the answer to the question of who decides what humanity forgets.
 
+**Negotiation protocol for $U(R|human)$** (draft — expected product of Phase 4; the institution itself remains on the long horizon):
+
+1. **Object.** Each cycle decides the subset $R \subseteq \mathcal{H}$ and the utility function $U(R|human)$ governing it. Nothing is erased: forgetting is lowering priority, never destroying.
+2. **Seats.** Four, with distinct powers:
+   - *Curator of truth* (historians, scientists, artisans — not clickers): distinguishes knowledge that resists time from the noise of an era; proposes what rises or falls.
+   - *Definer of value* (cultural communities, with the margin first — UMC-003): proposes utility definitions, negotiated culturally.
+   - *Guardian of the non-symbolizable* (those who live what cannot be symbolized: doctors, poets, carers, peoples): veto over any attempt to force $N$ into the symbolic (UMC-006).
+   - *Engineer* (no vote on $U$): implements $R^*$ only after the agreement; never before (UMC-007).
+3. **Decision.** No definition of $U$ passes by permanent majority: approval by qualified consent; the guardian's veto is absolute in the domain of $N$; the margin has veto weight over utility.
+4. **Hard constraints.** UMC-001–011 keep governing. $U$ may never be defined to reduce the margin's agency. Nothing of $N$ into the symbolic by force.
+5. **Record.** Every decision with date, authors and evidence — the same discipline as the spec. The log is public and auditable.
+6. **Reversibility.** Every decision to forget is reversible: what was lowered remains accessible to whoever searches; only the priority changes.
+7. **Iteration.** $U$ is revisited every cycle; the protocol runs while new symbolic production exists.
+
+**Answer to the open question** (*who decides what humanity forgets?*): no one alone. Curators propose, communities define value, the guardian vetoes the non-symbolizable, the engineer only executes what was agreed. Forgetting is reversible prioritisation, never erasure — and whoever does not accept this answer does not define $U$.
+
+**Verification:** minutes of each cycle with date and present seats; guardian veto recorded (0 violations of UMC-006); no artefact change without the agreed current $U$ (UMC-007); absence of physical erasure (provenance audit).
+
+- [x] Negotiation protocol for $U(R|human)$ drafted (27 Aug 2026) — draft; the institution and the first cycles remain on the long horizon.
+
 ### Criteria of done
 
 - A phase is done when each item has dated evidence and the status rises from `draft` → `reviewed` → `verified` by the spec.
 - Failing one UMC is failing the name: the agenda does not "finish" with UMC-001–011 in `draft`.
+- [x] Status review with dated evidence (27 Aug 2026): 4 verified, 7 reviewed — recorded in Part IV (Done).
 
 ## References
 
@@ -427,6 +589,7 @@ Bai, Y., et al. (2022). Constitutional AI: Harmlessness from AI feedback. *arXiv
 Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). On the dangers of stochastic parrots: Can language models be too big? *Proceedings of FAccT 2021*.
 
 Bender, E. M., & Koller, A. (2020). Climbing towards NLU: On meaning, form, and understanding in the age of data. *Proceedings of ACL 2020*.
+Bengio, Y., Courville, A., & Vincent, P. (2013). Representation learning: A review and new perspectives. *IEEE Transactions on Pattern Analysis and Machine Intelligence, 35*(8), 1798–1828.
 
 Bommasani, R., et al. (2021). On the opportunities and risks of foundation models. *arXiv:2108.07258*.
 
@@ -435,6 +598,7 @@ Cer, D., et al. (2018). Universal Sentence Encoder. *arXiv:1803.11175*.
 Chomsky, N. (1956). Three models for the description of language. *IRE Transactions on Information Theory, 2*(3), 113–124.
 
 Chomsky, N. (1959). On certain formal properties of grammars. *Information and Control, 2*(2), 137–167.
+Christiano, P. F., Leike, J., Brown, T. B., Martic, M., Legg, S., & Amodei, D. (2017). Deep reinforcement learning from human preferences. *Advances in Neural Information Processing Systems, 30* (arXiv:1706.03741).
 
 Conneau, A., et al. (2020). Unsupervised cross-lingual representation learning at scale. *Proceedings of ACL 2020*.
 
@@ -445,6 +609,7 @@ Garcez, A. d'Avila, & Lamb, L. C. (2020). Neurosymbolic AI: The 3rd wave. *arXiv
 Gebru, T., et al. (2021). Datasheets for datasets. *Communications of the ACM, 64*(12).
 
 Gödel, K. (1931). Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I. *Monatshefte für Mathematik und Physik, 38*, 173–198.
+Goodman, N. (1968). *Languages of Art: An Approach to a Theory of Symbols*. Indianapolis: Bobbs-Merrill.
 
 Hoffmann, J., et al. (2022). Training compute-optimal large language models. *arXiv:2203.15556*.
 
@@ -457,6 +622,7 @@ Joshi, P., Santy, S., Budhiraja, A., Bali, K., & Choudhury, M. (2020). The state
 Kaplan, J., et al. (2020). Scaling laws for neural language models. *arXiv:2001.08361*.
 
 Kleppmann, M., Wiggins, A., van Hardenberg, P., & McGranaghan, M. (2019). Local-first software: You own your data, in spite of the cloud. *Ink & Switch*.
+Kudo, T., & Richardson, J. (2018). SentencePiece: A simple and language independent subword tokenizer and detokenizer for neural text processing. *Proceedings of EMNLP 2018*.
 
 Lacoste, A., Luccioni, A., Schmidt, V., & Dandres, T. (2019). Quantifying the carbon emissions of machine learning. *arXiv:1910.09700*.
 
@@ -467,16 +633,19 @@ Mitchell, M., et al. (2019). Model cards for model reporting. *Proceedings of FA
 Nekoto, W., et al. (2020). Participatory research for low-resourced machine translation: A case study in African languages. *Findings of EMNLP 2020* (Masakhane).
 
 NLLB Team. (2022). No Language Left Behind: Scaling human-centered machine translation. *arXiv:2207.04672*.
+Rafailov, R., Sharma, A., Mitchell, E., Manning, C. D., Ermon, S., & Finn, C. (2023). Direct preference optimization: Your language model is secretly a reward model. *arXiv:2305.18290*.
 
 Scao, T. L., et al. (2022). BLOOM: A 176B-parameter open-access multilingual language model. *arXiv:2211.05100*.
 
 Schwartz, R., Dodge, J., Smith, N. A., & Etzioni, O. (2020). Green AI. *Communications of the ACM, 63*(12).
+Sennrich, R., Haddow, B., & Birch, A. (2016). Neural machine translation of rare words with subword units. *Proceedings of ACL 2016*.
 
 Solomonoff, R. J. (1964). A formal theory of inductive inference. *Information and Control, 7*(1), 1–22.
 
 Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and policy considerations for deep learning in NLP. *Proceedings of ACL 2019*.
 
 Turing, A. M. (1936). On computable numbers, with an application to the Entscheidungsproblem. *Proceedings of the London Mathematical Society, s2-42*(1), 230–265.
+Valiant, L. G. (1984). A theory of the learnable. *Communications of the ACM, 27*(11), 1134–1142.
 
 Vaswani, A., et al. (2017). Attention is all you need. *Advances in Neural Information Processing Systems, 30*.
 

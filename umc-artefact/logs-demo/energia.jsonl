@@ -1,0 +1,4 @@
+{"data": "2026-08-27T21:40:07+00:00", "tarefa": "spec-para-codigo", "tipo": "spec", "tempo_s": 2e-05, "joules": 0.0003, "unidade": "J", "nota": "proxy: tempo_de_parede_s × 15 W nominal (não é medição física)"}
+{"data": "2026-08-27T21:40:07+00:00", "tarefa": "mapa-para-contrato", "tipo": "mapa", "tempo_s": 0.000793, "joules": 0.0119, "unidade": "J", "nota": "proxy: tempo_de_parede_s × 15 W nominal (não é medição física)"}
+{"data": "2026-08-27T21:40:07+00:00", "tarefa": "mapa-para-contrato", "tipo": "mapa", "tempo_s": 0.000565, "joules": 0.0085, "unidade": "J", "nota": "proxy: tempo_de_parede_s × 15 W nominal (não é medição física)"}
+{"data": "2026-08-27T21:40:07+00:00", "tarefa": "partitura-para-esquema", "tipo": "partitura", "tempo_s": 8.1e-05, "joules": 0.0012, "unidade": "J", "nota": "proxy: tempo_de_parede_s × 15 W nominal (não é medição física)"}

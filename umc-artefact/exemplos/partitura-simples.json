@@ -1,0 +1,8 @@
+{
+  "compasso": {"numerador": 4, "denominador": 4},
+  "notas": [
+    {"pitch": "C4", "duracao": 1.0},
+    {"pitch": "E4", "duracao": 0.5},
+    {"pitch": "G4", "duracao": 0.5}
+  ]
+}

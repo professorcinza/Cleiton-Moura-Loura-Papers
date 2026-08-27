@@ -1,0 +1,9 @@
+{
+  "nome": "somar",
+  "versao": "1.0",
+  "interface": [
+    {"nome": "a", "tipo": "int", "descricao": "primeira parcela"},
+    {"nome": "b", "tipo": "int", "descricao": "segunda parcela"}
+  ],
+  "precondicao": "a e b inteiros"
+}

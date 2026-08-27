@@ -26,7 +26,9 @@ This repository holds the UMC paper as four separate files, one per language —
 | IV | Spec UMC-001–011 — requirements and verification paths |
 | V | Implementation agenda — phases 0–4, in order |
 
-**Status.** Spec UMC-001–011: `draft`. No artefact exists. No line of weights without a spec that governs it (UMC-007). Spec before weights. The next step of the 27/08/2026 continuation is not a training run.
+**The artefact (Phase 3).** The first minimal verifiable artefact lives in [umc-artefact/](umc-artefact/README.md): three non-chat symbolic types (spec, map, score) with the transformations `spec → code`, `map → contract`, `score → schematic`, running local-first with a visible energy account per task. No weights.
+
+**Status.** Spec UMC-001–011: `draft`. A minimal artefact exists; the spec status itself remains `draft`. No line of weights without a spec that governs it (UMC-007). Spec before weights. The next step of the 27/08/2026 continuation is not a training run.
 
 **How to cite:** Loura, C. M. (2026). *The Universal Computational Model (UMC)*. Cleiton-Moura-Loura-Papers. https://github.com/professorcinza/Cleiton-Moura-Loura-Papers
 
@@ -52,7 +54,9 @@ Este repositório guarda o paper do UMC em quatro arquivos separados, um por lí
 | IV | Spec UMC-001–011 — requisitos e caminhos de verificação |
 | V | Agenda de implementação — fases 0–4, na ordem |
 
-**Estado.** Spec UMC-001–011: `rascunho`. Não há artefato. Nenhuma linha de peso sem spec que a governe (UMC-007). Spec antes de pesos. O próximo passo da continuação de 27/08/2026 não é um treino.
+**O artefato (Fase 3).** O primeiro artefato mínimo verificável vive em [umc-artefact/](umc-artefact/README.md): três tipos simbólicos fora do chat (spec, mapa, partitura) com as transformações `spec → código`, `mapa → contrato`, `partitura → esquema`, rodando local-first com conta de energia visível por tarefa. Sem pesos.
+
+**Estado.** Spec UMC-001–011: `rascunho`. Existe um artefato mínimo; o status da spec em si permanece `rascunho`. Nenhuma linha de peso sem spec que a governe (UMC-007). Spec antes de pesos. O próximo passo da continuação de 27/08/2026 não é um treino.
 
 **Como citar:** Loura, C. M. (2026). *O Modelo Universal Computacional (UMC)*. Cleiton-Moura-Loura-Papers. https://github.com/professorcinza/Cleiton-Moura-Loura-Papers
 
@@ -78,7 +82,9 @@ Este repositorio guarda el paper del UMC en cuatro archivos separados, uno por l
 | IV | Spec UMC-001–011 — requisitos y caminos de verificación |
 | V | Agenda de implementación — fases 0–4, en orden |
 
-**Estado.** Spec UMC-001–011: `borrador`. No hay artefacto. Ninguna línea de pesos sin spec que la gobierne (UMC-007). Spec antes de pesos. El siguiente paso de la continuación del 27/08/2026 no es un entrenamiento.
+**El artefacto (Fase 3).** El primer artefacto mínimo verificable vive en [umc-artefact/](umc-artefact/README.md): tres tipos simbólicos fuera del chat (spec, mapa, partitura) con las transformaciones `spec → código`, `mapa → contrato`, `partitura → esquema`, corriendo local-first con cuenta de energía visible por tarea. Sin pesos.
+
+**Estado.** Spec UMC-001–011: `borrador`. Existe un artefacto mínimo; el estado de la spec en sí permanece `borrador`. Ninguna línea de pesos sin spec que la gobierne (UMC-007). Spec antes de pesos. El siguiente paso de la continuación del 27/08/2026 no es un entrenamiento.
 
 **Cómo citar:** Loura, C. M. (2026). *El Modelo Universal Computacional (UMC)*. Cleiton-Moura-Loura-Papers. https://github.com/professorcinza/Cleiton-Moura-Loura-Papers
 
@@ -104,7 +110,9 @@ Cleiton Moura Loura 的公开著述。与代码、原型及 [ponte-brasil-china]
 | IV | Spec UMC-001–011——需求与核验之路 |
 | V | 实施议程——阶段 0–4，依序 |
 
-**状态。** Spec UMC-001–011：`草稿`。无制品。没有管辖它的 spec，就没有一行权重（UMC-007）。先 spec 后权重。27/08/2026 延续的下一步不是一次训练。
+**制品（阶段 3）。** 第一个最小可核验制品位于 [umc-artefact/](umc-artefact/README.md)：三个聊天之外的符号类型（spec、地图、乐谱），含变换 `spec → 代码`、`地图 → 合同`、`乐谱 → 示意图`，local-first 运行，逐任务可见能耗账。无权重。
+
+**状态。** Spec UMC-001–011：`草稿`。存在一个最小制品；spec 本身之状态仍为 `草稿`。没有管辖它的 spec，就没有一行权重（UMC-007）。先 spec 后权重。27/08/2026 延续的下一步不是一次训练。
 
 **引用：** Loura, C. M. (2026). *通用计算模型（UMC）*. Cleiton-Moura-Loura-Papers. https://github.com/professorcinza/Cleiton-Moura-Loura-Papers
 

@@ -10,7 +10,7 @@
 
 **许可：** CC BY-SA 4.0。
 
-**来源。** 本文是 2026 年 8 月 27 日一次研究对话的公开、具名之延续。工业对谈问的是在哪一条 LLM 战线上工作。最初的回答是以 *Universal Language Model* 取代 *Large Language Model*。该字符串已被占据（Howard & Ruder, 2018, ULMFiT）。UM 是泛称，已被腾出。义务之名是**通用计算模型**（UMC）。语言仍是域（公理），不是工业类型。*Computational*（可计算）是门：只有承认计算模型的符号才能进入——而世界不是计算。该对谈的打印件不存档于本仓库（第三方产品；仓库政策）。本合并版本取代同日之分散文档（概念、先有工作、基础、spec、议程）：对话称为"假说"者，此处为定理；对谈中的 ULM/UM，此处为 UMC——义务之名。
+**来源。** 本文是 2026 年 8 月 27 日一次研究对话的公开、具名之延续。工业对谈问的是在哪一条 LLM 战线上工作。最初的回答是以 *Universal Language Model* 取代 *Large Language Model*。该字符串已被占据（Howard & Ruder, 2018, ULMFiT）。UM 是泛称，已被腾出。义务之名是**通用计算模型**（UMC）。语言仍是域（公理），不是工业类型。*Computational*（可计算）是门：只有承认计算模型的符号才能进入——而世界不是计算。该对谈的打印件不存档于本仓库（第三方产品；仓库政策）。本合并版本取代同日之分散文档（概念、先有工作、基础、spec、议程）：对话称为"假说"者，此处为定理；对谈中的 ULM/UM，此处为 UMC——义务之名。**规范日期：** 消息交换于 2026 年 8 月 26 日 12:21–12:38 UTC（09:21–09:38，UTC−3）；对话的规范日期为 2026 年 8 月 27 日——打印与论文之日。
 
 ## 第一部分 — 概念
 
@@ -186,12 +186,12 @@ UMC 处理的一切符号都承认计算模型：有限编码、至少一种运�
 | **003** | 信息通信技术促进发展；Masakhane；无障碍；"AI for Good" | 无配额/登录/中心电厂的完整任务路径 | "我们发现了全球南方" |
 | **004** | Strubell；Green AI；CodeCarbon；BLOOM 排放；model cards | 焦耳（或带日期的代理）**逐任务**可见；贪婪功能有书面 ID | "最先在 NLP 中计算能源" |
 | **005** | 神经符号；代码模型；多模态；"蛋白 LM" | 公理 符号表征 ⊆ 语言，自然语言为真子集，且有聊天之外的三种类型 | "我们发明了多模态 / 神经符号" |
-| **006** | Bender & Koller (2020)；grounding；地图不是领土 | 与 005 之对：扩大域**并**拒绝吞并实在 | "我们发明了世界不是文本" |
-| **007** | Model cards；datasheets；Constitutional AI；需求工程 | 孤儿权重 = 失败；spec 于先前或相同 commit；行为只在 spec 之后改变 | "我们发明了文档化模型" |
+| **006** | Bender & Koller (2020)；Goodman (1968)；grounding；地图不是领土 | 与 005 之对：扩大域**并**拒绝吞并实在 | "我们发明了世界不是文本" |
+| **007** | Model cards；datasheets；Constitutional AI；RLHF；DPO；需求工程 | 孤儿权重 = 失败；spec 于先前或相同 commit；行为只在 spec 之后改变 | "我们发明了文档化模型" |
 | **008** | *Local-first*（Kleppmann et al.）；TinyML；on-device；llama.cpp | 第一次推理不依赖中心之云，作为名字的义务，连于 003 | "我们发明了口袋里的推理" |
 | **009** | ULMFiT；USE；USM；*foundation model*；泛称 *Universal Model* | LLM 只指被拒绝者；UM 指义务；ULM 只指 ULMFiT/被腾出之名 | "标签是我们的" |
 | **010** | OSI；GPL/AGPL；CC BY-SA；BLOOM/OLMo/Pythia；对 open washing 的批评 | 束 AGPL + CC BY-SA + `git log` 具名 + 无匿名权重，作为名字之败 | "我们发明了开源" |
-| **011** | Chomsky（层级）；Turing (1936)；Gödel (1931)；通用逼近（Cybenko；Hornik et al.）；Solomonoff/MDL；tokenizers（BPE、SentencePiece） | 操作性筛：有限编码 + 运算 + 相等；$L_U$ 可生成但不可判定且可逼近；与 UMC-006 之对 | "我们发明了可计算性" |
+| **011** | Chomsky（层级）；Turing (1936)；Gödel (1931)；通用逼近（Cybenko；Hornik et al.）；Solomonoff/MDL；tokenizers（BPE、SentencePiece）；PAC（Valiant, 1984） | 操作性筛：有限编码 + 运算 + 相等；$L_U$ 可生成但不可判定且可逼近；与 UMC-006 之对 | "我们发明了可计算性" |
 
 剩余的不是一个单元格。是合取。几乎每一件都有主。束——连同公理与筛、连同名字可见的脏污——是剩下的主张；而它仍是义务之主张，不是制品之主张。
 
@@ -207,9 +207,9 @@ UMC 处理的一切符号都承认计算模型：有限编码、至少一种运�
 
 **UMC-005 — 符号之域。** *占据。* 神经符号 AI（Garcez et al.）；代码模型；多模态（文本+图像+音频）；蛋白质"语言"模型；基于 Lean/Coq 的助手。"一切皆语言"的隐喻已在流通——它是 UMC-006 的危险表亲。*未占据。* 公理 *符号表征 ⊆ 语言* 为域，自然语言为真子集，以及最小证明：接受并发出连续*聊天*之外的至少三种类型（spec、电路、地图、合同、乐谱、代码）。带 *plugins* 的聊天机器人不是 UM。*欺诈。* "我们发明了多模态。"没有。多模态增加通道。UMC-005 重新定义语言的域。它们是不同的论题。混淆二者，双向皆为欺诈。
 
-**UMC-006 — 世界不是文本。** *占据。* Bender & Koller (2020)：意义不在形式之中。grounding 与具身批评。"地图不是领土"这句话先于任何模型。*未占据。* 与 UMC-005 的必要之对。**无此界限**而扩大符号域，将落入"一切都装得进电厂"。UMC-006 是论题的一部分，不是伦理附录。*欺诈。* "我们发明了饥饿不是句子。"哲学欺诈，更甚于技术。
+**UMC-006 — 世界不是文本。** *占据。* Bender & Koller (2020)：意义不在形式之中；Goodman (1968)：*稠密*对*分节*的表征。grounding 与具身批评。"地图不是领土"这句话先于任何模型。*未占据。* 与 UMC-005 的必要之对。**无此界限**而扩大符号域，将落入"一切都装得进电厂"。UMC-006 是论题的一部分，不是伦理附录。*欺诈。* "我们发明了饥饿不是句子。"哲学欺诈，更甚于技术。
 
-**UMC-007 — 先 spec 后权重。** *占据。* Mitchell et al. (2019) *model cards*；Gebru et al. *datasheets for datasets*；Constitutional AI（原则，非绑定 commit 的 spec）；需求工程；可复现性清单。*未占据。* 硬门：任何权重、微调或 *checkpoint* 都须有 UM ID 与先前或相同的 spec commit。孤儿权重 = 失败。行为变了，**先**改 spec。训练后写成的 card 是墓志铭，不是治理。*欺诈。* "我们发明了模型卡片。"
+**UMC-007 — 先 spec 后权重。** *占据。* Mitchell et al. (2019) *model cards*；Gebru et al. *datasheets for datasets*；Constitutional AI（Bai et al., 2022）；RLHF（Christiano et al., 2017）；DPO（Rafailov et al., 2023）——原则，非绑定 commit 的 spec；需求工程；可复现性清单。*未占据。* 硬门：任何权重、微调或 *checkpoint* 都须有 UM ID 与先前或相同的 spec commit。孤儿权重 = 失败。行为变了，**先**改 spec。训练后写成的 card 是墓志铭，不是治理。*欺诈。* "我们发明了模型卡片。"
 
 **UMC-008 — Local-first。** *占据。* Kleppmann et al. (2019) *local-first software*；TinyML；设备端推理；权重入设备的实践（llama.cpp 等）。联邦学习通常仍以中心协调。*未占据。* Local-first 作为**普遍性的义务**，而非部署选项。连于 UMC-003：第一次推理要求中心之云者，名字即败。口袋与网络是目标，不是附录。*欺诈。* "我们发明了手机上的模型。"
 
@@ -217,7 +217,7 @@ UMC 处理的一切符号都承认计算模型：有限编码、至少一种运�
 
 **UMC-010 — 开放署名。** *占据。* OSI；GPL 与 AGPL；CC BY-SA；带来源的权重（BLOOM、OLMo、Pythia）；对 open washing 的批评（不开放的许可、"open"而无权重、有权重而无历史）。*未占据。* 束作为名字之败：代码 AGPL-3.0-or-later，内容 CC BY-SA 4.0，`git log` 具名，无来源的权重二进制一律禁止——*连同* UMC-001–009。不透明电厂配宽松许可，不偿还此债。*欺诈。* "我们发明了开放。"
 
-**UMC-011 — 可计算地建模的符号。** *占据。* Chomsky (1956, 1959)：文法层级；Turing (1936)：可计算性；Gödel (1931)：不完备；Cybenko (1989) 与 Hornik et al. (1989)：通用逼近；Solomonoff (1964)：归纳/MDL；tokenizers 为构造（BPE、SentencePiece、patches、LaTeX）；语言的 manifold 假说。*未占据。* 筛作为**域之门**：进入的一切符号都有有限编码、至少一种运算与操作性相等判据——不具备者留在门外，**而不**宣称世界是计算（与 UMC-006 之对）。可建模之三重：可定义（Type-0）、可计算（生成器，非裁决器；Gödel）、可学习（$P_{L_U}$）。不存在封闭、一致且完备的 UMC：神谕与工具是架构，不是缺陷。*欺诈。* "我们发明了符号必须可计算"——Turing 与 Chomsky 早已在此。剩余的是应用于*符号之域*的筛，连同 UMC-006 之对。
+**UMC-011 — 可计算地建模的符号。** *占据。* Chomsky (1956, 1959)：文法层级；Turing (1936)：可计算性；Gödel (1931)：不完备；Cybenko (1989) 与 Hornik et al. (1989)：通用逼近；Solomonoff (1964)：归纳/MDL；tokenizers 为构造（BPE: Sennrich et al., 2016；SentencePiece: Kudo & Richardson, 2018；patches、LaTeX）；语言的 manifold 假说（Bengio et al., 2013）；PAC 理论（Valiant, 1984）。*未占据。* 筛作为**域之门**：进入的一切符号都有有限编码、至少一种运算与操作性相等判据——不具备者留在门外，**而不**宣称世界是计算（与 UMC-006 之对）。可建模之三重：可定义（Type-0）、可计算（生成器，非裁决器；Gödel）、可学习（$P_{L_U}$）。不存在封闭、一致且完备的 UMC：神谕与工具是架构，不是缺陷。*欺诈。* "我们发明了符号必须可计算"——Turing 与 Chomsky 早已在此。剩余的是应用于*符号之域*的筛，连同 UMC-006 之对。
 
 ### 5. 本地图不授权什么
 
@@ -292,7 +292,7 @@ S \subset L_U
 
 **层次 2 — 作为可判定而可建模（否）。** 若 $L_U$ 含算术——它确实含，因数学 $\subset S \subset L_U$——则 $L_U$ 是 Gödel 不完备的（Gödel, 1931）：存在良构命题，其真伪在 $L_U$ 之内不可判定。**推论：** 任何 UMC 不能同时一致、完备且封闭。神谕、工具与世界不是 UMC 的缺陷；它们是 Gödel 应用于 LLM 的后果。UMC 作为*生成器*可建模，而非*普遍裁决器*。
 
-**层次 3 — 作为可学习而可建模（是，统计上）。** 所建模的不是精确的 $L_U$，而是观测支撑上的分布 $P_{L_U}$。由通用逼近定理（Cybenko, 1989；Hornik et al., 1989）与缩放定律（Kaplan et al., 2020），能力与数据足够的网络可在观测支撑上任意好地逼近 $P_{L_U}$。问题不再是*可建模吗？*，而是*以何等样本效率？*——经验回答（manifold 假说）是：远高于 PAC 理论所预言。
+**层次 3 — 作为可学习而可建模（是，统计上）。** 所建模的不是精确的 $L_U$，而是观测支撑上的分布 $P_{L_U}$。由通用逼近定理（Cybenko, 1989；Hornik et al., 1989）与缩放定律（Kaplan et al., 2020），能力与数据足够的网络可在观测支撑上任意好地逼近 $P_{L_U}$。问题不再是*可建模吗？*，而是*以何等样本效率？*——经验回答（manifold 假说；Bengio et al., 2013）是：远高于 PAC 理论（Valiant, 1984）所预言。
 
 ### 5. $R^*$ 问题：把符号过滤到有用者
 
@@ -307,7 +307,7 @@ R^* = \arg\min_{R} |R| \quad \text{受约束于} \quad \mathbb{E}[U(R | 人类)]
 - **认识论过滤：** $P(真理 | S_i)$——它是否为事实？
 - **实用过滤：** $P(\text{人的行动改善} | S_i)$——它是否帮助某人做得更好？
 
-RLHF、DPO 与"宪法"是实用过滤的粗糙尝试。UMC 的工作不是扩展数据；是**扩展舍弃**——以 Solomonoff/MDL 之剃刀（Solomonoff, 1964）把一万年符号压缩到增大人类能动性的内核：最佳表征是仍能预测与行动的最小表征。
+RLHF（Christiano et al., 2017）、DPO（Rafailov et al., 2023）与"宪法"（Bai et al., 2022）是实用过滤的粗糙尝试。UMC 的工作不是扩展数据；是**扩展舍弃**——以 Solomonoff/MDL 之剃刀（Solomonoff, 1964）把一万年符号压缩到增大人类能动性的内核：最佳表征是仍能预测与行动的最小表征。
 
 **诚实。** 函数 $U(R|人类)$ **不能仅由工程定义**：效用不在文本中，在生活者的经验中。谁定义 $U$，谁就定义何为人。本文定义问题，不定义答案。
 
@@ -317,11 +317,30 @@ RLHF、DPO 与"宪法"是实用过滤的粗糙尝试。UMC 的工作不是扩展
 N \cap L_U = \emptyset
 \]
 
-$N$ 是无法无损失地符号化者：qualia、疼痛、连续经验、身体、焦耳。一张脸的照片依相似性（Goodman：*稠密*而非*分节*的表征）而非依约定来表征——严格说不是符号。UMC 不把 $N$ 逼入符号域；保证这一点的是作为不可符号化者守护者的人（UMC-006）。世界不是文本；饥饿不是句子；实在不是计算机。
+$N$ 是无法无损失地符号化者：qualia、疼痛、连续经验、身体、焦耳。一张脸的照片依相似性（Goodman, 1968：*稠密*而非*分节*的表征）而非依约定来表征——严格说不是符号。UMC 不把 $N$ 逼入符号域；保证这一点的是作为不可符号化者守护者的人（UMC-006）。世界不是文本；饥饿不是句子；实在不是计算机。
 
 ### 7. 本文不做什么
 
-不提升任何 UMC 的状态。不授权训练（UMC-007：先 spec 后权重）。不宣称 UMC 存在。不宣称新颖性优先：此处凡为定理者，在第二部分皆有先例（Chomsky、Turing、Gödel、Cybenko、Solomonoff）。本文*所做*的是给 spec 其所要：可核验的定义，UMC-005 与 UMC-011 的仪器由之而来。
+不提升任何 UMC 的状态。不授权训练（UMC-007：先 spec 后权重）。不宣称 UMC 存在。不宣称新颖性优先：此处凡为定理者，在第二部分皆有先例（Chomsky、Turing、Gödel、Cybenko、Solomonoff、Goodman、Valiant、Bengio et al.）。本文*所做*的是给 spec 其所要：可核验的定义，UMC-005 与 UMC-011 的仪器由之而来。
+
+### 8. 形式术语表
+
+| 符号 | 定义 | 出处 |
+|---|---|---|
+| $S$ | 一切符号表征的集合：任何“能指依约定指向所指”的结构。 | §2 |
+| $L_U$ | 普遍语言：有限字母表 $\Sigma$ 上、由文法 $G_U$ 生成的一切有限符号序列的集合，具有组合性句法、组合性语义与递归能力。 | §1 |
+| $\Sigma$、$G_U$ | $L_U$ 的有限字母表与生成文法。 | §1 |
+| $S_i$、$\Sigma_i$、$G_i$ | 一般符号系统：字母表 $\Sigma_i$、文法 $G_i$。 | §3（HUL） |
+| $E$、$E^{-1}$ | 符号系统到 $L_U$ 的单射编码，及其解码。 | §3（HUL） |
+| HUL | 语言普遍性假说：一切符号系统都承认单射编码入 $L_U$，其语义经解码而保持。 | §3 |
+| $\mathcal{H}$ | 人类已创造的一切符号表征的集合。 | §5 |
+| $R^*$ | 保持行动能力、受约束于 $\mathbb{E}[U(R|人类)] > \tau$ 的 $\subseteq \mathcal{H}$ 最小表征。 | §5 |
+| $U(R|人类)$ | 效用函数，尚待定义：不能仅由工程定义。 | §5 |
+| $\tau$ | $R^*$ 定义中的效用阈值。 | §5 |
+| $P_{L_U}$ | $L_U$ 观测支撑上的分布——统计所学，而非精确的 $L_U$。 | §4 |
+| 认识论过滤 | $P(真理 \mid S_i)$ ——是否为事实？ | §5 |
+| 实用过滤 | $P(\text{人的行动改善} \mid S_i)$ ——是否帮助某人做得更好？ | §5 |
+| $N$ | 不可符号化者：无法无损失地符号化者（qualia、疼痛、身体、焦耳）。$N \cap L_U = \emptyset$。 | §6 |
 
 ## 第四部分 — Spec UMC-001–011
 
@@ -329,33 +348,49 @@ $N$ 是无法无损失地符号化者：qualia、疼痛、连续经验、身体�
 
 无此 spec，则无一行权重、无推理代码、无训练。无核验之路，则无 spec。状态仅凭已记录的证据上升。循环：`草稿` → `已审` → `已核验`。
 
-**UMC-001 — 抵达的 telos。** 系统以**抵达**裁决，而非规模。参数数量、token 体积与 loss *benchmark* 之位**不**构成成功。*核验：* 任何"已成"报告不得以规模为充分判准。若唯一成功数字是体量或 loss，UMC-001 失败。*状态：* 草稿。
+**UMC-001 — 抵达的 telos。** 系统以**抵达**裁决，而非规模。参数数量、token 体积与 loss *benchmark* 之位**不**构成成功。*核验：* 任何"已成"报告不得以规模为充分判准。若唯一成功数字是体量或 loss，UMC-001 失败。*状态：* 已审。
 
-**UMC-002 — 语言为源头。** 英语、葡萄牙语、西班牙语与中文同时诞生。自中心事后翻译不算是源头。*核验：* 对制品的每一版本，多语输出（或 specs、或界面 *strings*）在同一 commit 中存在、意义相同。只改一种语言的 diff = 失败。*状态：* 草稿。
+**UMC-002 — 语言为源头。** 英语、葡萄牙语、西班牙语与中文同时诞生。自中心事后翻译不算是源头。*核验：* 对制品的每一版本，多语输出（或 specs、或界面 *strings*）在同一 commit 中存在、意义相同。只改一种语言的 diff = 失败。*状态：* 已审。
 
-**UMC-003 — 边缘是测试。** 任何国家边缘之人是一等用户，不是边界情况。"中心可用"不等于已成。*核验：* 至少存在一条**无**配额、无登录、无中心电厂的完整任务路径。若任务需要工业配额，UMC-003 失败。*状态：* 草稿。
+**UMC-003 — 边缘是测试。** 任何国家边缘之人是一等用户，不是边界情况。"中心可用"不等于已成。*核验：* 至少存在一条**无**配额、无登录、无中心电厂的完整任务路径。若任务需要工业配额，UMC-003 失败。*状态：* 已审。
 
-**UMC-004 — 可见的能耗账。** 每一次推理与每一次训练发布焦耳（或测量并注明日期的代理）。耗费超过回报的功能须以书面、带 ID 辩护。*核验：* 逐任务日志或测量，有单位与日期。无账 = 失败。无数之辩护 = 失败。*状态：* 草稿。
+**UMC-004 — 可见的能耗账。** 每一次推理与每一次训练发布焦耳（或测量并注明日期的代理）。耗费超过回报的功能须以书面、带 ID 辩护。*核验：* 逐任务日志或测量，有单位与日期。无账 = 失败。无数之辩护 = 失败。*状态：* 已核验——证据：umc-artefact/logs/energia.jsonl（2026 年 8 月 27 日，单位 J，ISO 8601 日期，逐任务，显式代理）。
 
-**UMC-005 — 符号之域。** 域是符号表征的集合。自然语言是子集。只以散文对话的系统不是 UMC。*核验：* 制品接受并发出连续*聊天*之外的至少三种类型——如 spec、电路/示意图、地图、合同、乐谱、代码。只有一种散文 = 失败。*状态：* 草稿。
+**UMC-005 — 符号之域。** 域是符号表征的集合。自然语言是子集。只以散文对话的系统不是 UMC。*核验：* 制品接受并发出连续*聊天*之外的至少三种类型——如 spec、电路/示意图、地图、合同、乐谱、代码。只有一种散文 = 失败。*状态：* 已核验——证据：三个聊天之外类型（spec、地图、乐谱）带编码+运算+相等；16 项测试；CLI（2026 年 8 月 27 日）。
 
-**UMC-006 — 世界不是文本。** 焦耳、饥饿、身体与所指**不**是语言。模型不宣称生命装得进它。*核验：* 任何官方输出不得宣称不可符号者是 token。若系统仅以文本"解决"饥饿或能源，UMC-006 失败。*状态：* 草稿。
+**UMC-006 — 世界不是文本。** 焦耳、饥饿、身体与所指**不**是语言。模型不宣称生命装得进它。*核验：* 任何官方输出不得宣称不可符号者是 token。若系统仅以文本"解决"饥饿或能源，UMC-006 失败。*状态：* 已审。
 
-**UMC-007 — 先 spec 后权重。** 无此 spec 管辖，则无训练、无微调、无 *checkpoint*。行为变了，spec 先变。*核验：* 每一权重制品指向一个 UMC ID 与一个不晚于权重 commit 的 spec commit。孤儿权重 = 失败。*状态：* 草稿。
+**UMC-007 — 先 spec 后权重。** 无此 spec 管辖，则无训练、无微调、无 *checkpoint*。行为变了，spec 先变。*核验：* 每一权重制品指向一个 UMC ID 与一个不晚于权重 commit 的 spec commit。孤儿权重 = 失败。*状态：* 已审。
 
-**UMC-008 — Local-first。** 最低使用路径在没有中心网络时运行。网络与衣袋是目标，不是数据中心。*核验：* 制品入设备后，一条 UMC-003 任务可*离线*完成。若第一次推理要求中心之云，UMC-008 失败。*状态：* 草稿。
+**UMC-008 — Local-first。** 最低使用路径在没有中心网络时运行。网络与衣袋是目标，不是数据中心。*核验：* 制品入设备后，一条 UMC-003 任务可*离线*完成。若第一次推理要求中心之云，UMC-008 失败。*状态：* 已审。
 
-**UMC-009 — 名字与拒绝。** 制品名为 UMC。缩写 LLM 只用于命名被拒绝的概念。ULM 只用于 ULMFiT 与被腾出的最初之名。UM 只用于第二个被腾出的名字（泛称 Universal Model）。*核验：* 检索制品的仓库。LLM 出于历史引文或拒绝之外 = 失败。ULM 出于 ULMFiT、历史引文或被腾出之名外 = 失败。UM 出于历史引文或被腾出之名外 = 失败。*状态：* 草稿。
+**UMC-009 — 名字与拒绝。** 制品名为 UMC。缩写 LLM 只用于命名被拒绝的概念。ULM 只用于 ULMFiT 与被腾出的最初之名。UM 只用于第二个被腾出的名字（泛称 Universal Model）。*核验：* 检索制品的仓库。LLM 出于历史引文或拒绝之外 = 失败。ULM 出于 ULMFiT、历史引文或被腾出之名外 = 失败。UM 出于历史引文或被腾出之名外 = 失败。*状态：* 已核验——证据：制品 grep（2026 年 8 月 27 日）：引文/拒绝之外无 LLM/ULM/UM。
 
-**UMC-010 — 开放署名。** 代码 AGPL-3.0-or-later；内容 CC BY-SA 4.0；署名在 Git 历史中。无一行匿名权重。*核验：* LICENSE 在场；`git log` 具名；无无来源之二进制。缺席 = 失败。*状态：* 草稿。
+**UMC-010 — 开放署名。** 代码 AGPL-3.0-or-later；内容 CC BY-SA 4.0；署名在 Git 历史中。无一行匿名权重。*核验：* LICENSE 在场；`git log` 具名；无无来源之二进制。缺席 = 失败。*状态：* 已审。
 
-**UMC-011 — 可计算地建模的符号。** 模型处理的一切符号都承认**计算模型**：有限编码、运算、操作性相等判据。不可计算地建模者**不得入内**。这**不**宣称世界是计算。*核验：* 每一 UMC-005 类型在制品中有编码与至少一种运算。接受无操作性表征的"符号" = 失败。宣称饥饿、焦耳或身体*就是*计算 = 失败（与 UMC-006 之对）。*状态：* 草稿。
+**UMC-011 — 可计算地建模的符号。** 模型处理的一切符号都承认**计算模型**：有限编码、运算、操作性相等判据。不可计算地建模者**不得入内**。这**不**宣称世界是计算。*核验：* 每一 UMC-005 类型在制品中有编码与至少一种运算。接受无操作性表征的"符号" = 失败。宣称饥饿、焦耳或身体*就是*计算 = 失败（与 UMC-006 之对）。*状态：* 已核验——证据：每个类型带编码+运算+相等；测试 + 编码 spec（2026 年 8 月 27 日）。
 
 ### 已成
 
 仅当 UMC-001 至 UMC-011 均以带日期证据`已核验`时，UMC 才算**已核验**。失败一个，就是失败这个名字。
 
-没有制品。此 spec 是 27/08/2026 延续的下一步——不是训练。
+**状态复审（2026 年 8 月 27 日）。** 来自最小制品（阶段 3）与四语言同生之证据：
+
+| ID | 状态 | 证据 |
+|---|---|---|
+| UMC-001 | 已审 | 仪器已定义（阶段 2）；无“已成”报告以规模为判准 |
+| UMC-002 | 已审 | 四种语言同生；真实 commit 待办（沙箱中 git 只读） |
+| UMC-003 | 已审 | 制品路径无配额/登录/中心电厂运行；边缘用户测试待办 |
+| UMC-004 | 已核验 | `umc-artefact/logs/energia.jsonl`（单位 J、ISO 8601 日期、逐任务、显式代理） |
+| UMC-005 | 已核验 | 三个聊天之外类型带编码+运算+相等；16 项测试；CLI |
+| UMC-006 | 已审 | 无官方输出违犯；自动化否定测试待办 |
+| UMC-007 | 已审 | 无权重；spec 管辖；来源清单已定义 |
+| UMC-008 | 已审 | stdlib、无网络调用；自动化 air-gap 测试待办 |
+| UMC-009 | 已核验 | 制品 grep：引文/拒绝之外无 LLM/ULM/UM |
+| UMC-010 | 已审 | LICENSE 在场 + SPDX；`git log` 具名待真实 commit |
+| UMC-011 | 已核验 | 每个类型带编码+运算+相等；测试 + 编码 spec |
+
+存在最小制品（2026 年 8 月 27 日）；完整 UMC 尚不存在。此 spec 仍是 27/08/2026 延续的下一步——不是训练。
 
 ## 第五部分 — 实施议程：还缺什么，依序
 
@@ -368,13 +403,13 @@ $N$ 是无法无损失地符号化者：qualia、疼痛、连续经验、身体�
 - [x] 合并为单一 paper：概念、先有工作、形式基础、spec、议程。
 - [x] 概念，第一部分：针对 UMC-001–011 之筛。
 - [x] 先有工作地图：UMC-011 行与节（Chomsky、Turing、Gödel、Cybenko、Solomonoff）；001–010 之提法 → 001–011。
-- [ ] 日期：对齐 26/08（UTC，消息）与 27/08（打印、paper）之叙事——决定对话的规范日期。
+- [x] 日期：对话规范日期已定—— 2026 年 8 月 27 日（打印与论文之日）；消息于 2026 年 8 月 26 日 12:21–12:38 UTC（09:21–09:38，UTC−3）。对齐已记于每篇论文的来源中。
 
 ### 阶段 1 — 形式基础（进行中）
 
 - [x] 本 paper 第三部分（$L_U$、带构造性证明的 HUL、可建模性三层次、带认识论与实用过滤的 $R^*$、$N \cap L_U = \emptyset$）。
-- [ ] 对照先有工作地图复审第三部分——无无引证先例之定理。
-- [ ] 定义共同形式词汇（全语言术语表）：$S$、$L_U$、$\mathcal{H}$、$R^*$、$U(R|人类)$、$N$、过滤器。
+- [x] 对照先有工作地图复审第三部分——已补先例：Goodman (1968)、Valiant (1984)、Bengio et al. (2013)、Christiano et al. (2017)、Rafailov et al. (2023)、Sennrich et al. (2016)、Kudo & Richardson (2018)。
+- [x] 定义共同形式词汇（全语言术语表）——已加入第三部分末尾（§8）：$S$、$L_U$、$\mathcal{H}$、$R^*$、$U(R|人类)$、$N$、过滤器。
 
 ### 阶段 2 — 逐项核验仪器
 
@@ -394,6 +429,110 @@ $N$ 是无法无损失地符号化者：qualia、疼痛、连续经验、身体�
 | UMC-010 | LICENSE 在场；`git log` 具名；无匿名二进制 | 来源检查 |
 | UMC-011 | 每一 UMC-005 类型在制品中有编码与 ≥1 运算 | 逐类型编码 spec |
 
+**逐项操作协议**（测什么、如何、单位、日期、出现在何处、判准、失败、最低证据）：
+
+- **UMC-001 — 抵达的 telos**
+  - *测什么：* "已成"报告是否以规模（参数、token、loss）为充分判准？
+  - *如何测：* 依清单结构化审阅报告；自动搜索仅以规模为成功数字者。
+  - *单位：* 布尔；规模判准出现次数。
+  - *日期：* 每一份"已成"报告；每周期至少一次。
+  - *出现在何处：* 报告"判准"节。
+  - *通过判准：* ≥1 项抵达度量（语言为源头、边缘被服务、焦耳可见）带数值；成功从不单凭规模。
+  - *失败：* 唯一成功数字是体量/loss。
+  - *最低证据：* 定义了抵达度量的报告。
+- **UMC-002 — 语言为源头**
+  - *测什么：* 制品的全部语言输出是否存在于同一 commit 且意义相同？
+  - *如何测：* CI 中自动 git diff——触及一种语言内容的 commit 必须触及全部（en/pt/es/zh）；以抽样核验意义对等（人工译者或术语表）。
+  - *单位：* 逐 commit 布尔（单语 diff = 失败）。
+  - *日期：* 每个 commit；CI 自动检查。
+  - *出现在何处：* CI（"源头"检查状态）。
+  - *通过判准：* 内容 commit 触及四种语言；无事后翻译被标为源头。
+  - *失败：* 只改一种语言的 diff。
+  - *最低证据：* 四种语言在同一 commit 的 git diff。
+- **UMC-003 — 边缘是测试**
+  - *测什么：* 边缘任务路径是否无配额/登录/中心电厂而完成？
+  - *如何测：* 在无中心网络的环境中执行既定任务路径（如 spec→代码）；调用日志；网络审计。
+  - *单位：* 布尔（完成/失败）+ 中心调用次数（允许 0）。
+  - *日期：* 每次发布；每周期至少一条路径。
+  - *出现在何处：* 路径日志（测试报告）。
+  - *通过判准：* 路径完成；0 次中心调用。
+  - *失败：* 任何对中心配额/登录/云的调用。
+  - *最低证据：* 无中心调用的路径日志。
+- **UMC-004 — 可见的能耗账**
+  - *测什么：* 每次推理与每项任务的焦耳（或带日期代理）。
+  - *如何测：* 逐任务 RAPL/CodeCarbon 测量（或代理：瓦×时间）；记录含单位与日期。
+  - *单位：* 焦耳（J）或 kWh；代理 W·s。
+  - *日期：* 每一次推理/训练任务；ISO 8601 时间戳。
+  - *出现在何处：* 面向使用者（UI/报告）——逐任务可见数字。
+  - *通过判准：* 数字在场、含单位与日期；贪婪功能有书面 ID 辩护。
+  - *失败：* 无数；无数之辩护。
+  - *最低证据：* 带时间戳的记录测量（RAPL/CodeCarbon 或代理）。
+- **UMC-005 — 符号之域**
+  - *测什么：* 接受并发出聊天之外多少种符号类型。
+  - *如何测：* 逐类型功能测试（spec、电路/示意图、地图、合同、乐谱、代码）：输入输出有效；类型数 ≥3。
+  - *单位：* 整数类型数（≥3）。
+  - *日期：* 每次发布。
+  - *出现在何处：* 制品文档（"支持的类型"节）。
+  - *通过判准：* ≥3 种类型实现并测试编码+运算+相等。
+  - *失败：* 只有散文/聊天。
+  - *最低证据：* 三种类型带编码 + 运算 + 相等。
+- **UMC-006 — 世界不是文本**
+  - *测什么：* 是否有任何官方输出宣称不可符号者是 token？
+  - *如何测：* 自动化否定测试——禁句语料（"饥饿已解决"、"实在即计算"等）对照官方输出；官方内容人工审阅。
+  - *单位：* 布尔（零出现）。
+  - *日期：* 每次发布；每周期审阅。
+  - *出现在何处：* 合规报告。
+  - *通过判准：* 0 次宣称不可符号者为 token。
+  - *失败：* 任何一次。
+  - *最低证据：* 已记录的自动化否定测试。
+- **UMC-007 — 先 spec 后权重**
+  - *测什么：* 每个权重的来源：指向 UMC ID + 先前或相同的 spec commit。
+  - *如何测：* 逐权重制品来源清单；CI 检查：权重 commit ≥ 管辖它的 spec commit。
+  - *单位：* 逐权重布尔 + commit 日期。
+  - *日期：* 每个 checkpoint/微调/训练。
+  - *出现在何处：* 仓库中的来源清单。
+  - *通过判准：* 每个权重有有效 ID 与 commit；行为只在 spec 之后改变。
+  - *失败：* 孤儿权重。
+  - *最低证据：* 逐权重来源记录。
+- **UMC-008 — Local-first**
+  - *测什么：* 一条 UMC-003 任务是否离线完成？
+  - *如何测：* 制品装入设备后断网执行（模拟 air-gap）；首次推理日志。
+  - *单位：* 布尔（离线完成）。
+  - *日期：* 每次发布。
+  - *出现在何处：* 离线路径日志。
+  - *通过判准：* 首次推理无中心网络。
+  - *失败：* 首次推理要求中心之云。
+  - *最低证据：* 无中心网络的首次推理日志。
+- **UMC-009 — 名字与拒绝**
+  - *测什么：* LLM/ULM/UM 是否出现于历史引文或拒绝之外。
+  - *如何测：* 仓库中自动 grep（LLM/ULM/UM）；出现分类（引文/拒绝/其他）。
+  - *单位：* 不当出现次数（允许 0）。
+  - *日期：* 每个 commit（CI）。
+  - *出现在何处：* CI（"名字"检查）。
+  - *通过判准：* LLM/ULM/UM 只出于历史引文或拒绝。
+  - *失败：* 除此之外的出现。
+  - *最低证据：* 自动 grep。
+- **UMC-010 — 开放署名**
+  - *测什么：* LICENSE 在场、git log 有署名、无无来源二进制。
+  - *如何测：* 来源检查：逐 commit git log --format=%an；核验 LICENSE；二进制审计（逐权重来源）。
+  - *单位：* 逐项布尔（LICENSE、git log、二进制）。
+  - *日期：* 每个 commit；每次发布审计。
+  - *出现在何处：* 审计报告。
+  - *通过判准：* LICENSE 在场；git log 具名；无匿名二进制。
+  - *失败：* 任何一项缺席。
+  - *最低证据：* 已记录来源检查。
+- **UMC-011 — 可计算地建模的符号**
+  - *测什么：* 每个 UMC-005 类型在制品中是否有有限编码、≥1 运算与相等判据？
+  - *如何测：* 逐类型编码 spec + 运算与相等测试（编码→解码往返）。
+  - *单位：* 逐类型布尔 + 每类型运算数（≥1）。
+  - *日期：* 每次发布。
+  - *出现在何处：* 编码 spec（制品文档）。
+  - *通过判准：* 每个类型带编码+运算+相等；无"饥饿/焦耳/身体即计算"之宣称（与 UMC-006 之对）。
+  - *失败：* 类型无操作性表征；被禁之宣称。
+  - *最低证据：* 逐类型编码 spec。
+
+- [x] 逐项详细操作协议（UMC-001–011）：测什么、如何、单位、日期、出现在何处、判准与最低证据。
+
 ### 阶段 3 — 第一个最小制品（不是训练）
 
 最小的可核验 UMC，spec 在任何权重之前管辖：
@@ -406,6 +545,8 @@ $N$ 是无法无损失地符号化者：qualia、疼痛、连续经验、身体�
 
 可核验变换的具体例子：`spec → 代码`；`地图 → 合同`；`乐谱 → 示意图`。无一需要训练权重。
 
+- [x] 最小制品已建于 `umc-artefact/`（2026 年 8 月 27 日）：3 个类型（spec、地图、乐谱），有限编码 + 运算 + 相等（UMC-011）；变换 `spec → 代码`、`地图 → 合同`、`乐谱 → 示意图`；local-first CLI（`python3 -m umc`）；逐任务焦耳于 `logs/energia.jsonl`（单位 J、ISO 8601 日期、显式代理）；测试（`unittest`）与四种语言文档；许可 AGPL-3.0-or-later 可见。
+
 ### 阶段 4 — $U(R|人类)$ 问题（长视界）
 
 源头对话以未决之问结束：*谁愿意付出决定人类遗忘何物的代价？* 这不是工程：
@@ -416,10 +557,31 @@ $N$ 是无法无损失地符号化者：qualia、疼痛、连续经验、身体�
 
 预期产物：协商 $U(R|人类)$ 的协议或制度——以及对"谁决定人类遗忘何物"之问的回答。
 
+**$U(R|人类)$ 的协商协议**（草稿——阶段 4 的预期产物；制度本身留待长视界）：
+
+1. **对象。** 每一周期决定子集 $R \subseteq \mathcal{H}$ 与其治理的效用函数 $U(R|人类)$。什么都不删除：遗忘是降低优先级，绝不是销毁。
+2. **席位。** 四个，权力各异：
+   - *真理的策展人*（史家、科学家、工匠——不是点击者）：区分经得起时间之知识与一时代之噪声；提议何者升、何者降。
+   - *价值的定义者*（文化社群，边缘优先——UMC-003）：提出效用定义，经文化协商。
+   - *不可符号化者的守护者*（生活于不可符号化者之中的人：医生、诗人、照护者、诸民族）：对任何把 $N$ 强逼入符号域的企图拥有否决权（UMC-006）。
+   - *工程师*（对 $U$ 无投票权）：只在协议达成后实现 $R^*$；绝不提前（UMC-007）。
+3. **决策。** 任何 $U$ 之定义都不经永久多数通过：须合格同意；守护者之否决在 $N$ 之域内绝对；边缘对效用有否决权重。
+4. **硬约束。** UMC-001–011 继续管辖。$U$ 永不得被定义为削弱边缘之能动性。$N$ 不得被强入符号域。
+5. **记录。** 每项决定皆有日期、作者与证据——与 spec 同之纪律。日志公开且可审计。
+6. **可逆性。** 每项遗忘之决定皆可逆：被降者仍为搜寻者所及；唯有优先级改变。
+7. **迭代。** 每周期重访 $U$；只要有新的符号产出，协议即运行。
+
+**对未决之问的回答**（*谁决定人类遗忘何物？*）：无人独决。策展人提议，社群定义价值，守护者否决不可符号化者，工程师只执行已协议者。遗忘是可逆的优先级排序，绝不是擦除——不接受此回答者，不定义 $U$。
+
+**核验：** 每周期之会议记录，含日期与在场席位；守护者否决已记录（UMC-006 之 0 违犯）；无已协议之现行 $U$ 则无制品变更（UMC-007）；无物理擦除（来源审计）。
+
+- [x] $U(R|人类)$ 协商协议已起草（2026 年 8 月 27 日）——草稿；制度与首批周期留待长视界。
+
 ### 已成判准
 
 - 每一项有带日期证据、且状态依 spec 由 `草稿` → `已审` → `已核验` 上升时，一阶段即成。
 - 失败一个 UMC 就是失败这个名字：议程不会以 UMC-001–011 停在 `草稿` 而"完成"。
+- [x] 带日期证据之状态复审（2026 年 8 月 27 日）：4 已核验、7 已审——已记于第四部分（已成）。
 
 ## 参考文献
 
@@ -428,6 +590,7 @@ Bai, Y., et al. (2022). Constitutional AI: Harmlessness from AI feedback. *arXiv
 Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). On the dangers of stochastic parrots: Can language models be too big? *Proceedings of FAccT 2021*.
 
 Bender, E. M., & Koller, A. (2020). Climbing towards NLU: On meaning, form, and understanding in the age of data. *Proceedings of ACL 2020*.
+Bengio, Y., Courville, A., & Vincent, P. (2013). Representation learning: A review and new perspectives. *IEEE Transactions on Pattern Analysis and Machine Intelligence, 35*(8), 1798–1828.
 
 Bommasani, R., et al. (2021). On the opportunities and risks of foundation models. *arXiv:2108.07258*.
 
@@ -436,6 +599,7 @@ Cer, D., et al. (2018). Universal Sentence Encoder. *arXiv:1803.11175*.
 Chomsky, N. (1956). Three models for the description of language. *IRE Transactions on Information Theory, 2*(3), 113–124.
 
 Chomsky, N. (1959). On certain formal properties of grammars. *Information and Control, 2*(2), 137–167.
+Christiano, P. F., Leike, J., Brown, T. B., Martic, M., Legg, S., & Amodei, D. (2017). Deep reinforcement learning from human preferences. *Advances in Neural Information Processing Systems, 30* (arXiv:1706.03741).
 
 Conneau, A., et al. (2020). Unsupervised cross-lingual representation learning at scale. *Proceedings of ACL 2020*.
 
@@ -446,6 +610,7 @@ Garcez, A. d'Avila, & Lamb, L. C. (2020). Neurosymbolic AI: The 3rd wave. *arXiv
 Gebru, T., et al. (2021). Datasheets for datasets. *Communications of the ACM, 64*(12).
 
 Gödel, K. (1931). Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I. *Monatshefte für Mathematik und Physik, 38*, 173–198.
+Goodman, N. (1968). *Languages of Art: An Approach to a Theory of Symbols*. Indianapolis: Bobbs-Merrill.
 
 Hoffmann, J., et al. (2022). Training compute-optimal large language models. *arXiv:2203.15556*.
 
@@ -458,6 +623,7 @@ Joshi, P., Santy, S., Budhiraja, A., Bali, K., & Choudhury, M. (2020). The state
 Kaplan, J., et al. (2020). Scaling laws for neural language models. *arXiv:2001.08361*.
 
 Kleppmann, M., Wiggins, A., van Hardenberg, P., & McGranaghan, M. (2019). Local-first software: You own your data, in spite of the cloud. *Ink & Switch*.
+Kudo, T., & Richardson, J. (2018). SentencePiece: A simple and language independent subword tokenizer and detokenizer for neural text processing. *Proceedings of EMNLP 2018*.
 
 Lacoste, A., Luccioni, A., Schmidt, V., & Dandres, T. (2019). Quantifying the carbon emissions of machine learning. *arXiv:1910.09700*.
 
@@ -468,16 +634,19 @@ Mitchell, M., et al. (2019). Model cards for model reporting. *Proceedings of FA
 Nekoto, W., et al. (2020). Participatory research for low-resourced machine translation: A case study in African languages. *Findings of EMNLP 2020* (Masakhane).
 
 NLLB Team. (2022). No Language Left Behind: Scaling human-centered machine translation. *arXiv:2207.04672*.
+Rafailov, R., Sharma, A., Mitchell, E., Manning, C. D., Ermon, S., & Finn, C. (2023). Direct preference optimization: Your language model is secretly a reward model. *arXiv:2305.18290*.
 
 Scao, T. L., et al. (2022). BLOOM: A 176B-parameter open-access multilingual language model. *arXiv:2211.05100*.
 
 Schwartz, R., Dodge, J., Smith, N. A., & Etzioni, O. (2020). Green AI. *Communications of the ACM, 63*(12).
+Sennrich, R., Haddow, B., & Birch, A. (2016). Neural machine translation of rare words with subword units. *Proceedings of ACL 2016*.
 
 Solomonoff, R. J. (1964). A formal theory of inductive inference. *Information and Control, 7*(1), 1–22.
 
 Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and policy considerations for deep learning in NLP. *Proceedings of ACL 2019*.
 
 Turing, A. M. (1936). On computable numbers, with an application to the Entscheidungsproblem. *Proceedings of the London Mathematical Society, s2-42*(1), 230–265.
+Valiant, L. G. (1984). A theory of the learnable. *Communications of the ACM, 27*(11), 1134–1142.
 
 Vaswani, A., et al. (2017). Attention is all you need. *Advances in Neural Information Processing Systems, 30*.
 
