@@ -1,0 +1,41 @@
+# UMC — CI de verificação (Fase 2) / UMC — verification CI (Phase 2)
+# Roda os instrumentos UMC-002/003/006/008/010 a cada commit.
+# Runs the UMC-002/003/006/008/010 instruments on every commit.
+# Regra: commit que falha a verificação falha o nome (UMC-001–011).
+
+name: verificacao
+
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  umc:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout (histórico completo — UMC-002/010 auditam o git log)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instrumentos UMC (Fase 2)
+        run: python3 verificacao/roda_verificacao.py
+
+      - name: Testes do artefato (16 testes, stdlib)
+        run: python3 -m unittest discover -s umc/testes
+        working-directory: umc-artefact
+
+      - name: Registra evidência no resumo do run
+        if: always()
+        run: |
+          if [ -f verificacao/evidencia-*.json ]; then
+            cat verificacao/evidencia-*.json >> "$GITHUB_STEP_SUMMARY" || true
+          fi
