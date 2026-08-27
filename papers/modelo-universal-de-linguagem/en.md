@@ -41,7 +41,17 @@ The thesis is twofold.
 
 The two theses require each other. Without the second, “universal” slides back into “more text from the centre”. Without the first, including the symbolic becomes an excuse for a still larger plant.
 
-## 3. The refused concept: *Large Language Model*
+The routine question of industrial research — “which front are you on: LLMs, vision, agents, safety, multimodal, optimisation?” — already chooses the refused concept. This paper is not *on* an LLM front. It is on the substitution of the concept that organises those fronts.
+
+## 3. Related work and the gap
+
+The Transformer architecture (Vaswani et al., 2017) made large-scale language-model training tractable. Scaling laws (Kaplan et al., 2020) raised size to an independent variable: more parameters, more data, more falling loss. The name *Large Language Model* is the slogan of that curve.
+
+There is critique. Bender et al. (2021) refuse the stochastic parrot as an oracle and name cost, extraction and harm to those who do not train. Strubell et al. (2019) put the energy bill on the NLP table. None of these critiques, however, replaces the concept. They correct the LLM; they do not depose it.
+
+The gap is this: the literature treats *large* as the axis. In the standard vocabulary there is no telos that judges the model by an obligation of reach — language as origin, the margin as test, the joule as sieve — over the set of symbolic representations. This paper names that gap **ULM**. Priority over the artefact is not claimed. Priority over the *name of the duty* is.
+
+## 4. The refused concept: *Large Language Model*
 
 *Large* measures scale: parameter count, token volume, data-centre area, immobilised capital, joules per inference. It is an honest engineering metric and a dishonest metric of purpose. It confuses what the artefact *spends* with what the artefact *owes*.
 
@@ -49,7 +59,7 @@ A model defined by size promises the same to everyone and delivers first to thos
 
 The technical merit of large-scale models is not denied. What is denied is that scale is the concept. Concept is telos: the for-what that judges done and failed. Under the telos of *large*, a system inaccessible at the edge, de facto monolingual, and energetically voracious can still be “a successful LLM”. That is enough to refuse it as a guiding concept.
 
-## 4. The proposed concept: Universal Language Model
+## 5. The proposed concept: Universal Language Model
 
 **Universal** measures reach, not volume.
 
@@ -63,7 +73,7 @@ The ULM need not be the biggest. It needs to fit: in a pocket, on a mesh, in the
 
 The done-when follows from the obligation. A ULM that does not serve the person on the periphery is not yet universal. It is merely large. It remains a language model, it can still run locally, it remains software with a licence, authorship and history. What changes is the judgement.
 
-## 5. Axiom: every symbolic representation is language
+## 6. Axiom: every symbolic representation is language
 
 It can be said — and is here said as an axiom, not as a metaphor — that every symbolic representation lies inside the domain, the set, of language:
 
@@ -81,7 +91,7 @@ Speech and writing called natural language are a subset. Important, not exclusiv
 
 If the domain of language is that set, the ULM is not a model of *chat*. It is a model of the symbolic. Universality stops meaning “more English tokens”. It becomes: the symbol of the person at the edge belongs in the domain — the drawing, the code, the power bill, the prayer, the part, the schematic. Whoever only completes the centre’s sentences has not yet touched the set.
 
-## 6. Limits of the axiom
+## 7. Limits of the axiom
 
 The axiom is an inclusion, not an absorption of the real.
 
@@ -91,11 +101,21 @@ Expanding the domain does not license expanding the energy bill. The sieve remai
 
 This limit is part of the thesis, not an ethical appendix. Without it, the ULM collapses back into an LLM with a larger vocabulary.
 
-## 7. Conclusion
+## 8. Conclusion
 
 One concept has been replaced with another. LLM names the refused: scale as telos. ULM names the proposed: an obligation of reach over the set of symbolic representations, with natural language as a subset, the margin as the test, and energy as the sieve.
 
 It is not claimed that the ULM already exists as an artefact. It is claimed that the artefact, when it exists, may not call itself universal if it fails the person on the periphery, if it fails language as origin, or if it fails the account of joules. The name is the debt. The work, from here, is to pay it.
+
+## References
+
+Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). On the dangers of stochastic parrots: Can language models be too big? *Proceedings of FAccT 2021*.
+
+Kaplan, J., McCandlish, S., Henighan, T., Brown, T. B., Chess, B., Child, R., Gray, S., Radford, A., Wu, J., & Amodei, D. (2020). Scaling laws for neural language models. *arXiv:2001.08361*.
+
+Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and policy considerations for deep learning in NLP. *Proceedings of ACL 2019*.
+
+Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., & Polosukhin, I. (2017). Attention is all you need. *Advances in Neural Information Processing Systems, 30*.
 
 ---
 

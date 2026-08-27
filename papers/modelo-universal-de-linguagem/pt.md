@@ -41,7 +41,17 @@ A tese é dupla.
 
 As duas teses se exigem. Sem a segunda, “universal” volta a significar “mais texto do centro”. Sem a primeira, a inclusão do simbólico vira desculpa para uma usina ainda maior.
 
-## 3. O conceito recusado: *Large Language Model*
+A pergunta de rotina da pesquisa industrial — “em que frente você está: LLMs, visão, agentes, safety, multimodal, otimização?” — já escolhe o conceito recusado. Este paper não está *numa* frente de LLM. Está na substituição do conceito que organiza essas frentes.
+
+## 3. Trabalho relacionado e lacuna
+
+A arquitetura Transformer (Vaswani et al., 2017) tornou tratável o treino de modelos de linguagem em escala. As leis de escala (Kaplan et al., 2020) elevaram o tamanho a variável independente: mais parâmetros, mais dados, mais perda que desce. O nome *Large Language Model* é o slogan dessa curva.
+
+Há crítica. Bender et al. (2021) recusam o papagaio estocástico como oráculo e apontam custo, extração e dano a quem não treina. Strubell et al. (2019) puseram a conta de energia na mesa da PNL. Nenhuma dessas críticas, porém, substitui o conceito. Elas corrigem o LLM; não o destituem.
+
+A lacuna é esta: a literatura trata *large* como o eixo. Não há, no vocabulário padrão, um telos que julgue o modelo pela obrigação de alcance — língua como origem, margem como teste, joule como crivo — sobre o conjunto das representações simbólicas. Este paper nomeia essa lacuna **ULM**. Não se afirma prioridade sobre o artefato. Afirma-se prioridade sobre o *nome do dever*.
+
+## 4. O conceito recusado: *Large Language Model*
 
 *Large* mede escala: número de parâmetros, volume de tokens, área de data center, capital imobilizado, joules por inferência. É uma métrica honesta de engenharia e uma métrica desonesta de propósito. Confunde o que o artefato *gasta* com o que o artefato *deve*.
 
@@ -49,7 +59,7 @@ Um modelo definido pelo tamanho promete o mesmo a todos e entrega primeiro a que
 
 Não se nega o mérito técnico de modelos de grande escala. Nega-se que a escala seja o conceito. Conceito é telos: o para-quê que julga o pronto e o falho. Sob o telos de *large*, um sistema inacessível à beira, monolíngue de facto, e energeticamente voraz ainda pode ser “um LLM de sucesso”. Isso basta para recusá-lo como conceito-guia.
 
-## 4. O conceito proposto: Modelo Universal de Linguagem
+## 5. O conceito proposto: Modelo Universal de Linguagem
 
 **Universal** mede alcance, não volume.
 
@@ -63,7 +73,7 @@ O ULM não precisa ser o maior. Precisa caber: no bolso, na malha, no idioma de 
 
 O critério de pronto segue da obrigação. Um ULM que não serve o periférico ainda não é universal. É só grande. Continua sendo um modelo de linguagem, continua podendo rodar local, continua sendo software com licença, autoria e histórico. O que muda é o juízo.
 
-## 5. Axioma: toda representação simbólica é linguagem
+## 6. Axioma: toda representação simbólica é linguagem
 
 Pode-se dizer — e aqui se diz como axioma, não como metáfora — que toda representação simbólica está dentro do domínio, do conjunto, da linguagem:
 
@@ -81,7 +91,7 @@ A fala e a escrita ditas língua natural são um subconjunto. Importante, não e
 
 Se o domínio da linguagem é esse conjunto, o ULM não é um modelo de *chat*. É um modelo do simbólico. A universalidade deixa de ser “mais tokens de inglês”. Passa a ser: cabe no domínio o símbolo de quem está na beira — o desenho, o código, a conta de luz, a oração, a peça, o esquema. Quem só completa frases do centro ainda não tocou o conjunto.
 
-## 6. Limites do axioma
+## 7. Limites do axioma
 
 O axioma é de inclusão, não de absorção do real.
 
@@ -91,11 +101,21 @@ Expandir o domínio não licencia expandir a conta de energia. O crivo permanece
 
 Este limite é parte da tese, não um apêndice ético. Sem ele, o ULM colapsa de volta em LLM com vocabulário maior.
 
-## 7. Conclusão
+## 8. Conclusão
 
 Substituiu-se um conceito por outro. LLM nomeia o recusado: a escala como telos. ULM nomeia o proposto: a obrigação de alcance sobre o conjunto das representações simbólicas, com a língua natural como subconjunto, a margem como teste, e a energia como crivo.
 
 Não se afirma que o ULM já existe como artefato. Afirma-se que o artefato, quando existir, não poderá chamar-se universal se falhar o periférico, se falhar a língua como origem, ou se falhar a conta de joules. O nome é a dívida. O trabalho, a partir daqui, é pagá-la.
+
+## Referências
+
+Bender, E. M., Gebru, T., McMillan-Major, A., & Shmitchell, S. (2021). On the dangers of stochastic parrots: Can language models be too big? *Proceedings of FAccT 2021*.
+
+Kaplan, J., McCandlish, S., Henighan, T., Brown, T. B., Chess, B., Child, R., Gray, S., Radford, A., Wu, J., & Amodei, D. (2020). Scaling laws for neural language models. *arXiv:2001.08361*.
+
+Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and policy considerations for deep learning in NLP. *Proceedings of ACL 2019*.
+
+Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., & Polosukhin, I. (2017). Attention is all you need. *Advances in Neural Information Processing Systems, 30*.
 
 ---
 
