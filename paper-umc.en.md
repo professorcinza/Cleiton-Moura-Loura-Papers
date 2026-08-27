@@ -241,6 +241,21 @@ No more concept paper. No CUDA.
 
 Without this, the map is honest and the spec remains a draft. With a *leaderboard* in its place, one returns to the menu the concept paper refused.
 
+### 7. The two strands of the domain: what is already in LLMs and what remains unmapped
+
+Let $L_U$ be the domain (Part III, §1) and $L_{LLM} \subseteq L_U$ the subset that current LLMs already process as symbol — not merely as text *about* the symbol.
+
+**Strand 1 — the mapped that demands a specialist.** $V_1 = \{S_i \in L_{LLM} : \text{production/maintenance/validation demands specialised human work}\}$. Code, mathematical proof, legal contract, clinical notation, data analysis, executable score: they already pass (partially) the UMC-011 sieve — they have encoding, operation and operational equality — and they already live in $L_{LLM}$. But the operation that gives them utility (verify, maintain, decide) is concentrated in the specialist — hence in the centre. The pragmatic filter is high; the execution is what is not at the margin (UMC-003).
+
+**Strand 2 — the unmapped.** $V_2 = \{S_i \in L_U : \text{UMC-011 sieve not applied}\}$. Without finite encoding + operation + equality defined: rites, agreed gestures, the map of a living territory, oral contract, the artisan's knowledge. Some already appear in LLMs as text (prose *about* them), but not as a type — they did not enter through the door (UMC-011).
+
+**The two fronts of work.** $V_1 \cup V_2$ is not a formal partition of the domain — between the two lies the mapped that needs no specialist (everyday prose). They are the two strategic fronts:
+
+- **Despecialise ($V_1$):** turn the specialised operation into a computationally modelable operation that the margin executes (what `spec → code` prefigures), without eliminating the curator — the curator proposes, does not click (Phase 4).
+- **Map ($V_2$):** for each type, define encoding + ≥1 operation + equality, with the margin as origin (UMC-002/003). Each mapping expands the UMC's effective reach.
+
+**Revealing asymmetry.** Phase 3 mapped three types from $V_2$ (spec, map, score) — and the `spec → code` the artefact generates is a $V_1$ artefact: code already exists in LLMs, but validating it demands a specialist. Phase 3, therefore, already moved from $V_2$ to $V_1$; and $V_1$ points back to Phase 4: who validates, with what authority.
+
 ## Part III — Formal foundations: $L_U$, the linguistic universality hypothesis and the $R^*$ problem
 
 ### Abstract
@@ -545,6 +560,8 @@ The smallest verifiable UMC, with the spec governing before any weight:
 Concrete examples of verifiable transformations: `spec → code`; `map → contract`; `score → schematic`. None requires trained weights.
 
 - [x] Minimal artefact created in `umc-artefact/` (27 Aug 2026): three types (spec, map, score) with finite encoding + operation + equality (UMC-011); transformations `spec → code`, `map → contract`, `score → schematic`; local-first CLI (`python3 -m umc`); joules per task in `logs/energia.jsonl` (unit J, ISO 8601 date, explicit proxy); tests (`unittest`) and documentation in the four languages; licence AGPL-3.0-or-later in view.
+
+- [x] Two domain strands defined (Part II, §7): despecialise $V_1$ (mapped in LLMs, specialist-dependent) and map $V_2$ (unmapped in UMC logic) — the two fronts of Phases 3/4.
 
 ### Phase 4 — The $U(R|human)$ problem (long horizon)
 

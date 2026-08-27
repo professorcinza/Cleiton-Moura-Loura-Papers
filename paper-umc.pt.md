@@ -242,6 +242,21 @@ Não é mais paper de conceito. Não é CUDA.
 
 Sem isso, o mapa é honesto e a spec continua rascunho. Com *leaderboard* no lugar disso, volta-se ao menu que o paper recusou.
 
+### 7. As duas vertentes do domínio: o que já está nos LLM e o que falta mapear
+
+Seja $L_U$ o domínio (Parte III, §1) e $L_{LLM} \subseteq L_U$ o subconjunto que os LLMs atuais já processam como símbolo — não apenas como texto *sobre* o símbolo.
+
+**Vertente 1 — o mapeado que exige especialista.** $V_1 = \{S_i \in L_{LLM} : \text{produção/manutenção/validação exige trabalho humano especializado}\}$. Código, prova matemática, contrato jurídico, notação clínica, análise de dados, partitura executável: já passam (parcialmente) o crivo UMC-011 — têm encoding, operação e igualdade operacionais — e já vivem em $L_{LLM}$. Mas a operação que lhes dá utilidade (verificar, manter, decidir) está concentrada no especialista — logo, no centro. O filtro pragmático é alto; a execução é que não está na margem (UMC-003).
+
+**Vertente 2 — o não-mapeado.** $V_2 = \{S_i \in L_U : \text{crivo UMC-011 não aplicado}\}$. Sem encoding finito + operação + igualdade definidos: ritos, gestos convencionados, o mapa de um território vivo, contrato oral, o conhecimento do artesão. Alguns já aparecem nos LLMs como texto (prosa *sobre* eles), mas não como tipo — não entraram pela porta (UMC-011).
+
+**As duas frentes de trabalho.** $V_1 \cup V_2$ não é uma partição formal do domínio — entre as duas está o mapeado que não exige especialista (prosa cotidiana). São as duas frentes estratégicas:
+
+- **Desespecializar ($V_1$):** transformar a operação especializada em operação computacionalmente modelável que a margem execute (o que `spec → código` prefigura), sem eliminar o curador — o curador propõe, não clica (Fase 4).
+- **Mapear ($V_2$):** para cada tipo, definir encoding + ≥1 operação + igualdade, com a margem como origem (UMC-002/003). Cada mapeamento expande o alcance efetivo do UMC.
+
+**Assimetria reveladora.** A Fase 3 mapeou três tipos de $V_2$ (spec, mapa, partitura) — e o `spec → código` que o artefato gera é um artefato de $V_1$: código já existe nos LLMs, mas validá-lo exige especialista. A Fase 3, portanto, já transitou de $V_2$ para $V_1$; e $V_1$ aponta de volta para a Fase 4: quem valida, com que autoridade.
+
 ## Parte III — Fundamentos formais: $L_U$, a hipótese da universalidade linguística e o problema $R^*$
 
 ### Resumo
@@ -546,6 +561,8 @@ O menor UMC verificável, com a spec governando antes de qualquer peso:
 Exemplos concretos de transformações verificáveis: `spec → código`; `mapa → contrato`; `partitura → esquema`. Nenhum deles exige pesos treinados.
 
 - [x] Artefato mínimo criado em `umc-artefact/` (27/08/2026): 3 tipos (spec, mapa, partitura) com encoding finito + operação + igualdade (UMC-011); transformações `spec → código`, `mapa → contrato`, `partitura → esquema`; CLI local-first (`python3 -m umc`); joules por tarefa em `logs/energia.jsonl` (unidade J, data ISO 8601, proxy explícito); testes (`unittest`) e documentação nas 4 línguas; licença AGPL-3.0-or-later à vista.
+
+- [x] Duas vertentes do domínio definidas (Parte II, §7): desespecializar $V_1$ (mapeado nos LLM, dependente de especialista) e mapear $V_2$ (não-mapeado na lógica do UMC) — as duas frentes das Fases 3/4.
 
 ### Fase 4 — O problema $U(R|humano)$ (horizonte longo)
 
