@@ -10,6 +10,8 @@ Brasil, 27 de agosto de 2026.
 
 **Licença:** CC BY-SA 4.0.
 
+**Proveniência.** Este artigo é a continuação, em público e com nome, de um diálogo de pesquisa de 27 de agosto de 2026. A interlocução industrial perguntou em que frente de LLM se trabalhava. A resposta — substituir *Large Language Model* por *Universal Language Model* — é o objeto daqui. O print dessa interlocução não se arquiva neste repositório (produto de terceiro). O trabalho, sim.
+
 ---
 
 ## Resumo
@@ -106,6 +108,30 @@ Este limite é parte da tese, não um apêndice ético. Sem ele, o ULM colapsa d
 Substituiu-se um conceito por outro. LLM nomeia o recusado: a escala como telos. ULM nomeia o proposto: a obrigação de alcance sobre o conjunto das representações simbólicas, com a língua natural como subconjunto, a margem como teste, e a energia como crivo.
 
 Não se afirma que o ULM já existe como artefato. Afirma-se que o artefato, quando existir, não poderá chamar-se universal se falhar o periférico, se falhar a língua como origem, ou se falhar a conta de joules. O nome é a dívida. O trabalho, a partir daqui, é pagá-la.
+
+## 9. Agenda: a continuação
+
+A interlocução de origem oferecia o menu da pesquisa industrial: revisão de literatura, comparação de SOTA, dissecar papers, prototipar arquiteturas, pipelines de treino, CUDA, slides. Este paper aceita o que serve ao telos e recusa o que o trai.
+
+**Aceita-se.** A literatura que instalou *large* como eixo e a crítica que o corrigiu sem destituí-lo (§3). Uma tabela de critérios, não um *leaderboard* de artefato inexistente. Um protocolo de avaliação para quando o artefato existir. Spec antes de pesos.
+
+**Recusa-se.** Fingir SOTA. Treinar uma usina para “provar” universalidade. Tomar o *hype* do dia como estado da arte. Briefing de tendências no lugar de obrigação.
+
+| Eixo | LLM (vigente) | ULM (proposto) | Estado |
+|---|---|---|---|
+| Telos | escala | alcance | proposto neste paper |
+| Sucesso | menor perda, maior *benchmark* | margem servida; línguas como origem; joule visível | não medido: não há artefato |
+| Domínio | texto de língua natural | representação simbólica | axioma (§6) |
+| Artefato | existe | não existe | declaração honesta |
+
+**Protocolo** (quando houver artefato — não antes):
+
+1. *Origem.* O mesmo conteúdo nasce em português, inglês e chinês, sem pós-tradução?
+2. *Margem.* Quem está na beira completa a tarefa sem cota do centro?
+3. *Energia.* Os joules da tarefa são visíveis e justificados?
+4. *Simbólico.* Aceita spec, circuito, mapa, contrato — ou só conversa?
+
+Falhar um item é falhar o nome. O próximo passo desta continuação não é um treino. É a especificação verificável do ULM: requisitos, crivo, caminho de prova. Nenhuma linha de peso sem spec que a governe.
 
 ## Referências
 

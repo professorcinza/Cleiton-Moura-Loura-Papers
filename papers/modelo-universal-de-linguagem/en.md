@@ -10,6 +10,8 @@ Brazil, 27 August 2026.
 
 **Licence:** CC BY-SA 4.0.
 
+**Provenance.** This article is the continuation, in public and under a name, of a research dialogue of 27 August 2026. Industrial interlocution asked which LLM front was being worked on. The answer — replace *Large Language Model* with *Universal Language Model* — is the object here. The print of that interlocution is not archived in this repository (a third-party product). The work is.
+
 ---
 
 ## Abstract
@@ -106,6 +108,30 @@ This limit is part of the thesis, not an ethical appendix. Without it, the ULM c
 One concept has been replaced with another. LLM names the refused: scale as telos. ULM names the proposed: an obligation of reach over the set of symbolic representations, with natural language as a subset, the margin as the test, and energy as the sieve.
 
 It is not claimed that the ULM already exists as an artefact. It is claimed that the artefact, when it exists, may not call itself universal if it fails the person on the periphery, if it fails language as origin, or if it fails the account of joules. The name is the debt. The work, from here, is to pay it.
+
+## 9. Agenda: the continuation
+
+The originating interlocution offered the industrial-research menu: literature review, SOTA comparison, paper dissection, architecture prototypes, training pipelines, CUDA, slides. This paper accepts what serves the telos and refuses what betrays it.
+
+**Accepted.** The literature that installed *large* as the axis and the critique that corrected it without deposing it (§3). A table of criteria, not a leaderboard for a non-existent artefact. An evaluation protocol for when the artefact exists. Spec before weights.
+
+**Refused.** Faking SOTA. Training a power plant to “prove” universality. Taking the day’s hype as the state of the art. A trends briefing in place of an obligation.
+
+| Axis | LLM (current) | ULM (proposed) | Status |
+|---|---|---|---|
+| Telos | scale | reach | proposed in this paper |
+| Success | lower loss, higher benchmark | the margin served; languages as origin; joule visible | unmeasured: no artefact |
+| Domain | natural-language text | symbolic representation | axiom (§6) |
+| Artefact | exists | does not exist | honest declaration |
+
+**Protocol** (when there is an artefact — not before):
+
+1. *Origin.* Is the same content born in Portuguese, English and Chinese, without post-translation?
+2. *Margin.* Can someone at the edge complete the task without a quota from the centre?
+3. *Energy.* Are the joules of the task visible and justified?
+4. *Symbolic.* Does it accept a spec, a circuit, a map, a contract — or only chat?
+
+To fail one item is to fail the name. The next step of this continuation is not a training run. It is the verifiable specification of the ULM: requirements, sieve, path of proof. No line of weights without a spec that governs it.
 
 ## References
 
