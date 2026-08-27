@@ -1,3 +1,6 @@
+# Runtime marker / marcador do runtime / 运行时标记
+.codex
+
 # Prints de terceiros / third-party prints / 第三方打印
 *.pdf
 .DS_Store
