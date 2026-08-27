@@ -6,6 +6,14 @@ Escritos, ensaios e notas públicas de Cleiton Moura Loura. Uma pasta para o que
 
 Cada paper nasce nas três línguas no mesmo commit, ou não nasce.
 
+> Inicio meu trabalho neste repositório a todos os periféricos de todas as nações que, mesmo com dificuldades, fazem do impossível, possível.
+
+## Papers
+
+| # | Título | Português | English | 中文 |
+|---|---|---|---|---|
+| 0001 | Aos periféricos | [pt](papers/0001-aos-perifericos/pt.md) | [en](papers/0001-aos-perifericos/en.md) | [zh](papers/0001-aos-perifericos/zh.md) |
+
 ## Licença
 
 Conteúdo sob [CC BY-SA 4.0](LICENSE). Arquitetura e autoria: Cleiton Moura Loura.

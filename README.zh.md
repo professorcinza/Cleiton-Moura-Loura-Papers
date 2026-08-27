@@ -6,6 +6,14 @@ Cleiton Moura Loura 的公开文稿、随笔与笔记。一处存放形诸文字
 
 每篇论文在同一提交中以三种语言诞生，否则不算诞生。
 
+> 我将此仓库中的工作，献给世界各国边缘上的人们——他们纵有艰难，仍使不可能成为可能。
+
+## 文稿
+
+| # | 标题 | Português | English | 中文 |
+|---|---|---|---|---|
+| 0001 | 致边缘之人 | [pt](papers/0001-aos-perifericos/pt.md) | [en](papers/0001-aos-perifericos/en.md) | [zh](papers/0001-aos-perifericos/zh.md) |
+
 ## 许可
 
 内容采用 [CC BY-SA 4.0](LICENSE)。架构与署名：Cleiton Moura Loura。
